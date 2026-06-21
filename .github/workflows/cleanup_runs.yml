@@ -1,0 +1,45 @@
+name: Cleanup Workflow Runs
+
+on:
+  workflow_run:
+    workflows: ["Update ETF ranking data"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+
+    steps:
+      - name: Delete old workflow runs (keep latest 3 total)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const keep = 3;
+
+            // Fetch ALL runs across all workflows, sort newest first
+            const allRuns = await github.paginate(
+              github.rest.actions.listWorkflowRunsForRepo,
+              { owner: context.repo.owner, repo: context.repo.repo, per_page: 100 }
+            );
+            allRuns.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+            const toDelete = allRuns.slice(keep);
+            console.log(`Total runs: ${allRuns.length}, keeping ${keep}, deleting ${toDelete.length}`);
+
+            for (const run of toDelete) {
+              console.log(`  Deleting ${run.name} #${run.run_number} (${run.created_at})`);
+              try {
+                await github.rest.actions.deleteWorkflowRun({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  run_id: run.id,
+                });
+              } catch (e) {
+                console.log(`  Failed: ${e.message}`);
+              }
+            }
+            console.log('Done.');

@@ -60,6 +60,25 @@ async function getLatestRunId() {
   return j.workflow_runs && j.workflow_runs[0] ? j.workflow_runs[0].id : null;
 }
 
+// Keep only the 3 newest runs total across ALL workflows (not 3 per workflow type).
+// A server-side cleanup_runs.yml also does this automatically after every data
+// refresh; this is just an immediate pass so the Actions list doesn't wait for it.
+async function cleanupOldRuns() {
+  try {
+    const res = await ghFetch(`/repos/${REPO}/actions/runs?per_page=100`);
+    if (!res.ok) return;
+    const data = await res.json();
+    const allRuns = (data.workflow_runs || []).sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    const toDelete = allRuns.slice(3);
+    if (!toDelete.length) return;
+    await Promise.all(
+      toDelete.map((run) => ghFetch(`/repos/${REPO}/actions/runs/${run.id}`, { method: "DELETE" }))
+    );
+  } catch (_) {
+    // best-effort; the server-side cleanup workflow will catch anything missed
+  }
+}
+
 async function triggerRefresh(onStatus) {
   let token = getPAT();
   if (!token) token = promptForPAT();
@@ -97,7 +116,8 @@ async function triggerRefresh(onStatus) {
         const run = await runRes.json();
         if (run.status === "completed") {
           if (run.conclusion === "success") {
-            onStatus("Done! Reloading latest data...");
+            onStatus("Done! Cleaning up old runs and reloading...");
+            await cleanupOldRuns();
             return true;
           }
           onStatus(`Refresh job finished with status: ${run.conclusion}.`, true);
