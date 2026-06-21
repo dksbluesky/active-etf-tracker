@@ -1,5 +1,6 @@
 import json
 import os
+import ssl
 import sys
 import time
 import urllib.request
@@ -10,10 +11,16 @@ BASELINE_CACHE_PATH = os.path.join(DATA_DIR, "jan_baseline_cache.json")
 OUTPUT_PATH = os.path.join(DATA_DIR, "active_etf_ranking.json")
 BASELINE_YYYYMM = "20260105"  # any date in January 2026; TWSE returns the whole month
 
+# TWSE's certificate lacks a Subject Key Identifier extension. Newer OpenSSL (e.g. on
+# GitHub Actions ubuntu runners) enforces X509_STRICT by default and rejects it, even
+# though the cert is otherwise valid. Drop that one flag rather than disabling verification.
+_SSL_CONTEXT = ssl.create_default_context()
+_SSL_CONTEXT.verify_flags &= ~ssl.VERIFY_X509_STRICT
+
 
 def http_get_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
+    with urllib.request.urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
 
