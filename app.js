@@ -40,6 +40,15 @@ async function loadRankingFresh() {
   return res.json();
 }
 
+// Returns null if this fund doesn't have holdings tracking wired up yet (404 is expected, not an error).
+async function loadHoldings(fundId) {
+  const url = `https://raw.githubusercontent.com/${REPO}/main/data/holdings/${fundId}.json`;
+  const res = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`Failed to load holdings (${res.status})`);
+  return res.json();
+}
+
 async function ghFetch(path, options = {}) {
   const token = getPAT();
   const res = await fetch(`https://api.github.com${path}`, {

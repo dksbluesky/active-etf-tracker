@@ -1,0 +1,307 @@
+{
+  "fund_id": "00988A",
+  "snapshot_date": "2026-06-18",
+  "previous_snapshot_date": null,
+  "fetched_at_utc": "2026-06-21T04:56:53Z",
+  "holdings": [
+    {
+      "code": "MU US",
+      "name": "MICRON TECHNOLOGY INC",
+      "weight_pct": 6.12,
+      "shares": 110500
+    },
+    {
+      "code": "009150 KS",
+      "name": "Samsung Electro-Mechanics co(009150 ks)",
+      "weight_pct": 5.68,
+      "shares": 80000
+    },
+    {
+      "code": "285A JP",
+      "name": "KIOXIA HOLDINGS CORP",
+      "weight_pct": 5.35,
+      "shares": 168000
+    },
+    {
+      "code": "AMD US",
+      "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
+      "weight_pct": 5.04,
+      "shares": 185000
+    },
+    {
+      "code": "SNDK US",
+      "name": "SANDISK CORP",
+      "weight_pct": 4.06,
+      "shares": 39000
+    },
+    {
+      "code": "MRVL US",
+      "name": "MARVELL TECHNOLOGY INC",
+      "weight_pct": 3.54,
+      "shares": 230000
+    },
+    {
+      "code": "6981 JP",
+      "name": "MURATA MANUFACTURING CO LTD",
+      "weight_pct": 3.46,
+      "shares": 960000
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "weight_pct": 3.08,
+      "shares": 410000
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "weight_pct": 2.89,
+      "shares": 330000
+    },
+    {
+      "code": "LITE US",
+      "name": "LUMENTUM HOLDINGS INC",
+      "weight_pct": 2.86,
+      "shares": 62000
+    },
+    {
+      "code": "3037",
+      "name": "欣興",
+      "weight_pct": 2.74,
+      "shares": 1650000
+    },
+    {
+      "code": "WDC US",
+      "name": "WESTERN DIGITAL CORP",
+      "weight_pct": 2.72,
+      "shares": 72000
+    },
+    {
+      "code": "IFX GY",
+      "name": "INFINEON TECHNOLOGIES AG",
+      "weight_pct": 2.65,
+      "shares": 557550
+    },
+    {
+      "code": "6976 JP",
+      "name": "TAIYO YUDEN CO LTD",
+      "weight_pct": 2.63,
+      "shares": 380000
+    },
+    {
+      "code": "BE US",
+      "name": "BLOOM ENERGY CORP- A",
+      "weight_pct": 2.57,
+      "shares": 170000
+    },
+    {
+      "code": "6997 JP",
+      "name": "NIPPON CHEMI-CON CORP",
+      "weight_pct": 2.21,
+      "shares": 1275100
+    },
+    {
+      "code": "4062 JP",
+      "name": "IBIDEN CO LTD",
+      "weight_pct": 2.19,
+      "shares": 275000
+    },
+    {
+      "code": "6787 JP",
+      "name": "MEIKO ELECTRONICS CO LTD",
+      "weight_pct": 2.07,
+      "shares": 175000
+    },
+    {
+      "code": "5706 JP",
+      "name": "Mitsui Mining ＆ Smelting Co",
+      "weight_pct": 2.05,
+      "shares": 130000
+    },
+    {
+      "code": "VSH US",
+      "name": "VISHAY INTERTECHNOLOGY INC",
+      "weight_pct": 1.86,
+      "shares": 580429
+    },
+    {
+      "code": "BESI NA",
+      "name": "BE SEMICONDUCTOR INDUSTRIES",
+      "weight_pct": 1.72,
+      "shares": 90000
+    },
+    {
+      "code": "2330",
+      "name": "台積電",
+      "weight_pct": 1.6,
+      "shares": 400000
+    },
+    {
+      "code": "NOK US",
+      "name": "NOKIA CORP-SPON ADR",
+      "weight_pct": 1.54,
+      "shares": 2100000
+    },
+    {
+      "code": "ARM US",
+      "name": "ARM HOLDINGS PLC",
+      "weight_pct": 1.46,
+      "shares": 65518
+    },
+    {
+      "code": "STM US",
+      "name": "STMICROELECTRONICS NV-NY SHS",
+      "weight_pct": 1.46,
+      "shares": 375000
+    },
+    {
+      "code": "5274",
+      "name": "信驊",
+      "weight_pct": 1.43,
+      "shares": 46000
+    },
+    {
+      "code": "AIXA GY",
+      "name": "AIXTRON SE",
+      "weight_pct": 1.41,
+      "shares": 380000
+    },
+    {
+      "code": "6515",
+      "name": "穎崴",
+      "weight_pct": 1.4,
+      "shares": 88000
+    },
+    {
+      "code": "CRDO US",
+      "name": "CREDO TECHNOLOGY GROUP HOLDI",
+      "weight_pct": 1.28,
+      "shares": 97000
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "weight_pct": 1.27,
+      "shares": 350000
+    },
+    {
+      "code": "6920 JP",
+      "name": "LASERTEC CORP",
+      "weight_pct": 1.27,
+      "shares": 72500
+    },
+    {
+      "code": "6223",
+      "name": "旺矽",
+      "weight_pct": 1.24,
+      "shares": 115000
+    },
+    {
+      "code": "3436 JP",
+      "name": "SUMCO CORP",
+      "weight_pct": 1.2,
+      "shares": 875400
+    },
+    {
+      "code": "603256 CH",
+      "name": "GRACE FABRIC TECHNOLOGY CO-A",
+      "weight_pct": 1.18,
+      "shares": 580000
+    },
+    {
+      "code": "7826 JP",
+      "name": "FURUYA METAL CO LTD",
+      "weight_pct": 1.14,
+      "shares": 374300
+    },
+    {
+      "code": "COHR US",
+      "name": "COHERENT INC",
+      "weight_pct": 1.11,
+      "shares": 55000
+    },
+    {
+      "code": "8035 JP",
+      "name": "TOKYO ELECTRON LTD",
+      "weight_pct": 1.11,
+      "shares": 46000
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "weight_pct": 1.1,
+      "shares": 1100000
+    },
+    {
+      "code": "CRWD US",
+      "name": "CROWDSTRIKE HOLDINGS INC - A",
+      "weight_pct": 1.02,
+      "shares": 28000
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
+      "weight_pct": 0.94,
+      "shares": 4000000
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "weight_pct": 0.86,
+      "shares": 215000
+    },
+    {
+      "code": "NVDA US",
+      "name": "NVIDIA CORP(輝達公司)",
+      "weight_pct": 0.82,
+      "shares": 75000
+    },
+    {
+      "code": "6278 JP",
+      "name": "UNION TOOL CO",
+      "weight_pct": 0.78,
+      "shares": 90000
+    },
+    {
+      "code": "2360",
+      "name": "致茂",
+      "weight_pct": 0.75,
+      "shares": 200000
+    },
+    {
+      "code": "DDOG US",
+      "name": "DATADOG INC - CLASS A",
+      "weight_pct": 0.72,
+      "shares": 60000
+    },
+    {
+      "code": "SOI FP",
+      "name": "S.O.I.T.E.C.",
+      "weight_pct": 0.69,
+      "shares": 90000
+    },
+    {
+      "code": "AXTI US",
+      "name": "AXT INC",
+      "weight_pct": 0.68,
+      "shares": 140000
+    },
+    {
+      "code": "6274",
+      "name": "台燿",
+      "weight_pct": 0.65,
+      "shares": 230000
+    },
+    {
+      "code": "7769",
+      "name": "鴻勁",
+      "weight_pct": 0.44,
+      "shares": 36000
+    }
+  ],
+  "changes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  }
+}

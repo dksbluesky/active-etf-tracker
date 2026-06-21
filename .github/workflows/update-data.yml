@@ -18,10 +18,12 @@ jobs:
           python-version: "3.x"
       - name: Fetch ranking data
         run: python scripts/fetch_ranking.py
+      - name: Fetch holdings data
+        run: python scripts/fetch_holdings.py
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/active_etf_ranking.json data/jan_baseline_cache.json
-          git diff --quiet --cached || git commit -m "Update active ETF ranking data"
+          git add data/active_etf_ranking.json data/jan_baseline_cache.json data/holdings/
+          git diff --quiet --cached || git commit -m "Update active ETF ranking and holdings data"
           git push

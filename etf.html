@@ -29,7 +29,64 @@ function getId() {
   return new URLSearchParams(window.location.search).get("id");
 }
 
-function renderDetail(data) {
+function renderHoldingsSection(holdingsData) {
+  if (!holdingsData) {
+    return `
+      <div class="placeholder-box">
+        <strong>Holdings add/cut tracking — not built yet for this fund.</strong><br>
+        Tell Claude to wire up this issuer's disclosure page and it'll find and parse it specifically.
+      </div>
+    `;
+  }
+
+  const { snapshot_date, previous_snapshot_date, holdings, changes } = holdingsData;
+  const changeRow = (h, kind) => {
+    const cls = kind === "added" ? "" : kind === "removed" ? "neg" : h.delta_pct > 0 ? "" : "neg";
+    const detail =
+      kind === "added" ? `new, ${h.weight_pct.toFixed(2)}%`
+      : kind === "removed" ? `was ${h.weight_pct.toFixed(2)}%`
+      : `${h.prev_weight_pct.toFixed(2)}% → ${h.weight_pct.toFixed(2)}%`;
+    return `
+      <div class="stat-row">
+        <span class="label">${h.name} (${h.code})</span>
+        <span class="pct ${cls}" style="font-size:14px">${kind === "changed" ? fmtPct(h.delta_pct) : (kind === "added" ? "+ added" : "− removed")} <span style="color:var(--muted);font-weight:400">${detail}</span></span>
+      </div>
+    `;
+  };
+
+  const hasChanges = changes.added.length || changes.removed.length || changes.changed.length;
+  const changesBlock = !previous_snapshot_date
+    ? `<div class="placeholder-box">First snapshot taken (${snapshot_date}) — no prior day to compare against yet. Changes will show up starting the next data refresh.</div>`
+    : !hasChanges
+    ? `<div class="placeholder-box">No holdings changes since ${previous_snapshot_date}.</div>`
+    : `
+      <div class="detail-card">
+        <h3 style="margin:0 0 8px;font-size:15px">Changes since ${previous_snapshot_date}</h3>
+        ${changes.added.map((h) => changeRow(h, "added")).join("")}
+        ${changes.removed.map((h) => changeRow(h, "removed")).join("")}
+        ${changes.changed.map((h) => changeRow(h, "changed")).join("")}
+      </div>
+    `;
+
+  const holdingsTable = `
+    <div class="detail-card">
+      <h3 style="margin:0 0 8px;font-size:15px">Holdings as of ${snapshot_date} (${holdings.length} stocks)</h3>
+      ${holdings
+        .map(
+          (h) => `
+        <div class="stat-row">
+          <span class="label">${h.name} (${h.code})</span>
+          <span>${h.weight_pct.toFixed(2)}%</span>
+        </div>`
+        )
+        .join("")}
+    </div>
+  `;
+
+  return changesBlock + holdingsTable;
+}
+
+async function renderDetail(data, holdingsData) {
   const id = getId();
   const etf = data.top10.find((e) => e.stock_id === id);
   const root = document.getElementById("detail-root");
@@ -49,12 +106,7 @@ function renderDetail(data) {
       <div class="stat-row"><span class="label">Latest volume</span><span>${fmtVolume(etf.latest_volume)}</span></div>
       <div class="stat-row"><span class="label">As of</span><span>${data.latest_trading_date_roc}</span></div>
     </div>
-    <div class="placeholder-box">
-      <strong>Holdings add/cut tracking — not built yet.</strong><br>
-      This needs to be sourced from ${etf.stock_id}'s issuer's own official disclosure page (each issuer publishes
-      daily holdings, T+1, in its own format). Tell Claude which fund(s) to wire up next and it'll find and parse
-      that issuer's page specifically.
-    </div>
+    ${renderHoldingsSection(holdingsData)}
   `;
 }
 
@@ -68,7 +120,13 @@ let lastData = null;
 async function init(fresh = false) {
   try {
     lastData = fresh ? await loadRankingFresh() : await loadRanking();
-    renderDetail(lastData);
+    let holdingsData = null;
+    try {
+      holdingsData = await loadHoldings(getId());
+    } catch (_) {
+      // holdings fetch failing shouldn't block the price detail from showing
+    }
+    await renderDetail(lastData, holdingsData);
     setStatus("");
   } catch (e) {
     setStatus("Failed to load data: " + e.message, true);
