@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>主動式ETF Tracker</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#0b1b33">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>主動式ETF Top 10</h1>
+    <div class="sub" id="meta-line">Loading...</div>
+  </div>
+  <button class="icon-btn" id="refresh-btn">↻ Refresh</button>
+</header>
+<div class="status-bar" id="status-bar"></div>
+<main>
+  <div class="rank-list" id="rank-list">
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+    <div class="skeleton"></div>
+  </div>
+</main>
+
+<script src="app.js"></script>
+<script>
+let lastData = null;
+
+function render(data) {
+  lastData = data;
+  const metaLine = document.getElementById("meta-line");
+  metaLine.textContent = `YTD vs ${data.top10[0]?.baseline_date || "?"} · as of ${data.latest_trading_date_roc} · ${data.ranked_count}/${data.total_active_etfs_found} ranked`;
+
+  const list = document.getElementById("rank-list");
+  list.innerHTML = "";
+  data.top10.forEach((etf, i) => {
+    const a = document.createElement("a");
+    a.className = "rank-card";
+    a.href = `etf.html?id=${etf.stock_id}`;
+    const negClass = etf.ytd_return_pct < 0 ? "neg" : "";
+    a.innerHTML = `
+      <div class="rank-num">${i + 1}</div>
+      <div class="rank-info">
+        <div class="name">${etf.stock_name}</div>
+        <div class="id">${etf.stock_id}</div>
+      </div>
+      <div class="rank-return">
+        <div class="pct ${negClass}">${fmtPct(etf.ytd_return_pct)}</div>
+        <div class="price">${etf.baseline_close} → ${etf.latest_close}</div>
+      </div>
+    `;
+    list.appendChild(a);
+  });
+}
+
+function setStatus(msg, isError = false) {
+  const bar = document.getElementById("status-bar");
+  bar.textContent = msg;
+  bar.className = "status-bar" + (isError ? " error" : "");
+}
+
+async function init() {
+  try {
+    const data = await loadRanking();
+    render(data);
+    setStatus("");
+  } catch (e) {
+    setStatus("Failed to load ranking data: " + e.message, true);
+  }
+}
+
+document.getElementById("refresh-btn").addEventListener("click", async () => {
+  document.getElementById("refresh-btn").disabled = true;
+  const ok = await triggerRefresh(setStatus);
+  if (ok) {
+    await init();
+    setTimeout(() => setStatus(""), 3000);
+  }
+  document.getElementById("refresh-btn").disabled = false;
+});
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+
+init();
+</script>
+</body>
+</html>

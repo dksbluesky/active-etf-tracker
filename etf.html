@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ETF Detail</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#0b1b33">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <a class="back-link" href="index.html">← Top 10</a>
+  </div>
+  <button class="icon-btn" id="refresh-btn">↻ Refresh</button>
+</header>
+<div class="status-bar" id="status-bar"></div>
+<main>
+  <div id="detail-root">
+    <div class="skeleton" style="height:160px"></div>
+  </div>
+</main>
+
+<script src="app.js"></script>
+<script>
+function getId() {
+  return new URLSearchParams(window.location.search).get("id");
+}
+
+function renderDetail(data) {
+  const id = getId();
+  const etf = data.top10.find((e) => e.stock_id === id);
+  const root = document.getElementById("detail-root");
+  if (!etf) {
+    root.innerHTML = `<div class="placeholder-box">No data found for ${id}. It may have dropped out of the top 10 — go back and pick a current one.</div>`;
+    return;
+  }
+  const negClass = etf.ytd_return_pct < 0 ? "neg" : "";
+  root.innerHTML = `
+    <div class="detail-card">
+      <div class="id" style="color:var(--muted);font-size:13px">${etf.stock_id}</div>
+      <h2 style="margin:4px 0 12px">${etf.stock_name}</h2>
+      <div class="big-pct ${negClass}">${fmtPct(etf.ytd_return_pct)}</div>
+      <div style="color:var(--muted);font-size:12px;margin-bottom:12px">YTD price return</div>
+      <div class="stat-row"><span class="label">Baseline (${etf.baseline_date})</span><span>${etf.baseline_close}</span></div>
+      <div class="stat-row"><span class="label">Latest close</span><span>${etf.latest_close}</span></div>
+      <div class="stat-row"><span class="label">Latest volume</span><span>${fmtVolume(etf.latest_volume)}</span></div>
+      <div class="stat-row"><span class="label">As of</span><span>${data.latest_trading_date_roc}</span></div>
+    </div>
+    <div class="placeholder-box">
+      <strong>Holdings add/cut tracking — not built yet.</strong><br>
+      This needs to be sourced from ${etf.stock_id}'s issuer's own official disclosure page (each issuer publishes
+      daily holdings, T+1, in its own format). Tell Claude which fund(s) to wire up next and it'll find and parse
+      that issuer's page specifically.
+    </div>
+  `;
+}
+
+function setStatus(msg, isError = false) {
+  const bar = document.getElementById("status-bar");
+  bar.textContent = msg;
+  bar.className = "status-bar" + (isError ? " error" : "");
+}
+
+let lastData = null;
+async function init() {
+  try {
+    lastData = await loadRanking();
+    renderDetail(lastData);
+    setStatus("");
+  } catch (e) {
+    setStatus("Failed to load data: " + e.message, true);
+  }
+}
+
+document.getElementById("refresh-btn").addEventListener("click", async () => {
+  document.getElementById("refresh-btn").disabled = true;
+  const ok = await triggerRefresh(setStatus);
+  if (ok) {
+    await init();
+    setTimeout(() => setStatus(""), 3000);
+  }
+  document.getElementById("refresh-btn").disabled = false;
+});
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+
+init();
+</script>
+</body>
+</html>
