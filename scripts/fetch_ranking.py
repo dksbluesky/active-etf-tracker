@@ -18,10 +18,28 @@ _SSL_CONTEXT = ssl.create_default_context()
 _SSL_CONTEXT.verify_flags &= ~ssl.VERIFY_X509_STRICT
 
 
-def http_get_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+def http_get_json(url, retries=3):
+    last_err = None
+    for attempt in range(retries):
+        if attempt:
+            time.sleep(3 * attempt)
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=30, context=_SSL_CONTEXT) as resp:
+                status = resp.status
+                body = resp.read().decode("utf-8", errors="replace")
+            return json.loads(body)
+        except json.JSONDecodeError as e:
+            print(
+                f"Attempt {attempt + 1}/{retries}: non-JSON response from {url}: "
+                f"HTTP {status}, body[:300]={body[:300]!r}",
+                file=sys.stderr,
+            )
+            last_err = e
+        except Exception as e:
+            print(f"Attempt {attempt + 1}/{retries}: request to {url} failed: {e}", file=sys.stderr)
+            last_err = e
+    raise last_err
 
 
 def fetch_january_baseline(stock_no):
