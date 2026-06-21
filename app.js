@@ -28,6 +28,18 @@ async function loadRanking() {
   return res.json();
 }
 
+// raw.githubusercontent.com sits behind a CDN cache that can lag several minutes
+// behind a fresh commit, even with a cache-busting query param. Right after a
+// refresh completes, read via the Contents API instead - it reflects the latest
+// commit immediately. Requires the PAT (already needed to trigger the refresh).
+async function loadRankingFresh() {
+  const res = await ghFetch(`/repos/${REPO}/contents/data/active_etf_ranking.json?ref=main&t=${Date.now()}`, {
+    headers: { Accept: "application/vnd.github.raw" },
+  });
+  if (!res.ok) throw new Error(`Failed to load fresh ranking data (${res.status})`);
+  return res.json();
+}
+
 async function ghFetch(path, options = {}) {
   const token = getPAT();
   const res = await fetch(`https://api.github.com${path}`, {

@@ -65,9 +65,9 @@ function setStatus(msg, isError = false) {
 }
 
 let lastData = null;
-async function init() {
+async function init(fresh = false) {
   try {
-    lastData = await loadRanking();
+    lastData = fresh ? await loadRankingFresh() : await loadRanking();
     renderDetail(lastData);
     setStatus("");
   } catch (e) {
@@ -79,7 +79,7 @@ document.getElementById("refresh-btn").addEventListener("click", async () => {
   document.getElementById("refresh-btn").disabled = true;
   const ok = await triggerRefresh(setStatus);
   if (ok) {
-    await init();
+    await init(true);
     setTimeout(() => setStatus(""), 3000);
   }
   document.getElementById("refresh-btn").disabled = false;
