@@ -1,12 +1,13 @@
 :root {
-  color-scheme: dark;
-  --bg: #0b1b33;
-  --card: #122545;
-  --accent: #3fd0c9;
-  --up: #ff5d5d;
-  --down: #38d169;
-  --text: #eaf2ff;
-  --muted: #8fa3c7;
+  color-scheme: light;
+  --bg: #ffffff;
+  --card: #f5f7fa;
+  --border: #e3e7ee;
+  --accent: #0f9b94;
+  --up: #d92d2d;
+  --down: #16a34a;
+  --text: #16213a;
+  --muted: #6b7787;
 }
 
 * { box-sizing: border-box; }
@@ -27,7 +28,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #1d3357;
+  border-bottom: 1px solid var(--border);
   z-index: 10;
 }
 
@@ -44,7 +45,7 @@ header .sub {
 
 .icon-btn {
   background: var(--card);
-  border: 1px solid #1d3357;
+  border: 1px solid var(--border);
   color: var(--text);
   border-radius: 10px;
   padding: 8px 12px;
@@ -85,7 +86,7 @@ main { padding: 8px 16px; }
   gap: 12px;
   text-decoration: none;
   color: var(--text);
-  border: 1px solid #1d3357;
+  border: 1px solid var(--border);
 }
 
 .rank-num {
@@ -123,7 +124,7 @@ main { padding: 8px 16px; }
   border-radius: 14px;
   padding: 20px;
   margin-top: 12px;
-  border: 1px solid #1d3357;
+  border: 1px solid var(--border);
 }
 
 .detail-card .big-pct {
@@ -137,7 +138,7 @@ main { padding: 8px 16px; }
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
-  border-bottom: 1px solid #1d3357;
+  border-bottom: 1px solid var(--border);
   font-size: 14px;
 }
 .stat-row:last-child { border-bottom: none; }
@@ -146,7 +147,7 @@ main { padding: 8px 16px; }
 .placeholder-box {
   margin-top: 16px;
   background: var(--card);
-  border: 1px dashed #2c4a7c;
+  border: 1px dashed #c9d2e0;
   border-radius: 14px;
   padding: 20px;
   color: var(--muted);
@@ -155,7 +156,7 @@ main { padding: 8px 16px; }
 }
 
 .skeleton {
-  background: linear-gradient(90deg, var(--card) 25%, #1a2f55 50%, var(--card) 75%);
+  background: linear-gradient(90deg, var(--card) 25%, #e9edf3 50%, var(--card) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.2s infinite;
   border-radius: 14px;

@@ -1,4 +1,4 @@
-const CACHE_NAME = "etf-tracker-v1";
+const CACHE_NAME = "etf-tracker-v2";
 const SHELL = ["./", "./index.html", "./etf.html", "./app.js", "./style.css", "./manifest.json"];
 
 self.addEventListener("install", (event) => {
