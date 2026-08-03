@@ -1,98 +1,98 @@
 {
-  "generated_at_utc": "2026-07-30T09:58:19Z",
-  "latest_trading_date_roc": "1150729",
+  "generated_at_utc": "2026-08-03T10:54:28Z",
+  "latest_trading_date_roc": "1150731",
   "total_active_etfs_found": 28,
   "ranked_count": 15,
   "top10": [
-    {
-      "stock_id": "00981A",
-      "stock_name": "主動統一台股增長",
-      "baseline_date": "115/01/02",
-      "baseline_close": 16.79,
-      "latest_close": 23.85,
-      "latest_volume": 547235241,
-      "ytd_return_pct": 42.05
-    },
     {
       "stock_id": "00988A",
       "stock_name": "主動統一全球創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.12,
-      "latest_close": 14.35,
-      "latest_volume": 105731097,
-      "ytd_return_pct": 41.8
+      "latest_close": 16.26,
+      "latest_volume": 96447905,
+      "ytd_return_pct": 60.67
     },
     {
-      "stock_id": "00985A",
-      "stock_name": "主動野村台灣50",
+      "stock_id": "00981A",
+      "stock_name": "主動統一台股增長",
       "baseline_date": "115/01/02",
-      "baseline_close": 13.64,
-      "latest_close": 18.63,
-      "latest_volume": 21629173,
-      "ytd_return_pct": 36.58
+      "baseline_close": 16.79,
+      "latest_close": 26.13,
+      "latest_volume": 873426743,
+      "ytd_return_pct": 55.63
     },
     {
       "stock_id": "00990A",
       "stock_name": "主動元大AI新經濟",
       "baseline_date": "115/01/02",
       "baseline_close": 10.15,
-      "latest_close": 13.83,
-      "latest_volume": 51745605,
-      "ytd_return_pct": 36.26
+      "latest_close": 15.56,
+      "latest_volume": 38119529,
+      "ytd_return_pct": 53.3
     },
     {
       "stock_id": "00995A",
       "stock_name": "主動中信台灣卓越",
       "baseline_date": "115/01/22",
       "baseline_close": 10.17,
-      "latest_close": 13.74,
-      "latest_volume": 25984695,
-      "ytd_return_pct": 35.1
-    },
-    {
-      "stock_id": "00991A",
-      "stock_name": "主動復華未來50",
-      "baseline_date": "115/01/02",
-      "baseline_close": 10.42,
-      "latest_close": 14.07,
-      "latest_volume": 300187296,
-      "ytd_return_pct": 35.03
+      "latest_close": 15.12,
+      "latest_volume": 25011145,
+      "ytd_return_pct": 48.67
     },
     {
       "stock_id": "00994A",
       "stock_name": "主動第一金台股優",
       "baseline_date": "115/01/07",
       "baseline_close": 10.06,
-      "latest_close": 13.51,
-      "latest_volume": 9966649,
-      "ytd_return_pct": 34.29
+      "latest_close": 14.9,
+      "latest_volume": 12380967,
+      "ytd_return_pct": 48.11
+    },
+    {
+      "stock_id": "00991A",
+      "stock_name": "主動復華未來50",
+      "baseline_date": "115/01/02",
+      "baseline_close": 10.42,
+      "latest_close": 15.41,
+      "latest_volume": 789453148,
+      "ytd_return_pct": 47.89
+    },
+    {
+      "stock_id": "00985A",
+      "stock_name": "主動野村台灣50",
+      "baseline_date": "115/01/02",
+      "baseline_close": 13.64,
+      "latest_close": 19.89,
+      "latest_volume": 6306456,
+      "ytd_return_pct": 45.82
     },
     {
       "stock_id": "00992A",
       "stock_name": "主動群益科技創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.39,
-      "latest_close": 13.59,
-      "latest_volume": 100651001,
-      "ytd_return_pct": 30.8
-    },
-    {
-      "stock_id": "00982A",
-      "stock_name": "主動群益台灣強棒",
-      "baseline_date": "115/01/02",
-      "baseline_close": 14.63,
-      "latest_close": 18.87,
-      "latest_volume": 75113746,
-      "ytd_return_pct": 28.98
+      "latest_close": 14.82,
+      "latest_volume": 138381996,
+      "ytd_return_pct": 42.64
     },
     {
       "stock_id": "00980A",
       "stock_name": "主動野村臺灣優選",
       "baseline_date": "115/01/02",
       "baseline_close": 15.34,
-      "latest_close": 19.58,
-      "latest_volume": 24690795,
-      "ytd_return_pct": 27.64
+      "latest_close": 21.46,
+      "latest_volume": 52438069,
+      "ytd_return_pct": 39.9
+    },
+    {
+      "stock_id": "00982A",
+      "stock_name": "主動群益台灣強棒",
+      "baseline_date": "115/01/02",
+      "baseline_close": 14.63,
+      "latest_close": 20.39,
+      "latest_volume": 63245626,
+      "ytd_return_pct": 39.37
     }
   ]
 }
