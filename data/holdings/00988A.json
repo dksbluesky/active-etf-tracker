@@ -1,44 +1,44 @@
 {
   "fund_id": "00988A",
-  "snapshot_date": "2026-09-01",
-  "previous_snapshot_date": "2026-08-31",
-  "fetched_at_utc": "2026-09-01T12:40:06Z",
+  "snapshot_date": "2026-09-02",
+  "previous_snapshot_date": "2026-09-01",
+  "fetched_at_utc": "2026-09-03T12:12:14Z",
   "holdings": [
     {
       "code": "LITE US",
       "name": "LUMENTUM HOLDINGS INC",
-      "weight_pct": 6.37,
+      "weight_pct": 6.2,
       "shares": 117000
     },
     {
       "code": "3037",
       "name": "欣興",
-      "weight_pct": 4.87,
+      "weight_pct": 4.86,
       "shares": 2600000
-    },
-    {
-      "code": "009150 KS",
-      "name": "Samsung Electro-Mechanics co(009150 ks)",
-      "weight_pct": 4.38,
-      "shares": 70000
     },
     {
       "code": "2383",
       "name": "台光電",
-      "weight_pct": 4.32,
+      "weight_pct": 4.56,
       "shares": 420000
+    },
+    {
+      "code": "009150 KS",
+      "name": "Samsung Electro-Mechanics co(009150 ks)",
+      "weight_pct": 4.36,
+      "shares": 70000
+    },
+    {
+      "code": "6981 JP",
+      "name": "MURATA MANUFACTURING CO LTD",
+      "weight_pct": 3.75,
+      "shares": 1350000
     },
     {
       "code": "AMD US",
       "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
       "weight_pct": 3.64,
       "shares": 130000
-    },
-    {
-      "code": "6981 JP",
-      "name": "MURATA MANUFACTURING CO LTD",
-      "weight_pct": 3.62,
-      "shares": 1350000
     },
     {
       "code": "MU US",
@@ -49,188 +49,188 @@
     {
       "code": "PANW US",
       "name": "PALO ALTO NETWORKS INC",
-      "weight_pct": 3.41,
+      "weight_pct": 3.31,
       "shares": 150000
     },
     {
       "code": "BE US",
       "name": "BLOOM ENERGY CORP- A",
-      "weight_pct": 3.07,
+      "weight_pct": 3.26,
       "shares": 250000
-    },
-    {
-      "code": "CRDO US",
-      "name": "CREDO TECHNOLOGY GROUP HOLDI",
-      "weight_pct": 3.03,
-      "shares": 225000
     },
     {
       "code": "STX US",
       "name": "SEAGATE TECHNOLOGY",
-      "weight_pct": 2.96,
+      "weight_pct": 2.99,
       "shares": 60000
     },
     {
-      "code": "2330",
-      "name": "台積電",
-      "weight_pct": 2.93,
-      "shares": 650000
-    },
-    {
-      "code": "CRCL US",
-      "name": "CIRCLE INTERNET GROUP INC",
-      "weight_pct": 2.73,
-      "shares": 480000
+      "code": "CRDO US",
+      "name": "CREDO TECHNOLOGY GROUP HOLDI",
+      "weight_pct": 2.84,
+      "shares": 225000
     },
     {
       "code": "TSEM US",
       "name": "TOWER SEMICONDUCTOR LTD",
-      "weight_pct": 2.65,
+      "weight_pct": 2.63,
       "shares": 216825
+    },
+    {
+      "code": "CRCL US",
+      "name": "CIRCLE INTERNET GROUP INC",
+      "weight_pct": 2.62,
+      "shares": 480000
     },
     {
       "code": "SPCX US",
       "name": "SPACE EXPLORATION TECHN-CL A",
-      "weight_pct": 2.57,
+      "weight_pct": 2.6,
       "shares": 300000
-    },
-    {
-      "code": "SNOW US",
-      "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
-      "weight_pct": 2.56,
-      "shares": 130000
-    },
-    {
-      "code": "PLTR US",
-      "name": "PALANTIR TECHNOLOGIES INC-A",
-      "weight_pct": 2.5,
-      "shares": 225000
     },
     {
       "code": "2308",
       "name": "台達電",
-      "weight_pct": 2.49,
+      "weight_pct": 2.59,
       "shares": 720000
     },
     {
-      "code": "3017",
-      "name": "奇鋐",
-      "weight_pct": 2.35,
-      "shares": 365000
+      "code": "2330",
+      "name": "台積電",
+      "weight_pct": 2.58,
+      "shares": 550000
+    },
+    {
+      "code": "SNOW US",
+      "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+      "weight_pct": 2.54,
+      "shares": 130000
     },
     {
       "code": "6223",
       "name": "旺矽",
-      "weight_pct": 2.33,
+      "weight_pct": 2.52,
       "shares": 242000
+    },
+    {
+      "code": "PLTR US",
+      "name": "PALANTIR TECHNOLOGIES INC-A",
+      "weight_pct": 2.47,
+      "shares": 225000
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "weight_pct": 2.4,
+      "shares": 365000
     },
     {
       "code": "285A JP",
       "name": "KIOXIA HOLDINGS CORP",
-      "weight_pct": 2.05,
+      "weight_pct": 2.14,
       "shares": 110000
-    },
-    {
-      "code": "300408 CH",
-      "name": "CHAOZHOU THREE-CIRCLE GROU-A",
-      "weight_pct": 1.78,
-      "shares": 1749879
-    },
-    {
-      "code": "6871 JP",
-      "name": "MICRONICS JAPAN CO LTD",
-      "weight_pct": 1.77,
-      "shares": 370000
-    },
-    {
-      "code": "IFX GY",
-      "name": "INFINEON TECHNOLOGIES AG",
-      "weight_pct": 1.65,
-      "shares": 425000
-    },
-    {
-      "code": "COHR US",
-      "name": "COHERENT INC",
-      "weight_pct": 1.57,
-      "shares": 95000
     },
     {
       "code": "MSFT US",
       "name": "MICROSOFT CORP(微軟公司)",
-      "weight_pct": 1.51,
-      "shares": 50000
+      "weight_pct": 2.02,
+      "shares": 66000
+    },
+    {
+      "code": "NOW US",
+      "name": "SERVICENOW INC",
+      "weight_pct": 2.0,
+      "shares": 230000
+    },
+    {
+      "code": "300408 CH",
+      "name": "CHAOZHOU THREE-CIRCLE GROU-A",
+      "weight_pct": 1.73,
+      "shares": 1749879
+    },
+    {
+      "code": "IFX GY",
+      "name": "INFINEON TECHNOLOGIES AG",
+      "weight_pct": 1.67,
+      "shares": 425000
     },
     {
       "code": "2454",
       "name": "聯發科",
-      "weight_pct": 1.47,
+      "weight_pct": 1.66,
       "shares": 200000
+    },
+    {
+      "code": "COHR US",
+      "name": "COHERENT INC",
+      "weight_pct": 1.58,
+      "shares": 95000
     },
     {
       "code": "4979",
       "name": "華星光",
-      "weight_pct": 1.41,
+      "weight_pct": 1.43,
       "shares": 1235000
     },
     {
       "code": "6997 JP",
       "name": "NIPPON CHEMI-CON CORP",
-      "weight_pct": 1.39,
+      "weight_pct": 1.43,
       "shares": 1275100
-    },
-    {
-      "code": "MPWR US",
-      "name": "MONOLITHIC POWER SYSTEMS INC",
-      "weight_pct": 1.36,
-      "shares": 18000
     },
     {
       "code": "3308 HK",
       "name": "ZHONGJI INNOLIGHT CO LTD-H",
-      "weight_pct": 1.33,
+      "weight_pct": 1.37,
       "shares": 170000
     },
     {
-      "code": "NOW US",
-      "name": "SERVICENOW INC",
-      "weight_pct": 1.32,
-      "shares": 150000
+      "code": "MPWR US",
+      "name": "MONOLITHIC POWER SYSTEMS INC",
+      "weight_pct": 1.35,
+      "shares": 18000
     },
     {
       "code": "NET US",
       "name": "CLOUDFLARE INC - CLASS A",
-      "weight_pct": 1.27,
+      "weight_pct": 1.22,
       "shares": 70000
     },
     {
       "code": "SNDK US",
       "name": "SANDISK CORP",
-      "weight_pct": 1.21,
+      "weight_pct": 1.22,
       "shares": 13000
     },
     {
       "code": "TER US",
       "name": "TERADYNE INC",
-      "weight_pct": 1.15,
+      "weight_pct": 1.13,
       "shares": 55000
-    },
-    {
-      "code": "301377 CH",
-      "name": "GUANGDONG DTECH TECHNOLOGY-A",
-      "weight_pct": 1.09,
-      "shares": 291988
     },
     {
       "code": "000660 KS",
       "name": "SK HYNIX INC",
-      "weight_pct": 1.08,
+      "weight_pct": 1.1,
       "shares": 15000
+    },
+    {
+      "code": "301377 CH",
+      "name": "GUANGDONG DTECH TECHNOLOGY-A",
+      "weight_pct": 1.03,
+      "shares": 291988
     },
     {
       "code": "FORM US",
       "name": "FORMFACTOR INC",
-      "weight_pct": 0.9,
+      "weight_pct": 0.88,
       "shares": 150454
+    },
+    {
+      "code": "6871 JP",
+      "name": "MICRONICS JAPAN CO LTD",
+      "weight_pct": 0.87,
+      "shares": 185000
     },
     {
       "code": "TWLO US",
@@ -241,19 +241,19 @@
     {
       "code": "HOOD US",
       "name": "ROBINHOOD MARKETS INC - A",
-      "weight_pct": 0.75,
+      "weight_pct": 0.76,
       "shares": 120000
     },
     {
       "code": "5801 JP",
       "name": "FURUKAWA ELECTRIC CO LTD",
-      "weight_pct": 0.75,
+      "weight_pct": 0.74,
       "shares": 500000
     },
     {
       "code": "AEM US",
       "name": "AGNICO EAGLE MINES LTD",
-      "weight_pct": 0.73,
+      "weight_pct": 0.71,
       "shares": 60000
     },
     {
@@ -271,363 +271,367 @@
     {
       "code": "AIXA GY",
       "name": "AIXTRON SE",
-      "weight_pct": 0.49,
+      "weight_pct": 0.5,
       "shares": 200000
     },
     {
       "code": "NTRA US",
       "name": "NATERA INC",
-      "weight_pct": 0.48,
+      "weight_pct": 0.49,
       "shares": 25000
-    },
-    {
-      "code": "095340 KS",
-      "name": "ISC CO LTD",
-      "weight_pct": 0.37,
-      "shares": 50000
     },
     {
       "code": "6274",
       "name": "台燿",
-      "weight_pct": 0.35,
+      "weight_pct": 0.36,
       "shares": 130000
+    },
+    {
+      "code": "095340 KS",
+      "name": "ISC CO LTD",
+      "weight_pct": 0.08,
+      "shares": 11006
     }
   ],
   "changes": {
-    "added": [
+    "added": [],
+    "removed": [],
+    "changed": [
       {
-        "code": "MSFT US",
-        "name": "MICROSOFT CORP(微軟公司)",
-        "weight_pct": 1.51,
-        "shares": 50000
+        "code": "6871 JP",
+        "name": "MICRONICS JAPAN CO LTD",
+        "weight_pct": 0.87,
+        "shares": 185000,
+        "prev_weight_pct": 1.77,
+        "delta_pct": -0.9
       },
       {
         "code": "NOW US",
         "name": "SERVICENOW INC",
-        "weight_pct": 1.32,
-        "shares": 150000
-      }
-    ],
-    "removed": [
-      {
-        "code": "MRVL US",
-        "name": "MARVELL TECHNOLOGY INC",
-        "weight_pct": 1.92,
-        "shares": 150026
-      }
-    ],
-    "changed": [
-      {
-        "code": "3037",
-        "name": "欣興",
-        "weight_pct": 4.87,
-        "shares": 2600000,
-        "prev_weight_pct": 5.4,
-        "delta_pct": -0.53
+        "weight_pct": 2.0,
+        "shares": 230000,
+        "prev_weight_pct": 1.32,
+        "delta_pct": 0.68
       },
       {
-        "code": "285A JP",
-        "name": "KIOXIA HOLDINGS CORP",
-        "weight_pct": 2.05,
-        "shares": 110000,
-        "prev_weight_pct": 2.49,
-        "delta_pct": -0.44
+        "code": "MSFT US",
+        "name": "MICROSOFT CORP(微軟公司)",
+        "weight_pct": 2.02,
+        "shares": 66000,
+        "prev_weight_pct": 1.51,
+        "delta_pct": 0.51
+      },
+      {
+        "code": "2330",
+        "name": "台積電",
+        "weight_pct": 2.58,
+        "shares": 550000,
+        "prev_weight_pct": 2.93,
+        "delta_pct": -0.35
+      },
+      {
+        "code": "095340 KS",
+        "name": "ISC CO LTD",
+        "weight_pct": 0.08,
+        "shares": 11006,
+        "prev_weight_pct": 0.37,
+        "delta_pct": -0.29
       },
       {
         "code": "2383",
         "name": "台光電",
-        "weight_pct": 4.32,
+        "weight_pct": 4.56,
         "shares": 420000,
-        "prev_weight_pct": 4.57,
-        "delta_pct": -0.25
-      },
-      {
-        "code": "CRCL US",
-        "name": "CIRCLE INTERNET GROUP INC",
-        "weight_pct": 2.73,
-        "shares": 480000,
-        "prev_weight_pct": 2.48,
-        "delta_pct": 0.25
-      },
-      {
-        "code": "LITE US",
-        "name": "LUMENTUM HOLDINGS INC",
-        "weight_pct": 6.37,
-        "shares": 117000,
-        "prev_weight_pct": 6.2,
-        "delta_pct": 0.17
-      },
-      {
-        "code": "009150 KS",
-        "name": "Samsung Electro-Mechanics co(009150 ks)",
-        "weight_pct": 4.38,
-        "shares": 70000,
-        "prev_weight_pct": 4.24,
-        "delta_pct": 0.14
-      },
-      {
-        "code": "MU US",
-        "name": "MICRON TECHNOLOGY INC",
-        "weight_pct": 3.42,
-        "shares": 60000,
-        "prev_weight_pct": 3.31,
-        "delta_pct": 0.11
-      },
-      {
-        "code": "PANW US",
-        "name": "PALO ALTO NETWORKS INC",
-        "weight_pct": 3.41,
-        "shares": 150000,
-        "prev_weight_pct": 3.3,
-        "delta_pct": 0.11
-      },
-      {
-        "code": "6981 JP",
-        "name": "MURATA MANUFACTURING CO LTD",
-        "weight_pct": 3.62,
-        "shares": 1350000,
-        "prev_weight_pct": 3.71,
-        "delta_pct": -0.09
-      },
-      {
-        "code": "CRDO US",
-        "name": "CREDO TECHNOLOGY GROUP HOLDI",
-        "weight_pct": 3.03,
-        "shares": 225000,
-        "prev_weight_pct": 3.1,
-        "delta_pct": -0.07
-      },
-      {
-        "code": "SNDK US",
-        "name": "SANDISK CORP",
-        "weight_pct": 1.21,
-        "shares": 13000,
-        "prev_weight_pct": 1.14,
-        "delta_pct": 0.07
-      },
-      {
-        "code": "AMD US",
-        "name": "ADVANCED MICRO DEVICES.amd us(超微半導體公司)",
-        "weight_pct": 3.64,
-        "shares": 130000,
-        "prev_weight_pct": 3.58,
-        "delta_pct": 0.06
-      },
-      {
-        "code": "SPCX US",
-        "name": "SPACE EXPLORATION TECHN-CL A",
-        "weight_pct": 2.57,
-        "shares": 300000,
-        "prev_weight_pct": 2.51,
-        "delta_pct": 0.06
+        "prev_weight_pct": 4.32,
+        "delta_pct": 0.24
       },
       {
         "code": "BE US",
         "name": "BLOOM ENERGY CORP- A",
-        "weight_pct": 3.07,
+        "weight_pct": 3.26,
         "shares": 250000,
-        "prev_weight_pct": 3.12,
-        "delta_pct": -0.05
+        "prev_weight_pct": 3.07,
+        "delta_pct": 0.19
       },
       {
-        "code": "3017",
-        "name": "奇鋐",
-        "weight_pct": 2.35,
-        "shares": 365000,
-        "prev_weight_pct": 2.3,
-        "delta_pct": 0.05
+        "code": "CRDO US",
+        "name": "CREDO TECHNOLOGY GROUP HOLDI",
+        "weight_pct": 2.84,
+        "shares": 225000,
+        "prev_weight_pct": 3.03,
+        "delta_pct": -0.19
       },
       {
         "code": "6223",
         "name": "旺矽",
-        "weight_pct": 2.33,
+        "weight_pct": 2.52,
         "shares": 242000,
-        "prev_weight_pct": 2.28,
+        "prev_weight_pct": 2.33,
+        "delta_pct": 0.19
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "weight_pct": 1.66,
+        "shares": 200000,
+        "prev_weight_pct": 1.47,
+        "delta_pct": 0.19
+      },
+      {
+        "code": "LITE US",
+        "name": "LUMENTUM HOLDINGS INC",
+        "weight_pct": 6.2,
+        "shares": 117000,
+        "prev_weight_pct": 6.37,
+        "delta_pct": -0.17
+      },
+      {
+        "code": "6981 JP",
+        "name": "MURATA MANUFACTURING CO LTD",
+        "weight_pct": 3.75,
+        "shares": 1350000,
+        "prev_weight_pct": 3.62,
+        "delta_pct": 0.13
+      },
+      {
+        "code": "CRCL US",
+        "name": "CIRCLE INTERNET GROUP INC",
+        "weight_pct": 2.62,
+        "shares": 480000,
+        "prev_weight_pct": 2.73,
+        "delta_pct": -0.11
+      },
+      {
+        "code": "PANW US",
+        "name": "PALO ALTO NETWORKS INC",
+        "weight_pct": 3.31,
+        "shares": 150000,
+        "prev_weight_pct": 3.41,
+        "delta_pct": -0.1
+      },
+      {
+        "code": "2308",
+        "name": "台達電",
+        "weight_pct": 2.59,
+        "shares": 720000,
+        "prev_weight_pct": 2.49,
+        "delta_pct": 0.1
+      },
+      {
+        "code": "285A JP",
+        "name": "KIOXIA HOLDINGS CORP",
+        "weight_pct": 2.14,
+        "shares": 110000,
+        "prev_weight_pct": 2.05,
+        "delta_pct": 0.09
+      },
+      {
+        "code": "301377 CH",
+        "name": "GUANGDONG DTECH TECHNOLOGY-A",
+        "weight_pct": 1.03,
+        "shares": 291988,
+        "prev_weight_pct": 1.09,
+        "delta_pct": -0.06
+      },
+      {
+        "code": "3017",
+        "name": "奇鋐",
+        "weight_pct": 2.4,
+        "shares": 365000,
+        "prev_weight_pct": 2.35,
         "delta_pct": 0.05
       },
       {
         "code": "300408 CH",
         "name": "CHAOZHOU THREE-CIRCLE GROU-A",
-        "weight_pct": 1.78,
+        "weight_pct": 1.73,
         "shares": 1749879,
-        "prev_weight_pct": 1.73,
-        "delta_pct": 0.05
-      },
-      {
-        "code": "6997 JP",
-        "name": "NIPPON CHEMI-CON CORP",
-        "weight_pct": 1.39,
-        "shares": 1275100,
-        "prev_weight_pct": 1.34,
-        "delta_pct": 0.05
-      },
-      {
-        "code": "301377 CH",
-        "name": "GUANGDONG DTECH TECHNOLOGY-A",
-        "weight_pct": 1.09,
-        "shares": 291988,
-        "prev_weight_pct": 1.04,
-        "delta_pct": 0.05
-      },
-      {
-        "code": "SNOW US",
-        "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
-        "weight_pct": 2.56,
-        "shares": 130000,
-        "prev_weight_pct": 2.52,
-        "delta_pct": 0.04
-      },
-      {
-        "code": "4180 JP",
-        "name": "APPIER GROUP INC",
-        "weight_pct": 0.51,
-        "shares": 950000,
-        "prev_weight_pct": 0.47,
-        "delta_pct": 0.04
+        "prev_weight_pct": 1.78,
+        "delta_pct": -0.05
       },
       {
         "code": "NET US",
         "name": "CLOUDFLARE INC - CLASS A",
-        "weight_pct": 1.27,
+        "weight_pct": 1.22,
         "shares": 70000,
-        "prev_weight_pct": 1.24,
+        "prev_weight_pct": 1.27,
+        "delta_pct": -0.05
+      },
+      {
+        "code": "6997 JP",
+        "name": "NIPPON CHEMI-CON CORP",
+        "weight_pct": 1.43,
+        "shares": 1275100,
+        "prev_weight_pct": 1.39,
+        "delta_pct": 0.04
+      },
+      {
+        "code": "3308 HK",
+        "name": "ZHONGJI INNOLIGHT CO LTD-H",
+        "weight_pct": 1.37,
+        "shares": 170000,
+        "prev_weight_pct": 1.33,
+        "delta_pct": 0.04
+      },
+      {
+        "code": "STX US",
+        "name": "SEAGATE TECHNOLOGY",
+        "weight_pct": 2.99,
+        "shares": 60000,
+        "prev_weight_pct": 2.96,
         "delta_pct": 0.03
       },
       {
-        "code": "5801 JP",
-        "name": "FURUKAWA ELECTRIC CO LTD",
-        "weight_pct": 0.75,
-        "shares": 500000,
-        "prev_weight_pct": 0.72,
+        "code": "SPCX US",
+        "name": "SPACE EXPLORATION TECHN-CL A",
+        "weight_pct": 2.6,
+        "shares": 300000,
+        "prev_weight_pct": 2.57,
         "delta_pct": 0.03
       },
       {
-        "code": "2330",
-        "name": "台積電",
-        "weight_pct": 2.93,
-        "shares": 650000,
-        "prev_weight_pct": 2.95,
+        "code": "PLTR US",
+        "name": "PALANTIR TECHNOLOGIES INC-A",
+        "weight_pct": 2.47,
+        "shares": 225000,
+        "prev_weight_pct": 2.5,
+        "delta_pct": -0.03
+      },
+      {
+        "code": "009150 KS",
+        "name": "Samsung Electro-Mechanics co(009150 ks)",
+        "weight_pct": 4.36,
+        "shares": 70000,
+        "prev_weight_pct": 4.38,
         "delta_pct": -0.02
       },
       {
         "code": "TSEM US",
         "name": "TOWER SEMICONDUCTOR LTD",
-        "weight_pct": 2.65,
+        "weight_pct": 2.63,
         "shares": 216825,
-        "prev_weight_pct": 2.67,
+        "prev_weight_pct": 2.65,
         "delta_pct": -0.02
       },
       {
-        "code": "PLTR US",
-        "name": "PALANTIR TECHNOLOGIES INC-A",
-        "weight_pct": 2.5,
-        "shares": 225000,
-        "prev_weight_pct": 2.48,
-        "delta_pct": 0.02
-      },
-      {
-        "code": "2308",
-        "name": "台達電",
-        "weight_pct": 2.49,
-        "shares": 720000,
-        "prev_weight_pct": 2.47,
-        "delta_pct": 0.02
-      },
-      {
-        "code": "6871 JP",
-        "name": "MICRONICS JAPAN CO LTD",
-        "weight_pct": 1.77,
-        "shares": 370000,
-        "prev_weight_pct": 1.79,
+        "code": "SNOW US",
+        "name": "SNOWFLAKE INC-CLASS A(Snowflake公司)",
+        "weight_pct": 2.54,
+        "shares": 130000,
+        "prev_weight_pct": 2.56,
         "delta_pct": -0.02
       },
       {
         "code": "IFX GY",
         "name": "INFINEON TECHNOLOGIES AG",
-        "weight_pct": 1.65,
+        "weight_pct": 1.67,
         "shares": 425000,
-        "prev_weight_pct": 1.67,
-        "delta_pct": -0.02
-      },
-      {
-        "code": "2454",
-        "name": "聯發科",
-        "weight_pct": 1.47,
-        "shares": 200000,
-        "prev_weight_pct": 1.49,
-        "delta_pct": -0.02
-      },
-      {
-        "code": "MPWR US",
-        "name": "MONOLITHIC POWER SYSTEMS INC",
-        "weight_pct": 1.36,
-        "shares": 18000,
-        "prev_weight_pct": 1.34,
+        "prev_weight_pct": 1.65,
         "delta_pct": 0.02
       },
       {
-        "code": "3308 HK",
-        "name": "ZHONGJI INNOLIGHT CO LTD-H",
-        "weight_pct": 1.33,
-        "shares": 170000,
-        "prev_weight_pct": 1.34,
-        "delta_pct": -0.01
+        "code": "4979",
+        "name": "華星光",
+        "weight_pct": 1.43,
+        "shares": 1235000,
+        "prev_weight_pct": 1.41,
+        "delta_pct": 0.02
       },
       {
         "code": "TER US",
         "name": "TERADYNE INC",
-        "weight_pct": 1.15,
+        "weight_pct": 1.13,
         "shares": 55000,
-        "prev_weight_pct": 1.16,
-        "delta_pct": -0.01
+        "prev_weight_pct": 1.15,
+        "delta_pct": -0.02
       },
       {
         "code": "000660 KS",
         "name": "SK HYNIX INC",
-        "weight_pct": 1.08,
+        "weight_pct": 1.1,
         "shares": 15000,
-        "prev_weight_pct": 1.07,
-        "delta_pct": 0.01
+        "prev_weight_pct": 1.08,
+        "delta_pct": 0.02
       },
       {
         "code": "FORM US",
         "name": "FORMFACTOR INC",
-        "weight_pct": 0.9,
+        "weight_pct": 0.88,
         "shares": 150454,
-        "prev_weight_pct": 0.91,
+        "prev_weight_pct": 0.9,
+        "delta_pct": -0.02
+      },
+      {
+        "code": "AEM US",
+        "name": "AGNICO EAGLE MINES LTD",
+        "weight_pct": 0.71,
+        "shares": 60000,
+        "prev_weight_pct": 0.73,
+        "delta_pct": -0.02
+      },
+      {
+        "code": "COHR US",
+        "name": "COHERENT INC",
+        "weight_pct": 1.58,
+        "shares": 95000,
+        "prev_weight_pct": 1.57,
+        "delta_pct": 0.01
+      },
+      {
+        "code": "MPWR US",
+        "name": "MONOLITHIC POWER SYSTEMS INC",
+        "weight_pct": 1.35,
+        "shares": 18000,
+        "prev_weight_pct": 1.36,
         "delta_pct": -0.01
+      },
+      {
+        "code": "SNDK US",
+        "name": "SANDISK CORP",
+        "weight_pct": 1.22,
+        "shares": 13000,
+        "prev_weight_pct": 1.21,
+        "delta_pct": 0.01
       },
       {
         "code": "HOOD US",
         "name": "ROBINHOOD MARKETS INC - A",
-        "weight_pct": 0.75,
+        "weight_pct": 0.76,
         "shares": 120000,
-        "prev_weight_pct": 0.74,
+        "prev_weight_pct": 0.75,
         "delta_pct": 0.01
       },
       {
-        "code": "DASH US",
-        "name": "DOORDASH INC - A",
-        "weight_pct": 0.69,
-        "shares": 50000,
-        "prev_weight_pct": 0.7,
+        "code": "5801 JP",
+        "name": "FURUKAWA ELECTRIC CO LTD",
+        "weight_pct": 0.74,
+        "shares": 500000,
+        "prev_weight_pct": 0.75,
         "delta_pct": -0.01
       },
       {
         "code": "AIXA GY",
         "name": "AIXTRON SE",
-        "weight_pct": 0.49,
+        "weight_pct": 0.5,
         "shares": 200000,
-        "prev_weight_pct": 0.5,
-        "delta_pct": -0.01
+        "prev_weight_pct": 0.49,
+        "delta_pct": 0.01
+      },
+      {
+        "code": "NTRA US",
+        "name": "NATERA INC",
+        "weight_pct": 0.49,
+        "shares": 25000,
+        "prev_weight_pct": 0.48,
+        "delta_pct": 0.01
       },
       {
         "code": "6274",
         "name": "台燿",
-        "weight_pct": 0.35,
+        "weight_pct": 0.36,
         "shares": 130000,
-        "prev_weight_pct": 0.36,
-        "delta_pct": -0.01
+        "prev_weight_pct": 0.35,
+        "delta_pct": 0.01
       }
     ]
   }
