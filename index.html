@@ -15,7 +15,10 @@
     <h1>主動式ETF Top 10</h1>
     <div class="sub" id="meta-line">Loading...</div>
   </div>
-  <button class="icon-btn" id="refresh-btn">↻ Refresh</button>
+  <div class="header-actions">
+    <a class="icon-btn" href="rebound.html">Rebound Filter</a>
+    <button class="icon-btn" id="refresh-btn">↻ Refresh</button>
+  </div>
 </header>
 <div class="status-bar" id="status-bar"></div>
 <main>
@@ -33,7 +36,7 @@ let lastData = null;
 function render(data) {
   lastData = data;
   const metaLine = document.getElementById("meta-line");
-  metaLine.textContent = `YTD vs ${data.top10[0]?.baseline_date || "?"} · as of ${data.latest_trading_date_roc} · ${data.ranked_count}/${data.total_active_etfs_found} ranked`;
+  metaLine.textContent = `${data.calendar_year || "Current-year"} returns · as of ${data.latest_trading_date_roc} · ${data.ranked_count}/${data.total_active_etfs_found} ranked`;
 
   const list = document.getElementById("rank-list");
   list.innerHTML = "";
@@ -50,7 +53,7 @@ function render(data) {
       </div>
       <div class="rank-return">
         <div class="pct ${negClass}">${fmtPct(etf.ytd_return_pct)}</div>
-        <div class="price">${etf.baseline_close} → ${etf.latest_close}</div>
+        <div class="price">${etf.return_period_label || "YTD"} · ${etf.baseline_close} → ${etf.latest_close}</div>
       </div>
     `;
     list.appendChild(a);

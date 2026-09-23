@@ -1,0 +1,137 @@
+{
+  "generated_at_utc": "2026-09-23T08:35:20Z",
+  "funds": [
+    {
+      "stock_id": "00400A",
+      "stock_name": "主動國泰動能高息",
+      "listing_date": "2026-04-09",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00401A",
+      "stock_name": "主動摩根台灣鑫收",
+      "listing_date": "2026-04-10",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00403A",
+      "stock_name": "主動統一升級50",
+      "listing_date": "2026-05-12",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00404A",
+      "stock_name": "主動聯博動能50",
+      "listing_date": "2026-06-09",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00405A",
+      "stock_name": "主動富邦台灣龍耀",
+      "listing_date": "2026-06-09",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00406A",
+      "stock_name": "主動中信台灣收益",
+      "listing_date": "2026-06-11",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00407A",
+      "stock_name": "主動凱基台灣",
+      "listing_date": "2026-06-24",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00408A",
+      "stock_name": "主動第一金優股息",
+      "listing_date": "2026-07-15",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00410A",
+      "stock_name": "主動永豐科技趨勢",
+      "listing_date": "2026-08-03",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00980A",
+      "stock_name": "主動野村臺灣優選",
+      "listing_date": "2025-05-05",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00981A",
+      "stock_name": "主動統一台股增長",
+      "listing_date": "2025-05-27",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00982A",
+      "stock_name": "主動群益台灣強棒",
+      "listing_date": "2025-05-22",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00984A",
+      "stock_name": "主動安聯台灣高息",
+      "listing_date": "2025-07-14",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00985A",
+      "stock_name": "主動野村台灣50",
+      "listing_date": "2025-07-21",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00987A",
+      "stock_name": "主動台新優勢成長",
+      "listing_date": "2025-12-30",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00991A",
+      "stock_name": "主動復華未來50",
+      "listing_date": "2025-12-18",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00992A",
+      "stock_name": "主動群益科技創新",
+      "listing_date": "2025-12-30",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00993A",
+      "stock_name": "主動安聯台灣",
+      "listing_date": "2026-02-03",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00994A",
+      "stock_name": "主動第一金台股優",
+      "listing_date": "2026-01-07",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00995A",
+      "stock_name": "主動中信台灣卓越",
+      "listing_date": "2026-01-22",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00996A",
+      "stock_name": "主動兆豐台灣豐收",
+      "listing_date": "2026-03-25",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00999A",
+      "stock_name": "主動野村臺灣高息",
+      "listing_date": "2026-05-05",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    }
+  ]
+}

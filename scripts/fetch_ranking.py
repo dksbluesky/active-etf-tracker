@@ -4,12 +4,12 @@ import ssl
 import sys
 import time
 import urllib.request
+from datetime import date
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
 BASELINE_CACHE_PATH = os.path.join(DATA_DIR, "jan_baseline_cache.json")
 OUTPUT_PATH = os.path.join(DATA_DIR, "active_etf_ranking.json")
-BASELINE_YYYYMM = "20260105"  # any date in January 2026; TWSE returns the whole month
 
 # TWSE's certificate lacks a Subject Key Identifier extension. Newer OpenSSL (e.g. on
 # GitHub Actions ubuntu runners) enforces X509_STRICT by default and rejects it, even
@@ -42,17 +42,37 @@ def http_get_json(url, retries=3):
     raise last_err
 
 
-def fetch_january_baseline(stock_no):
-    j = http_get_json(
-        f"https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date={BASELINE_YYYYMM}&stockNo={stock_no}"
+def roc_date_to_date(value):
+    digits = str(value).replace("/", "")
+    if len(digits) != 7 or not digits.isdigit():
+        raise ValueError(f"Invalid ROC date: {value}")
+    return date(int(digits[:3]) + 1911, int(digits[3:5]), int(digits[5:7]))
+
+
+def fetch_month(stock_no, year, month):
+    query_date = f"{year:04d}{month:02d}01"
+    return http_get_json(
+        f"https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date={query_date}&stockNo={stock_no}"
     )
-    if j.get("stat") != "OK" or not j.get("data"):
+
+
+def first_row_baseline(report):
+    if report.get("stat") != "OK" or not report.get("data"):
         return None
-    first_row = j["data"][0]
+    first_row = report["data"][0]
     try:
         return {"date": first_row[0], "close": float(first_row[6].replace(",", ""))}
-    except ValueError:
+    except (IndexError, TypeError, ValueError):
         return None
+
+
+def fetch_first_available_baseline(stock_no, year, latest_month):
+    for month in range(1, latest_month + 1):
+        baseline = first_row_baseline(fetch_month(stock_no, year, month))
+        if baseline:
+            return baseline
+        time.sleep(0.3)
+    return None
 
 
 def load_cache():
@@ -67,6 +87,23 @@ def save_cache(cache):
         json.dump(cache, f, ensure_ascii=False)
 
 
+def cache_for_year(cache, year):
+    current = {}
+    for stock_id, baseline in cache.items():
+        if not baseline or not baseline.get("date"):
+            continue
+        try:
+            if roc_date_to_date(baseline["date"]).year == year:
+                current[stock_id] = baseline
+        except ValueError:
+            continue
+    return current
+
+
+def return_period_label(baseline_date, first_market_date):
+    return "YTD" if baseline_date == first_market_date else "Since listing"
+
+
 def main():
     print("Fetching today's TWSE market snapshot...", file=sys.stderr)
     today_data = http_get_json("https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL")
@@ -76,15 +113,27 @@ def main():
     }
     print(f"{len(active_etfs)} active (主動式) ETF codes found", file=sys.stderr)
 
-    cache = load_cache()
+    latest_roc_date = next(iter(active_etfs.values()))["Date"] if active_etfs else None
+    latest_date = roc_date_to_date(latest_roc_date) if latest_roc_date else date.today()
+    current_year = latest_date.year
+
+    market_baseline = first_row_baseline(fetch_month("0050", current_year, 1))
+    if not market_baseline:
+        raise RuntimeError(f"Unable to determine the first TWSE trading day for {current_year}")
+    first_market_date = market_baseline["date"]
+
+    cache = cache_for_year(load_cache(), current_year)
     for sid in active_etfs:
         if sid in cache:
             continue
         try:
-            cache[sid] = fetch_january_baseline(sid)
+            baseline = fetch_first_available_baseline(sid, current_year, latest_date.month)
+            if baseline:
+                cache[sid] = baseline
+            else:
+                print(f"  {sid}: no trading data found in {current_year}", file=sys.stderr)
         except Exception as e:
             print(f"  {sid}: baseline fetch error {e}", file=sys.stderr)
-            cache[sid] = None
         time.sleep(0.3)
     save_cache(cache)
 
@@ -108,14 +157,14 @@ def main():
             "latest_close": end_close,
             "latest_volume": end_volume,
             "ytd_return_pct": round((end_close - baseline["close"]) / baseline["close"] * 100, 2),
+            "return_period_label": return_period_label(baseline["date"], first_market_date),
         })
 
     rows.sort(key=lambda r: r["ytd_return_pct"], reverse=True)
-    latest_date = next(iter(active_etfs.values()))["Date"] if active_etfs else None
-
     output = {
         "generated_at_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "latest_trading_date_roc": latest_date,
+        "latest_trading_date_roc": latest_roc_date,
+        "calendar_year": current_year,
         "total_active_etfs_found": len(active_etfs),
         "ranked_count": len(rows),
         "top10": rows[:10],

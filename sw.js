@@ -1,5 +1,5 @@
-const CACHE_NAME = "etf-tracker-v4";
-const SHELL = ["./", "./index.html", "./etf.html", "./app.js", "./style.css", "./manifest.json"];
+const CACHE_NAME = "etf-tracker-v5";
+const SHELL = ["./", "./index.html", "./etf.html", "./rebound.html", "./app.js", "./style.css", "./manifest.json"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL)));

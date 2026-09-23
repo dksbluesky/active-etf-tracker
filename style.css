@@ -51,9 +51,33 @@ header .sub {
   padding: 8px 12px;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.header-actions { display: flex; gap: 8px; align-items: center; }
+.result-card { margin-bottom: 12px; }
+.result-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.result-title { font-weight: 700; }
+.result-meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.badge { display: inline-block; padding: 3px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.badge.pass, .badge.qualified { background: #dcfce7; color: #166534; }
+.badge.fail, .badge.not-qualified { background: #fee2e2; color: #991b1b; }
+.badge.unknown, .badge.candidate { background: #fef3c7; color: #92400e; }
+.criteria-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 12px 0; }
+.criterion { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 9px; }
+.criterion-label { color: var(--muted); font-size: 11px; margin-bottom: 4px; }
+.holding-list { color: var(--muted); font-size: 12px; line-height: 1.5; }
+.sort-row { display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin: 12px 0; color: var(--muted); font-size: 12px; }
+.sort-select { background: var(--card); border: 1px solid var(--border); color: var(--text); border-radius: 9px; padding: 7px 10px; font: inherit; }
+
+@media (max-width: 640px) {
+  .criteria-grid { grid-template-columns: 1fr; }
+  .header-actions { gap: 5px; }
+  .icon-btn { padding: 7px 8px; font-size: 12px; }
 }
 
 .icon-btn:active { transform: scale(0.97); }
+.lang-btn { min-width: 48px; font-weight: 700; }
 
 .status-bar {
   padding: 8px 16px;

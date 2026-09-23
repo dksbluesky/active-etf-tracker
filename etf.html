@@ -100,8 +100,8 @@ async function renderDetail(data, holdingsData) {
       <div class="id" style="color:var(--muted);font-size:13px">${etf.stock_id}</div>
       <h2 style="margin:4px 0 12px">${etf.stock_name}</h2>
       <div class="big-pct ${negClass}">${fmtPct(etf.ytd_return_pct)}</div>
-      <div style="color:var(--muted);font-size:12px;margin-bottom:12px">YTD price return</div>
-      <div class="stat-row"><span class="label">Baseline (${etf.baseline_date})</span><span>${etf.baseline_close}</span></div>
+      <div style="color:var(--muted);font-size:12px;margin-bottom:12px">${etf.return_period_label || "YTD"} price return</div>
+      <div class="stat-row"><span class="label">${etf.return_period_label || "YTD"} baseline (${etf.baseline_date})</span><span>${etf.baseline_close}</span></div>
       <div class="stat-row"><span class="label">Latest close</span><span>${etf.latest_close}</span></div>
       <div class="stat-row"><span class="label">Latest volume</span><span>${fmtVolume(etf.latest_volume)}</span></div>
       <div class="stat-row"><span class="label">As of</span><span>${data.latest_trading_date_roc}</span></div>

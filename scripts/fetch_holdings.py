@@ -8,6 +8,8 @@ import urllib.request
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data", "holdings")
+HISTORY_DIR = os.path.join(SCRIPT_DIR, "..", "data", "holdings_history")
+UNIVERSE_PATH = os.path.join(SCRIPT_DIR, "..", "data", "rebound", "universe.json")
 
 # Funds that have a wired-up issuer/source for holdings tracking.
 # Both are issued by 統一投信; source is etfinfo.tw. Its rendered HTML table is
@@ -15,7 +17,7 @@ DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data", "holdings")
 # so instead we pull the full holdings list straight from the page's embedded
 # __NUXT_DATA__ payload (Nuxt's devalue-style index-referenced JSON) and compute
 # the add/cut/weight-change diff ourselves against the previously committed snapshot.
-FUNDS = ["00981A", "00988A"]
+FALLBACK_FUNDS = ["00981A", "00988A"]
 
 _SSL_CONTEXT = ssl.create_default_context()
 _SSL_CONTEXT.verify_flags &= ~ssl.VERIFY_X509_STRICT
@@ -95,9 +97,33 @@ def diff_holdings(prev_holdings, curr_holdings):
     return {"added": added, "removed": removed, "changed": changed}
 
 
+def tracked_funds():
+    if not os.path.exists(UNIVERSE_PATH):
+        return FALLBACK_FUNDS
+    with open(UNIVERSE_PATH, encoding="utf-8") as file:
+        universe = json.load(file)
+    return [fund["stock_id"] for fund in universe.get("funds", [])] or FALLBACK_FUNDS
+
+
+def save_history_snapshot(fund_id, output):
+    fund_dir = os.path.join(HISTORY_DIR, fund_id)
+    os.makedirs(fund_dir, exist_ok=True)
+    path = os.path.join(fund_dir, f"{output['snapshot_date']}.json")
+    if not os.path.exists(path):
+        with open(path, "w", encoding="utf-8") as file:
+            json.dump({
+                "fund_id": fund_id,
+                "snapshot_date": output["snapshot_date"],
+                "source": "etfinfo.tw",
+                "source_authority": "aggregator",
+                "holdings": output["holdings"],
+            }, file, ensure_ascii=False, indent=2)
+
+
 def main():
     os.makedirs(DATA_DIR, exist_ok=True)
-    for fund_id in FUNDS:
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    for fund_id in tracked_funds():
         path = os.path.join(DATA_DIR, f"{fund_id}.json")
         prev = None
         if os.path.exists(path):
@@ -116,6 +142,7 @@ def main():
             continue
 
         if prev and prev.get("snapshot_date") == snapshot_date:
+            save_history_snapshot(fund_id, prev)
             print(f"{fund_id}: snapshot date unchanged ({snapshot_date}), skipping", file=sys.stderr)
             continue
 
@@ -132,6 +159,7 @@ def main():
         }
         with open(path, "w", encoding="utf-8") as f:
             json.dump(output, f, ensure_ascii=False, indent=2)
+        save_history_snapshot(fund_id, output)
         print(
             f"{fund_id}: wrote {len(holdings)} holdings "
             f"({len(changes['added'])} added, {len(changes['removed'])} removed, {len(changes['changed'])} changed)",

@@ -1,8 +1,9 @@
 {
   "generated_at_utc": "2026-09-23T08:52:43Z",
   "latest_trading_date_roc": "1150922",
+  "calendar_year": 2026,
   "total_active_etfs_found": 30,
-  "ranked_count": 15,
+  "ranked_count": 30,
   "top10": [
     {
       "stock_id": "00981A",
@@ -11,7 +12,8 @@
       "baseline_close": 16.79,
       "latest_close": 30.15,
       "latest_volume": 272535764,
-      "ytd_return_pct": 79.57
+      "ytd_return_pct": 79.57,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00992A",
@@ -20,7 +22,8 @@
       "baseline_close": 10.39,
       "latest_close": 18.65,
       "latest_volume": 40917740,
-      "ytd_return_pct": 79.5
+      "ytd_return_pct": 79.5,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00995A",
@@ -29,7 +32,8 @@
       "baseline_close": 10.17,
       "latest_close": 17.62,
       "latest_volume": 4596324,
-      "ytd_return_pct": 73.25
+      "ytd_return_pct": 73.25,
+      "return_period_label": "Since listing"
     },
     {
       "stock_id": "00991A",
@@ -38,7 +42,8 @@
       "baseline_close": 10.42,
       "latest_close": 17.88,
       "latest_volume": 94061139,
-      "ytd_return_pct": 71.59
+      "ytd_return_pct": 71.59,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00985A",
@@ -47,7 +52,8 @@
       "baseline_close": 13.64,
       "latest_close": 23.36,
       "latest_volume": 2698124,
-      "ytd_return_pct": 71.26
+      "ytd_return_pct": 71.26,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00994A",
@@ -56,7 +62,8 @@
       "baseline_close": 10.06,
       "latest_close": 17.11,
       "latest_volume": 7917840,
-      "ytd_return_pct": 70.08
+      "ytd_return_pct": 70.08,
+      "return_period_label": "Since listing"
     },
     {
       "stock_id": "00987A",
@@ -65,7 +72,8 @@
       "baseline_close": 10.04,
       "latest_close": 17.02,
       "latest_volume": 3784316,
-      "ytd_return_pct": 69.52
+      "ytd_return_pct": 69.52,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00988A",
@@ -74,7 +82,8 @@
       "baseline_close": 10.12,
       "latest_close": 16.73,
       "latest_volume": 34565886,
-      "ytd_return_pct": 65.32
+      "ytd_return_pct": 65.32,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00980A",
@@ -83,7 +92,8 @@
       "baseline_close": 15.34,
       "latest_close": 25.34,
       "latest_volume": 7625654,
-      "ytd_return_pct": 65.19
+      "ytd_return_pct": 65.19,
+      "return_period_label": "YTD"
     },
     {
       "stock_id": "00982A",
@@ -92,7 +102,8 @@
       "baseline_close": 14.63,
       "latest_close": 23.02,
       "latest_volume": 26679670,
-      "ytd_return_pct": 57.35
+      "ytd_return_pct": 57.35,
+      "return_period_label": "YTD"
     }
   ]
 }

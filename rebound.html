@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Active ETF Rebound Filter</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div>
+    <a class="back-link" href="index.html">← YTD Ranking</a>
+    <div class="sub" id="meta-line">Loading rebound analysis...</div>
+  </div>
+  <div class="header-actions">
+    <button class="icon-btn lang-btn" id="language-btn" type="button">中文</button>
+    <button class="icon-btn" id="refresh-btn" type="button">↻ Refresh</button>
+  </div>
+</header>
+<div class="status-bar" id="status-bar"></div>
+<main>
+  <div class="placeholder-box" id="methodology"></div>
+  <div class="sort-row">
+    <label for="sort-select" id="sort-label">Sort by</label>
+    <select id="sort-select" class="sort-select">
+      <option value="overall">Overall result</option>
+      <option value="recovery">Fastest recovery</option>
+      <option value="outperformance">Highest TAIEX outperformance</option>
+      <option value="drawdown">Largest drawdown</option>
+    </select>
+  </div>
+  <div id="result-list"><div class="skeleton"></div></div>
+</main>
+<script src="app.js"></script>
+<script>
+let reboundData = null;
+let currentLanguage = localStorage.getItem("rebound_language") === "zh-Hant" ? "zh-Hant" : "en";
+
+const translations = {
+  en: {
+    pageTitle: "Active ETF Rebound Filter",
+    back: "← YTD Ranking",
+    loading: "Loading rebound analysis...",
+    refresh: "↻ Refresh",
+    languageButton: "中文",
+    languageLabel: "切換至中文",
+    etfCount: "Taiwan-equity active ETFs",
+    objectiveRules: "Objective rules",
+    methodology: (m) => `${m.minimum_drawdown_pct}% minimum drawdown · ${m.maximum_recovery_days} trading-day recovery · ${m.minimum_outperformance_pp}pp minimum TAIEX outperformance · Top 10 by weight or weight >= 3%`,
+    sortBy: "Sort by",
+    sortOptions: ["Overall result", "Fastest recovery", "Highest TAIEX outperformance", "Largest drawdown"],
+    confidence: "Confidence",
+    recoverySpeed: "Recovery speed",
+    taiexOutperformance: "TAIEX outperformance",
+    coreContinuity: "Core continuity",
+    tradingDays: "trading days",
+    unavailable: "Unavailable",
+    previousHigh: "Previous high",
+    correctionLow: "Correction low",
+    maximumDrawdown: "Maximum drawdown",
+    recoveryDate: "Recovery date",
+    notRecovered: "Not recovered",
+    etfRebound: "ETF rebound",
+    taiexSamePeriod: "TAIEX same period",
+    coreNearLow: "Core near low",
+    currentCore: "Current core",
+    insufficientHoldings: "Insufficient historical holdings data",
+    noCorrection: "No qualifying 8% correction found in the analysis window",
+    loadFailed: "Unable to load rebound analysis",
+    statuses: { "Qualified": "Qualified", "Candidate": "Candidate", "Not qualified": "Not qualified", "Pass": "Pass", "Fail": "Fail", "Unknown": "Unknown", "High": "High", "Medium": "Medium", "Low": "Low" }
+  },
+  "zh-Hant": {
+    pageTitle: "主動式 ETF 反彈篩選",
+    back: "← YTD 年初至今排名",
+    loading: "正在載入反彈分析…",
+    refresh: "↻ 重新整理",
+    languageButton: "EN",
+    languageLabel: "Switch to English",
+    etfCount: "檔臺股主動式 ETF",
+    objectiveRules: "客觀篩選規則",
+    methodology: (m) => `最低回檔 ${m.minimum_drawdown_pct}% · ${m.maximum_recovery_days} 個交易日內收復前高 · 至少超越加權指數 ${m.minimum_outperformance_pp} 個百分點 · 權重前 10 名或權重 ≥ 3%`,
+    sortBy: "排序方式",
+    sortOptions: ["綜合結果", "最快收復前高", "超越大盤幅度", "最大回檔"],
+    confidence: "資料信心程度",
+    recoverySpeed: "收復前高速度",
+    taiexOutperformance: "超越大盤",
+    coreContinuity: "核心持股延續性",
+    tradingDays: "個交易日",
+    unavailable: "無資料",
+    previousHigh: "前高",
+    correctionLow: "回檔低點",
+    maximumDrawdown: "最大回檔",
+    recoveryDate: "收復前高日期",
+    notRecovered: "尚未收復",
+    etfRebound: "ETF 反彈報酬",
+    taiexSamePeriod: "同期加權指數報酬",
+    coreNearLow: "低點附近核心持股",
+    currentCore: "最新核心持股",
+    insufficientHoldings: "歷史持股資料不足",
+    noCorrection: "分析期間內未找到符合 8% 門檻的回檔",
+    loadFailed: "無法載入反彈分析",
+    statuses: { "Qualified": "合格", "Candidate": "候選", "Not qualified": "不合格", "Pass": "通過", "Fail": "未通過", "Unknown": "資料不足", "High": "高", "Medium": "中", "Low": "低" }
+  }
+};
+
+function textFor(key) {
+  return translations[currentLanguage][key];
+}
+
+function applyLanguage() {
+  const t = translations[currentLanguage];
+  document.documentElement.lang = currentLanguage;
+  document.title = t.pageTitle;
+  document.querySelector(".back-link").textContent = t.back;
+  document.getElementById("sort-label").textContent = t.sortBy;
+  [...document.getElementById("sort-select").options].forEach((option, index) => {
+    option.textContent = t.sortOptions[index];
+  });
+  const languageButton = document.getElementById("language-btn");
+  languageButton.textContent = t.languageButton;
+  languageButton.setAttribute("aria-label", t.languageLabel);
+  languageButton.title = t.languageLabel;
+  document.getElementById("refresh-btn").textContent = t.refresh;
+  if (reboundData) render(reboundData);
+  else document.getElementById("meta-line").textContent = t.loading;
+}
+
+function statusBadge(status) {
+  const cls = status.toLowerCase().replaceAll(" ", "-");
+  return `<span class="badge ${cls}">${translations[currentLanguage].statuses[status] || status}</span>`;
+}
+function holdingNames(rows) {
+  return rows?.length ? rows.map((row) => `${row.name} (${row.code})`).join("、") : textFor("insufficientHoldings");
+}
+function render(data) {
+  reboundData = data;
+  const t = translations[currentLanguage];
+  const m = data.methodology;
+  document.getElementById("meta-line").textContent = `${data.results.length} ${t.etfCount}`;
+  document.getElementById("methodology").innerHTML = `<strong>${t.objectiveRules}</strong><br>${t.methodology(m)}`;
+  const resultOrder = { "Qualified": 0, "Candidate": 1, "Not qualified": 2 };
+  const sortMode = document.getElementById("sort-select").value;
+  const rows = [...data.results].sort((a, b) => {
+    if (sortMode === "recovery") {
+      return (a.trading_days_to_recover ?? 9999) - (b.trading_days_to_recover ?? 9999) || a.stock_id.localeCompare(b.stock_id);
+    }
+    if (sortMode === "outperformance") {
+      return (b.outperformance_pp ?? -Infinity) - (a.outperformance_pp ?? -Infinity) || a.stock_id.localeCompare(b.stock_id);
+    }
+    if (sortMode === "drawdown") {
+      return Math.abs(b.maximum_drawdown_pct ?? 0) - Math.abs(a.maximum_drawdown_pct ?? 0) || a.stock_id.localeCompare(b.stock_id);
+    }
+    return resultOrder[a.overall_result] - resultOrder[b.overall_result]
+      || (a.trading_days_to_recover ?? 9999) - (b.trading_days_to_recover ?? 9999)
+      || a.stock_id.localeCompare(b.stock_id);
+  });
+  document.getElementById("result-list").innerHTML = rows.map((row) => `
+    <section class="detail-card result-card">
+      <div class="result-head"><div><div class="result-title">${row.stock_name} (${row.stock_id})</div><div class="result-meta">${t.confidence}: ${t.statuses[row.data_confidence] || row.data_confidence}</div></div>${statusBadge(row.overall_result)}</div>
+      ${row.previous_high_date ? `
+      <div class="criteria-grid">
+        <div class="criterion"><div class="criterion-label">${t.recoverySpeed}</div>${statusBadge(row.recovery_status)}<div class="result-meta">${row.trading_days_to_recover ?? row.elapsed_trading_days} ${t.tradingDays}</div></div>
+        <div class="criterion"><div class="criterion-label">${t.taiexOutperformance}</div>${statusBadge(row.market_status)}<div class="result-meta">${row.outperformance_pp == null ? t.unavailable : fmtPct(row.outperformance_pp)}</div></div>
+        <div class="criterion"><div class="criterion-label">${t.coreContinuity}</div>${statusBadge(row.continuity_status)}</div>
+      </div>
+      <div class="stat-row"><span class="label">${t.previousHigh}</span><span>${row.previous_high_date} · ${row.previous_high_price}</span></div>
+      <div class="stat-row"><span class="label">${t.correctionLow}</span><span>${row.correction_low_date} · ${row.correction_low_price}</span></div>
+      <div class="stat-row"><span class="label">${t.maximumDrawdown}</span><span>${fmtPct(row.maximum_drawdown_pct)}</span></div>
+      <div class="stat-row"><span class="label">${t.recoveryDate}</span><span>${row.recovery_date || t.notRecovered}</span></div>
+      <div class="stat-row"><span class="label">${t.etfRebound}</span><span>${row.etf_rebound_return_pct == null ? t.unavailable : fmtPct(row.etf_rebound_return_pct)}</span></div>
+      <div class="stat-row"><span class="label">${t.taiexSamePeriod}</span><span>${row.market_return_pct == null ? t.unavailable : fmtPct(row.market_return_pct)}</span></div>
+      <p class="holding-list"><strong>${t.coreNearLow}:</strong> ${holdingNames(row.core_holdings_near_low)}</p>
+      <p class="holding-list"><strong>${t.currentCore}:</strong> ${holdingNames(row.current_core_holdings)}</p>
+      ` : `<p class="holding-list">${row.reason === translations.en.noCorrection ? t.noCorrection : row.reason}</p>`}
+    </section>`).join("");
+}
+function setStatus(message, isError = false) {
+  const bar = document.getElementById("status-bar");
+  bar.textContent = message;
+  bar.className = "status-bar" + (isError ? " error" : "");
+}
+async function init(fresh = false) {
+  try { render(fresh ? await loadReboundResultsFresh() : await loadReboundResults()); setStatus(""); }
+  catch (error) { setStatus(`${textFor("loadFailed")}: ${error.message}`, true); }
+}
+document.getElementById("language-btn").addEventListener("click", () => {
+  currentLanguage = currentLanguage === "en" ? "zh-Hant" : "en";
+  localStorage.setItem("rebound_language", currentLanguage);
+  applyLanguage();
+});
+document.getElementById("refresh-btn").addEventListener("click", async () => {
+  const button = document.getElementById("refresh-btn");
+  button.disabled = true;
+  if (await triggerRefresh(setStatus)) await init(true);
+  button.disabled = false;
+});
+document.getElementById("sort-select").addEventListener("change", () => {
+  if (reboundData) render(reboundData);
+});
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+applyLanguage();
+init();
+</script>
+</body>
+</html>

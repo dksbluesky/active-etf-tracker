@@ -1,6 +1,12 @@
 const REPO = "dksbluesky/active-etf-tracker";
 const WORKFLOW_FILE = "update-data.yml";
-const DATA_URL = `https://raw.githubusercontent.com/${REPO}/main/data/active_etf_ranking.json`;
+const IS_LOCAL_PREVIEW = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+const DATA_URL = IS_LOCAL_PREVIEW
+  ? "data/active_etf_ranking.json"
+  : `https://raw.githubusercontent.com/${REPO}/main/data/active_etf_ranking.json`;
+const REBOUND_URL = IS_LOCAL_PREVIEW
+  ? "data/rebound/results.json"
+  : `https://raw.githubusercontent.com/${REPO}/main/data/rebound/results.json`;
 const PAT_KEY = "etf_tracker_gh_pat";
 
 function getPAT() {
@@ -40,9 +46,25 @@ async function loadRankingFresh() {
   return res.json();
 }
 
+async function loadReboundResults() {
+  const res = await fetch(`${REBOUND_URL}?t=${Date.now()}`, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load rebound results (${res.status})`);
+  return res.json();
+}
+
+async function loadReboundResultsFresh() {
+  const res = await ghFetch(`/repos/${REPO}/contents/data/rebound/results.json?ref=main&t=${Date.now()}`, {
+    headers: { Accept: "application/vnd.github.raw" },
+  });
+  if (!res.ok) throw new Error(`Failed to load fresh rebound results (${res.status})`);
+  return res.json();
+}
+
 // Returns null if this fund doesn't have holdings tracking wired up yet (404 is expected, not an error).
 async function loadHoldings(fundId) {
-  const url = `https://raw.githubusercontent.com/${REPO}/main/data/holdings/${fundId}.json`;
+  const url = IS_LOCAL_PREVIEW
+    ? `data/holdings/${fundId}.json`
+    : `https://raw.githubusercontent.com/${REPO}/main/data/holdings/${fundId}.json`;
   const res = await fetch(`${url}?t=${Date.now()}`, { cache: "no-store" });
   if (res.status === 404) return null;
   if (!res.ok) throw new Error(`Failed to load holdings (${res.status})`);

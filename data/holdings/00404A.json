@@ -1,0 +1,349 @@
+{
+  "fund_id": "00404A",
+  "snapshot_date": "2026-09-22",
+  "previous_snapshot_date": null,
+  "fetched_at_utc": "2026-09-23T08:35:39Z",
+  "holdings": [
+    {
+      "code": "2330",
+      "name": "台灣積體電路製造",
+      "weight_pct": 22.545696,
+      "shares": 396000
+    },
+    {
+      "code": "FUTURE_165938efd2d47051",
+      "name": "台股期貨10/26",
+      "weight_pct": 15.40226795,
+      "shares": 69
+    },
+    {
+      "code": "2454",
+      "name": "聯發科技",
+      "weight_pct": 6.89336,
+      "shares": 57500
+    },
+    {
+      "code": "3711",
+      "name": "日月光",
+      "weight_pct": 3.464339,
+      "shares": 216000
+    },
+    {
+      "code": "2383",
+      "name": "台光電子材料",
+      "weight_pct": 2.924442,
+      "shares": 26000
+    },
+    {
+      "code": "5274",
+      "name": "信驊科技",
+      "weight_pct": 2.631979,
+      "shares": 5440
+    },
+    {
+      "code": "2885",
+      "name": "元大金融控股",
+      "weight_pct": 2.462293,
+      "shares": 1506960
+    },
+    {
+      "code": "2303",
+      "name": "聯華電子",
+      "weight_pct": 2.158847,
+      "shares": 583000
+    },
+    {
+      "code": "2382",
+      "name": "廣達電腦",
+      "weight_pct": 2.105431,
+      "shares": 266000
+    },
+    {
+      "code": "3034",
+      "name": "聯詠科技",
+      "weight_pct": 2.062569,
+      "shares": 160000
+    },
+    {
+      "code": "2892",
+      "name": "第一金融控股",
+      "weight_pct": 1.883807,
+      "shares": 2040000
+    },
+    {
+      "code": "2308",
+      "name": "台達電子工業",
+      "weight_pct": 1.84687,
+      "shares": 42000
+    },
+    {
+      "code": "6196",
+      "name": "帆宣系統科技股份有限公司",
+      "weight_pct": 1.820139,
+      "shares": 147000
+    },
+    {
+      "code": "2347",
+      "name": "聯強國際",
+      "weight_pct": 1.793496,
+      "shares": 862000
+    },
+    {
+      "code": "6257",
+      "name": "矽格股份有限公司",
+      "weight_pct": 1.763413,
+      "shares": 306000
+    },
+    {
+      "code": "2542",
+      "name": "興富發建設",
+      "weight_pct": 1.758748,
+      "shares": 1672000
+    },
+    {
+      "code": "5434",
+      "name": "崇越科技股份有限公司",
+      "weight_pct": 1.754943,
+      "shares": 142000
+    },
+    {
+      "code": "4763",
+      "name": "濟南大自然新材料股份有限公司",
+      "weight_pct": 1.643619,
+      "shares": 1478000
+    },
+    {
+      "code": "2027",
+      "name": "大成不?鋼工業",
+      "weight_pct": 1.531409,
+      "shares": 1423000
+    },
+    {
+      "code": "2890",
+      "name": "永豐金融控股",
+      "weight_pct": 1.457881,
+      "shares": 1387500
+    },
+    {
+      "code": "2887",
+      "name": "台新新光金融控股股份有限公司",
+      "weight_pct": 1.40009,
+      "shares": 1410150
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐科技",
+      "weight_pct": 1.333773,
+      "shares": 17000
+    },
+    {
+      "code": "7769",
+      "name": "鴻勁精密股份有限公司",
+      "weight_pct": 1.282047,
+      "shares": 9000
+    },
+    {
+      "code": "2395",
+      "name": "研華",
+      "weight_pct": 1.252793,
+      "shares": 77000
+    },
+    {
+      "code": "3260",
+      "name": "威剛科技",
+      "weight_pct": 1.226433,
+      "shares": 138000
+    },
+    {
+      "code": "2883",
+      "name": "凱基金融控股股份有限公司",
+      "weight_pct": 1.179685,
+      "shares": 1297000
+    },
+    {
+      "code": "6223",
+      "name": "旺矽科技",
+      "weight_pct": 1.175181,
+      "shares": 9500
+    },
+    {
+      "code": "2059",
+      "name": "川湖科技",
+      "weight_pct": 1.172924,
+      "shares": 4000
+    },
+    {
+      "code": "8016",
+      "name": "矽創電子",
+      "weight_pct": 1.168249,
+      "shares": 179000
+    },
+    {
+      "code": "8299",
+      "name": "群聯電子",
+      "weight_pct": 1.163088,
+      "shares": 23000
+    },
+    {
+      "code": "2637",
+      "name": "慧洋海運股份有限公司",
+      "weight_pct": 1.139713,
+      "shares": 490000
+    },
+    {
+      "code": "2436",
+      "name": "偉詮電子",
+      "weight_pct": 1.135455,
+      "shares": 691000
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱半導體",
+      "weight_pct": 1.083358,
+      "shares": 62000
+    },
+    {
+      "code": "6206",
+      "name": "飛捷科技股份有限公司",
+      "weight_pct": 1.021032,
+      "shares": 314000
+    },
+    {
+      "code": "2357",
+      "name": "華碩電腦",
+      "weight_pct": 0.882239,
+      "shares": 40000
+    },
+    {
+      "code": "2345",
+      "name": "智邦科技",
+      "weight_pct": 0.842085,
+      "shares": 19000
+    },
+    {
+      "code": "8081",
+      "name": "致新科技",
+      "weight_pct": 0.810679,
+      "shares": 139000
+    },
+    {
+      "code": "3443",
+      "name": "創意電子",
+      "weight_pct": 0.775315,
+      "shares": 4000
+    },
+    {
+      "code": "1303",
+      "name": "南亞塑膠工業",
+      "weight_pct": 0.739373,
+      "shares": 138000
+    },
+    {
+      "code": "2360",
+      "name": "致茂電子",
+      "weight_pct": 0.734119,
+      "shares": 13000
+    },
+    {
+      "code": "2317",
+      "name": "鴻海精密工業",
+      "weight_pct": 0.661656,
+      "shares": 113000
+    },
+    {
+      "code": "3680",
+      "name": "家登精密工業",
+      "weight_pct": 0.47315,
+      "shares": 38000
+    },
+    {
+      "code": "3293",
+      "name": "鈊象電子",
+      "weight_pct": 0.471114,
+      "shares": 28000
+    },
+    {
+      "code": "5904",
+      "name": "寶雅國際",
+      "weight_pct": 0.454881,
+      "shares": 278000
+    },
+    {
+      "code": "3264",
+      "name": "欣銓科技",
+      "weight_pct": 0.441548,
+      "shares": 69000
+    },
+    {
+      "code": "2351",
+      "name": "順德工業",
+      "weight_pct": 0.402944,
+      "shares": 73000
+    },
+    {
+      "code": "3037",
+      "name": "欣興電子",
+      "weight_pct": 0.25921,
+      "shares": 10000
+    },
+    {
+      "code": "2301",
+      "name": "光寶科技",
+      "weight_pct": 0.256791,
+      "shares": 39000
+    },
+    {
+      "code": "6691",
+      "name": "洋基工程股份有限公司",
+      "weight_pct": 0.185173,
+      "shares": 12600
+    },
+    {
+      "code": "6515",
+      "name": "穎崴科技股份有限公司",
+      "weight_pct": 0.133424,
+      "shares": 1000
+    },
+    {
+      "code": "3374",
+      "name": "精材科技股份有限公司",
+      "weight_pct": 0.11271,
+      "shares": 10000
+    },
+    {
+      "code": "2851",
+      "name": "中央再保險股份有限公司",
+      "weight_pct": 0.100925,
+      "shares": 92000
+    },
+    {
+      "code": "3135",
+      "name": "凌航科技股份有限公司",
+      "weight_pct": 0.050853,
+      "shares": 13733
+    },
+    {
+      "code": "2845",
+      "name": "遠東國際商業銀行股份有限公司",
+      "weight_pct": 0.016301,
+      "shares": 52173
+    },
+    {
+      "code": "OPTION_8335165c1d6952e1",
+      "name": "台指選擇權11/26 50400 買權",
+      "weight_pct": -0.018018,
+      "shares": -18
+    },
+    {
+      "code": "OPTION_f587dec30bfaee3e",
+      "name": "台指選擇權10/26 49500 買權",
+      "weight_pct": -0.222625,
+      "shares": -353
+    }
+  ],
+  "changes": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  }
+}
