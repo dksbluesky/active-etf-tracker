@@ -25,12 +25,12 @@ class ReboundRuleTests(unittest.TestCase):
         self.assertEqual(event["high_price"], 100)
         self.assertEqual(event["low_price"], 92)
         self.assertEqual(event["recovery_date"], "2026-01-10")
-        self.assertEqual(event["recovery_status"], "Pass")
+        self.assertEqual(event["recovery_status"], "Recovered")
 
-    def test_unrecovered_recent_event_is_unknown(self):
+    def test_unrecovered_event_remains_in_progress_without_deadline(self):
         prices = series([95, 98, 100, 99, 96, 91, 92, 93, 94, 95, 96])
         event = rebound_core.find_rebound_event(prices)
-        self.assertEqual(event["recovery_status"], "Unknown")
+        self.assertEqual(event["recovery_status"], "Still recovering")
 
     def test_core_is_top_ten_or_three_percent(self):
         holdings = [{"code": str(i), "weight_pct": 10 - i * 0.7} for i in range(12)]
@@ -39,6 +39,14 @@ class ReboundRuleTests(unittest.TestCase):
         self.assertIn("0", core)
         self.assertIn("EXTRA", core)
         self.assertNotIn("11", core)
+
+    def test_strong_resilience_does_not_require_invented_time_or_margin_hurdles(self):
+        result = rebound_core.assess_resilience("Recovered", "Outperformed", "Insufficient data")
+        self.assertEqual(result, "Strong resilience")
+
+    def test_still_recovering_is_mixed_not_disqualified(self):
+        result = rebound_core.assess_resilience("Still recovering", "Outperformed", "Insufficient data")
+        self.assertEqual(result, "Mixed evidence")
 
 
 if __name__ == "__main__":

@@ -2,10 +2,17 @@ from bisect import bisect_left
 
 
 MIN_DRAWDOWN_PCT = 8.0
-MAX_RECOVERY_DAYS = 30
-MIN_OUTPERFORMANCE_PP = 2.0
 PIVOT_WING = 2
 PRIOR_HIGH_LOOKBACK = 60
+
+
+def assess_resilience(recovery_status, market_status, continuity_status):
+    """Summarize evidence without treating the article as a qualification rule."""
+    if "Insufficient data" in (recovery_status, market_status):
+        return "Insufficient data"
+    if recovery_status == "Recovered" and market_status == "Outperformed" and continuity_status != "Changed":
+        return "Strong resilience"
+    return "Mixed evidence"
 
 
 def find_rebound_event(prices):
@@ -46,10 +53,7 @@ def find_rebound_event(prices):
             continue
 
         elapsed = endpoint_i - low_i
-        if recovery_i is not None:
-            recovery_status = "Pass" if elapsed <= MAX_RECOVERY_DAYS else "Fail"
-        else:
-            recovery_status = "Unknown" if elapsed <= MAX_RECOVERY_DAYS else "Fail"
+        recovery_status = "Recovered" if recovery_i is not None else "Still recovering"
 
         candidates.append({
             "high_index": high_i,

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Active ETF Rebound Filter</title>
+<title>Active ETF Resilience Assessment</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="theme-color" content="#ffffff">
@@ -41,17 +41,17 @@ let currentLanguage = localStorage.getItem("rebound_language") === "zh-Hant" ? "
 
 const translations = {
   en: {
-    pageTitle: "Active ETF Rebound Filter",
+    pageTitle: "Active ETF Resilience Assessment",
     back: "← YTD Ranking",
     loading: "Loading rebound analysis...",
     refresh: "↻ Refresh",
     languageButton: "中文",
     languageLabel: "切換至中文",
     etfCount: "Taiwan-equity active ETFs",
-    objectiveRules: "Objective rules",
-    methodology: (m) => `${m.minimum_drawdown_pct}% minimum drawdown · ${m.maximum_recovery_days} trading-day recovery · ${m.minimum_outperformance_pp}pp minimum TAIEX outperformance · Top 10 by weight or weight >= 3%`,
+    objectiveRules: "Assessment method",
+    methodology: (m) => `${m.minimum_drawdown_pct}% correction identifies a meaningful event · recovery time is ranked without a deadline · TAIEX difference has no invented hurdle · Top 10 by weight or weight >= 3% defines core holdings`,
     sortBy: "Sort by",
-    sortOptions: ["Overall result", "Fastest recovery", "Highest TAIEX outperformance", "Largest drawdown"],
+    sortOptions: ["Overall assessment", "Fastest recovery", "Highest TAIEX outperformance", "Largest drawdown"],
     confidence: "Confidence",
     recoverySpeed: "Recovery speed",
     taiexOutperformance: "TAIEX outperformance",
@@ -70,20 +70,20 @@ const translations = {
     insufficientHoldings: "Insufficient historical holdings data",
     noCorrection: "No qualifying 8% correction found in the analysis window",
     loadFailed: "Unable to load rebound analysis",
-    statuses: { "Qualified": "Qualified", "Candidate": "Candidate", "Not qualified": "Not qualified", "Pass": "Pass", "Fail": "Fail", "Unknown": "Unknown", "High": "High", "Medium": "Medium", "Low": "Low" }
+    statuses: { "Strong resilience": "Strong resilience", "Mixed evidence": "Mixed evidence", "Insufficient data": "Insufficient data", "Recovered": "Recovered", "Still recovering": "Still recovering", "Outperformed": "Outperformed", "Lagged": "Lagged", "Confirmed": "Confirmed", "Changed": "Changed", "High": "High", "Medium": "Medium", "Low": "Low" }
   },
   "zh-Hant": {
-    pageTitle: "主動式 ETF 反彈篩選",
+    pageTitle: "主動式 ETF 抗震力評估",
     back: "← YTD 年初至今排名",
     loading: "正在載入反彈分析…",
     refresh: "↻ 重新整理",
     languageButton: "EN",
     languageLabel: "Switch to English",
     etfCount: "檔臺股主動式 ETF",
-    objectiveRules: "客觀篩選規則",
-    methodology: (m) => `最低回檔 ${m.minimum_drawdown_pct}% · ${m.maximum_recovery_days} 個交易日內收復前高 · 至少超越加權指數 ${m.minimum_outperformance_pp} 個百分點 · 權重前 10 名或權重 ≥ 3%`,
+    objectiveRules: "評估方法",
+    methodology: (m) => `以 ${m.minimum_drawdown_pct}% 回檔辨識有意義的修正 · 收復時間僅供比較排名，不設期限 · 與加權指數比較不設人為門檻 · 權重前 10 名或權重 ≥ 3% 視為核心持股`,
     sortBy: "排序方式",
-    sortOptions: ["綜合結果", "最快收復前高", "超越大盤幅度", "最大回檔"],
+    sortOptions: ["綜合評估", "最快收復前高", "超越大盤幅度", "最大回檔"],
     confidence: "資料信心程度",
     recoverySpeed: "收復前高速度",
     taiexOutperformance: "超越大盤",
@@ -102,7 +102,7 @@ const translations = {
     insufficientHoldings: "歷史持股資料不足",
     noCorrection: "分析期間內未找到符合 8% 門檻的回檔",
     loadFailed: "無法載入反彈分析",
-    statuses: { "Qualified": "合格", "Candidate": "候選", "Not qualified": "不合格", "Pass": "通過", "Fail": "未通過", "Unknown": "資料不足", "High": "高", "Medium": "中", "Low": "低" }
+    statuses: { "Strong resilience": "抗震力強", "Mixed evidence": "表現不一", "Insufficient data": "資料不足", "Recovered": "已收復前高", "Still recovering": "仍在收復中", "Outperformed": "超越大盤", "Lagged": "落後大盤", "Confirmed": "延續獲確認", "Changed": "核心持股有變化", "High": "高", "Medium": "中", "Low": "低" }
   }
 };
 
@@ -141,7 +141,7 @@ function render(data) {
   const m = data.methodology;
   document.getElementById("meta-line").textContent = `${data.results.length} ${t.etfCount}`;
   document.getElementById("methodology").innerHTML = `<strong>${t.objectiveRules}</strong><br>${t.methodology(m)}`;
-  const resultOrder = { "Qualified": 0, "Candidate": 1, "Not qualified": 2 };
+  const resultOrder = { "Strong resilience": 0, "Mixed evidence": 1, "Insufficient data": 2 };
   const sortMode = document.getElementById("sort-select").value;
   const rows = [...data.results].sort((a, b) => {
     if (sortMode === "recovery") {

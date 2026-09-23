@@ -6,7 +6,7 @@ from datetime import date
 
 from fetch_rebound_data import fetch_etf_month, month_keys
 from rebound_core import (
-    MIN_OUTPERFORMANCE_PP,
+    assess_resilience,
     core_codes,
     determine_leaders,
     find_rebound_event,
@@ -91,7 +91,7 @@ def continuity_result(fund_id, event, prices, stock_cache):
     end_snapshot_date = nearest_snapshot(dates, event["endpoint_date"], trading_dates)
     if not low_snapshot_date or not end_snapshot_date:
         return {
-            "status": "Unknown",
+            "status": "Insufficient data",
             "reason": "Insufficient historical holdings data",
             "low_snapshot_date": low_snapshot_date,
             "end_snapshot_date": end_snapshot_date,
@@ -110,7 +110,7 @@ def continuity_result(fund_id, event, prices, stock_cache):
     leaders = determine_leaders(low_snapshot["holdings"], stock_returns)
     if not leaders:
         return {
-            "status": "Unknown",
+            "status": "Insufficient data",
             "reason": "Insufficient underlying-stock price data",
             "low_snapshot_date": low_snapshot_date,
             "end_snapshot_date": end_snapshot_date,
@@ -125,7 +125,7 @@ def continuity_result(fund_id, event, prices, stock_cache):
     continuity_pass = leader_codes <= low_core_codes and leader_codes <= end_core_codes
     low_core = [h for h in low_snapshot["holdings"] if h["code"] in low_core_codes]
     return {
-        "status": "Pass" if continuity_pass else "Fail",
+        "status": "Confirmed" if continuity_pass else "Changed",
         "reason": "All rebound leaders remained core holdings" if continuity_pass else "One or more rebound leaders were not continuously core",
         "low_snapshot_date": low_snapshot_date,
         "end_snapshot_date": end_snapshot_date,
@@ -136,27 +136,16 @@ def continuity_result(fund_id, event, prices, stock_cache):
     }
 
 
-def overall_result(recovery_status, market_status, continuity_status):
-    statuses = [recovery_status, market_status, continuity_status]
-    if "Fail" in statuses:
-        return "Not qualified"
-    if statuses == ["Pass", "Pass", "Pass"]:
-        return "Qualified"
-    if recovery_status == "Pass" and market_status == "Pass" and continuity_status == "Unknown":
-        return "Candidate"
-    return "Not qualified"
-
-
 def analyze_fund(fund, prices, taiex, stock_cache):
     event = find_rebound_event(prices)
     if not event:
         return {
             "stock_id": fund["stock_id"],
             "stock_name": fund["stock_name"],
-            "recovery_status": "Fail",
-            "market_status": "Unknown",
-            "continuity_status": "Unknown",
-            "overall_result": "Not qualified",
+            "recovery_status": "Insufficient data",
+            "market_status": "Insufficient data",
+            "continuity_status": "Insufficient data",
+            "overall_result": "Insufficient data",
             "data_confidence": "Low" if len(prices) < 20 else "Medium",
             "reason": "No qualifying 8% correction found in the analysis window",
         }
@@ -164,10 +153,10 @@ def analyze_fund(fund, prices, taiex, stock_cache):
     etf_return = return_between(prices, event["low_date"], event["endpoint_date"])
     market_return = return_between(taiex, event["low_date"], event["endpoint_date"])
     outperformance = None if etf_return is None or market_return is None else round(etf_return - market_return, 2)
-    market_status = "Unknown" if outperformance is None else ("Pass" if outperformance >= MIN_OUTPERFORMANCE_PP else "Fail")
+    market_status = "Insufficient data" if outperformance is None else ("Outperformed" if outperformance > 0 else "Lagged")
     continuity = continuity_result(fund["stock_id"], event, prices, stock_cache)
-    overall = overall_result(event["recovery_status"], market_status, continuity["status"])
-    confidence = "High" if continuity["status"] != "Unknown" and continuity.get("source_authority") == "official" else "Medium"
+    overall = assess_resilience(event["recovery_status"], market_status, continuity["status"])
+    confidence = "High" if continuity["status"] != "Insufficient data" and continuity.get("source_authority") == "official" else "Medium"
     return {
         "stock_id": fund["stock_id"],
         "stock_name": fund["stock_name"],
@@ -204,7 +193,7 @@ def main():
     for fund in universe["funds"]:
         series = flatten_months(prices.get(fund["stock_id"], {"months": {}}))[-252:]
         results.append(analyze_fund(fund, series, taiex, stock_cache))
-    result_order = {"Qualified": 0, "Candidate": 1, "Not qualified": 2}
+    result_order = {"Strong resilience": 0, "Mixed evidence": 1, "Insufficient data": 2}
     results.sort(key=lambda row: (result_order[row["overall_result"]], row.get("trading_days_to_recover") or 9999, row["stock_id"]))
     save(STOCK_PRICE_PATH, stock_cache)
     save(OUTPUT_PATH, {
@@ -212,9 +201,8 @@ def main():
         "methodology": {
             "analysis_window_trading_days": 252,
             "minimum_drawdown_pct": 8.0,
-            "maximum_recovery_days": 30,
-            "minimum_outperformance_pp": 2.0,
             "recovery_confirmation_days": 2,
+            "assessment_note": "Comparative resilience indicators adapted from the article; not author-defined qualification thresholds",
             "core_holding": "Top 10 by weight or weight >= 3%",
         },
         "results": results,

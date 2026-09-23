@@ -1,11 +1,10 @@
 {
-  "generated_at_utc": "2026-09-23T08:36:56Z",
+  "generated_at_utc": "2026-09-23T09:50:26Z",
   "methodology": {
     "analysis_window_trading_days": 252,
     "minimum_drawdown_pct": 8.0,
-    "maximum_recovery_days": 30,
-    "minimum_outperformance_pp": 2.0,
     "recovery_confirmation_days": 2,
+    "assessment_note": "Comparative resilience indicators adapted from the article; not author-defined qualification thresholds",
     "core_holding": "Top 10 by weight or weight >= 3%"
   },
   "results": [
@@ -23,9 +22,9 @@
       "etf_rebound_return_pct": 26.9,
       "market_return_pct": 15.13,
       "outperformance_pp": 11.77,
-      "recovery_status": "Pass",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Recovered",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -91,7 +90,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Candidate",
+      "overall_result": "Strong resilience",
       "data_confidence": "Medium"
     },
     {
@@ -108,9 +107,9 @@
       "etf_rebound_return_pct": 22.77,
       "market_return_pct": 15.6,
       "outperformance_pp": 7.17,
-      "recovery_status": "Pass",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Recovered",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -176,7 +175,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Candidate",
+      "overall_result": "Strong resilience",
       "data_confidence": "Medium"
     },
     {
@@ -193,9 +192,9 @@
       "etf_rebound_return_pct": 23.4,
       "market_return_pct": 17.96,
       "outperformance_pp": 5.44,
-      "recovery_status": "Pass",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Recovered",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -261,7 +260,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Candidate",
+      "overall_result": "Strong resilience",
       "data_confidence": "Medium"
     },
     {
@@ -278,9 +277,9 @@
       "etf_rebound_return_pct": 29.91,
       "market_return_pct": 20.28,
       "outperformance_pp": 9.63,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Recovered",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -346,7 +345,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Strong resilience",
       "data_confidence": "Medium"
     },
     {
@@ -363,9 +362,9 @@
       "etf_rebound_return_pct": 31.61,
       "market_return_pct": 20.59,
       "outperformance_pp": 11.02,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -449,7 +448,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -466,9 +465,9 @@
       "etf_rebound_return_pct": 27.78,
       "market_return_pct": 20.28,
       "outperformance_pp": 7.5,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -534,7 +533,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -551,9 +550,9 @@
       "etf_rebound_return_pct": 16.51,
       "market_return_pct": 20.28,
       "outperformance_pp": -3.77,
-      "recovery_status": "Fail",
-      "market_status": "Fail",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -619,7 +618,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -636,9 +635,9 @@
       "etf_rebound_return_pct": 40.12,
       "market_return_pct": 20.59,
       "outperformance_pp": 19.53,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -734,7 +733,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -751,9 +750,9 @@
       "etf_rebound_return_pct": 23.54,
       "market_return_pct": 20.28,
       "outperformance_pp": 3.26,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -819,18 +818,8 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00408A",
-      "stock_name": "主動第一金優股息",
-      "recovery_status": "Fail",
-      "market_status": "Unknown",
-      "continuity_status": "Unknown",
-      "overall_result": "Not qualified",
-      "data_confidence": "Medium",
-      "reason": "No qualifying 8% correction found in the analysis window"
     },
     {
       "stock_id": "00410A",
@@ -846,9 +835,9 @@
       "etf_rebound_return_pct": 8.06,
       "market_return_pct": 5.81,
       "outperformance_pp": 2.25,
-      "recovery_status": "Unknown",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -938,7 +927,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -955,9 +944,9 @@
       "etf_rebound_return_pct": 30.42,
       "market_return_pct": 20.59,
       "outperformance_pp": 9.83,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1023,7 +1012,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1040,9 +1029,9 @@
       "etf_rebound_return_pct": 29.0,
       "market_return_pct": 20.59,
       "outperformance_pp": 8.41,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1138,7 +1127,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1155,9 +1144,9 @@
       "etf_rebound_return_pct": 24.38,
       "market_return_pct": 20.59,
       "outperformance_pp": 3.79,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1235,7 +1224,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1252,9 +1241,9 @@
       "etf_rebound_return_pct": 17.26,
       "market_return_pct": 20.59,
       "outperformance_pp": -3.33,
-      "recovery_status": "Fail",
-      "market_status": "Fail",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1320,7 +1309,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1337,9 +1326,9 @@
       "etf_rebound_return_pct": 40.21,
       "market_return_pct": 20.59,
       "outperformance_pp": 19.62,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1429,7 +1418,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1446,9 +1435,9 @@
       "etf_rebound_return_pct": 28.48,
       "market_return_pct": 20.59,
       "outperformance_pp": 7.89,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1532,7 +1521,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1549,9 +1538,9 @@
       "etf_rebound_return_pct": 38.65,
       "market_return_pct": 20.59,
       "outperformance_pp": 18.06,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1641,7 +1630,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1658,9 +1647,9 @@
       "etf_rebound_return_pct": 29.56,
       "market_return_pct": 20.28,
       "outperformance_pp": 9.28,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1732,7 +1721,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1749,9 +1738,9 @@
       "etf_rebound_return_pct": 27.98,
       "market_return_pct": 20.28,
       "outperformance_pp": 7.7,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1823,7 +1812,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1840,9 +1829,9 @@
       "etf_rebound_return_pct": 29.26,
       "market_return_pct": 20.28,
       "outperformance_pp": 8.98,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -1920,7 +1909,7 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1937,9 +1926,9 @@
       "etf_rebound_return_pct": 32.27,
       "market_return_pct": 20.59,
       "outperformance_pp": 11.68,
-      "recovery_status": "Fail",
-      "market_status": "Pass",
-      "continuity_status": "Unknown",
+      "recovery_status": "Still recovering",
+      "market_status": "Outperformed",
+      "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
@@ -2005,8 +1994,18 @@
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Not qualified",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00408A",
+      "stock_name": "主動第一金優股息",
+      "recovery_status": "Insufficient data",
+      "market_status": "Insufficient data",
+      "continuity_status": "Insufficient data",
+      "overall_result": "Insufficient data",
+      "data_confidence": "Medium",
+      "reason": "No qualifying 8% correction found in the analysis window"
     }
   ]
 }
