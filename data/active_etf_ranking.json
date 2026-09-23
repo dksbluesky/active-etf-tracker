@@ -1,98 +1,98 @@
 {
-  "generated_at_utc": "2026-09-22T12:45:13Z",
-  "latest_trading_date_roc": "1150921",
+  "generated_at_utc": "2026-09-23T06:29:20Z",
+  "latest_trading_date_roc": "1150922",
   "total_active_etfs_found": 30,
   "ranked_count": 15,
   "top10": [
-    {
-      "stock_id": "00992A",
-      "stock_name": "主動群益科技創新",
-      "baseline_date": "115/01/02",
-      "baseline_close": 10.39,
-      "latest_close": 18.37,
-      "latest_volume": 29477543,
-      "ytd_return_pct": 76.8
-    },
     {
       "stock_id": "00981A",
       "stock_name": "主動統一台股增長",
       "baseline_date": "115/01/02",
       "baseline_close": 16.79,
-      "latest_close": 29.57,
-      "latest_volume": 146281908,
-      "ytd_return_pct": 76.12
+      "latest_close": 30.15,
+      "latest_volume": 272535764,
+      "ytd_return_pct": 79.57
+    },
+    {
+      "stock_id": "00992A",
+      "stock_name": "主動群益科技創新",
+      "baseline_date": "115/01/02",
+      "baseline_close": 10.39,
+      "latest_close": 18.65,
+      "latest_volume": 40917740,
+      "ytd_return_pct": 79.5
     },
     {
       "stock_id": "00995A",
       "stock_name": "主動中信台灣卓越",
       "baseline_date": "115/01/22",
       "baseline_close": 10.17,
-      "latest_close": 17.37,
-      "latest_volume": 2624201,
-      "ytd_return_pct": 70.8
-    },
-    {
-      "stock_id": "00985A",
-      "stock_name": "主動野村台灣50",
-      "baseline_date": "115/01/02",
-      "baseline_close": 13.64,
-      "latest_close": 23.24,
-      "latest_volume": 1606730,
-      "ytd_return_pct": 70.38
+      "latest_close": 17.62,
+      "latest_volume": 4596324,
+      "ytd_return_pct": 73.25
     },
     {
       "stock_id": "00991A",
       "stock_name": "主動復華未來50",
       "baseline_date": "115/01/02",
       "baseline_close": 10.42,
-      "latest_close": 17.53,
-      "latest_volume": 51884665,
-      "ytd_return_pct": 68.23
+      "latest_close": 17.88,
+      "latest_volume": 94061139,
+      "ytd_return_pct": 71.59
     },
     {
-      "stock_id": "00987A",
-      "stock_name": "主動台新優勢成長",
+      "stock_id": "00985A",
+      "stock_name": "主動野村台灣50",
       "baseline_date": "115/01/02",
-      "baseline_close": 10.04,
-      "latest_close": 16.79,
-      "latest_volume": 2268595,
-      "ytd_return_pct": 67.23
+      "baseline_close": 13.64,
+      "latest_close": 23.36,
+      "latest_volume": 2698124,
+      "ytd_return_pct": 71.26
     },
     {
       "stock_id": "00994A",
       "stock_name": "主動第一金台股優",
       "baseline_date": "115/01/07",
       "baseline_close": 10.06,
-      "latest_close": 16.82,
-      "latest_volume": 2187918,
-      "ytd_return_pct": 67.2
+      "latest_close": 17.11,
+      "latest_volume": 7917840,
+      "ytd_return_pct": 70.08
     },
     {
-      "stock_id": "00980A",
-      "stock_name": "主動野村臺灣優選",
+      "stock_id": "00987A",
+      "stock_name": "主動台新優勢成長",
       "baseline_date": "115/01/02",
-      "baseline_close": 15.34,
-      "latest_close": 25.04,
-      "latest_volume": 4047650,
-      "ytd_return_pct": 63.23
+      "baseline_close": 10.04,
+      "latest_close": 17.02,
+      "latest_volume": 3784316,
+      "ytd_return_pct": 69.52
     },
     {
       "stock_id": "00988A",
       "stock_name": "主動統一全球創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.12,
-      "latest_close": 16.41,
-      "latest_volume": 17127925,
-      "ytd_return_pct": 62.15
+      "latest_close": 16.73,
+      "latest_volume": 34565886,
+      "ytd_return_pct": 65.32
+    },
+    {
+      "stock_id": "00980A",
+      "stock_name": "主動野村臺灣優選",
+      "baseline_date": "115/01/02",
+      "baseline_close": 15.34,
+      "latest_close": 25.34,
+      "latest_volume": 7625654,
+      "ytd_return_pct": 65.19
     },
     {
       "stock_id": "00982A",
       "stock_name": "主動群益台灣強棒",
       "baseline_date": "115/01/02",
       "baseline_close": 14.63,
-      "latest_close": 22.86,
-      "latest_volume": 14899875,
-      "ytd_return_pct": 56.25
+      "latest_close": 23.02,
+      "latest_volume": 26679670,
+      "ytd_return_pct": 57.35
     }
   ]
 }
