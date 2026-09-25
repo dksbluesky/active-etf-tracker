@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T12:51:20Z",
+  "generated_at_utc": "2026-09-25T12:53:11Z",
   "methodology": {
     "analysis_window_trading_days": 252,
     "minimum_drawdown_pct": 8.0,
@@ -1752,67 +1752,67 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 14.41,
+          "weight_pct": 14.18,
           "shares": 265999
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 7.87,
+          "weight_pct": 7.99,
           "shares": 70101
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 7.77,
+          "weight_pct": 7.93,
           "shares": 103500
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 6.18,
+          "weight_pct": 6.29,
           "shares": 246001
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 5.43,
+          "weight_pct": 5.45,
           "shares": 50001
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 4.85,
+          "weight_pct": 4.66,
           "shares": 39901
         },
         {
           "code": "6274",
           "name": "台燿",
-          "weight_pct": 4.36,
-          "shares": 138000
+          "weight_pct": 4.45,
+          "shares": 138001
         },
         {
           "code": "3443",
           "name": "創意",
-          "weight_pct": 4.0,
+          "weight_pct": 4.05,
           "shares": 22050
         },
         {
           "code": "2059",
           "name": "川湖",
-          "weight_pct": 3.89,
+          "weight_pct": 3.86,
           "shares": 14501
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.47,
+          "weight_pct": 3.73,
           "shares": 25000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 3.27,
+          "weight_pct": 3.34,
           "shares": 125000
         }
       ],
