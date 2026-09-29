@@ -1,0 +1,338 @@
+{
+  "fund_id": "00404A",
+  "snapshot_date": "2026-09-29",
+  "source": "etfinfo.tw",
+  "source_authority": "aggregator",
+  "holdings": [
+    {
+      "code": "2330",
+      "name": "台積電",
+      "weight_pct": 23.074689,
+      "shares": 396000
+    },
+    {
+      "code": "FUTURE_165938efd2d47051",
+      "name": "台股期貨10/26",
+      "weight_pct": 15.52386283,
+      "shares": 69
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "weight_pct": 6.646834,
+      "shares": 57500
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "weight_pct": 3.493622,
+      "shares": 216000
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "weight_pct": 3.011646,
+      "shares": 26000
+    },
+    {
+      "code": "5274",
+      "name": "信驊",
+      "weight_pct": 2.484015,
+      "shares": 5440
+    },
+    {
+      "code": "2885",
+      "name": "元大金",
+      "weight_pct": 2.437384,
+      "shares": 1506960
+    },
+    {
+      "code": "2382",
+      "name": "廣達",
+      "weight_pct": 2.107328,
+      "shares": 266000
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
+      "weight_pct": 2.106893,
+      "shares": 583000
+    },
+    {
+      "code": "3034",
+      "name": "聯詠",
+      "weight_pct": 2.034132,
+      "shares": 160000
+    },
+    {
+      "code": "2347",
+      "name": "聯強",
+      "weight_pct": 1.917805,
+      "shares": 862000
+    },
+    {
+      "code": "6196",
+      "name": "帆宣",
+      "weight_pct": 1.882703,
+      "shares": 147000
+    },
+    {
+      "code": "2892",
+      "name": "第一金",
+      "weight_pct": 1.853886,
+      "shares": 2040000
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "weight_pct": 1.814474,
+      "shares": 42000
+    },
+    {
+      "code": "5434",
+      "name": "崇越",
+      "weight_pct": 1.805293,
+      "shares": 142000
+    },
+    {
+      "code": "6257",
+      "name": "矽格",
+      "weight_pct": 1.703798,
+      "shares": 306000
+    },
+    {
+      "code": "4763",
+      "name": "材料*-KY",
+      "weight_pct": 1.630232,
+      "shares": 1478000
+    },
+    {
+      "code": "2027",
+      "name": "大成鋼",
+      "weight_pct": 1.579618,
+      "shares": 1423000
+    },
+    {
+      "code": "2542",
+      "name": "興富發",
+      "weight_pct": 1.519459,
+      "shares": 1672000
+    },
+    {
+      "code": "2890",
+      "name": "永豐金",
+      "weight_pct": 1.434046,
+      "shares": 1387500
+    },
+    {
+      "code": "2887",
+      "name": "台新新光金",
+      "weight_pct": 1.387737,
+      "shares": 1410150
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "weight_pct": 1.360797,
+      "shares": 17000
+    },
+    {
+      "code": "2395",
+      "name": "研華",
+      "weight_pct": 1.323363,
+      "shares": 77000
+    },
+    {
+      "code": "2436",
+      "name": "偉詮電",
+      "weight_pct": 1.234768,
+      "shares": 691000
+    },
+    {
+      "code": "3260",
+      "name": "威剛",
+      "weight_pct": 1.224858,
+      "shares": 138000
+    },
+    {
+      "code": "8016",
+      "name": "矽創",
+      "weight_pct": 1.201056,
+      "shares": 179000
+    },
+    {
+      "code": "2883",
+      "name": "凱基金",
+      "weight_pct": 1.189359,
+      "shares": 1297000
+    },
+    {
+      "code": "7769",
+      "name": "鴻勁",
+      "weight_pct": 1.183399,
+      "shares": 9000
+    },
+    {
+      "code": "6223",
+      "name": "旺矽",
+      "weight_pct": 1.159679,
+      "shares": 9500
+    },
+    {
+      "code": "8299",
+      "name": "群聯",
+      "weight_pct": 1.145259,
+      "shares": 23000
+    },
+    {
+      "code": "2059",
+      "name": "川湖",
+      "weight_pct": 1.140903,
+      "shares": 4000
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱",
+      "weight_pct": 1.109356,
+      "shares": 62000
+    },
+    {
+      "code": "2637",
+      "name": "慧洋-KY",
+      "weight_pct": 1.095936,
+      "shares": 490000
+    },
+    {
+      "code": "6206",
+      "name": "飛捷",
+      "weight_pct": 1.057137,
+      "shares": 314000
+    },
+    {
+      "code": "2357",
+      "name": "華碩",
+      "weight_pct": 0.906884,
+      "shares": 40000
+    },
+    {
+      "code": "8081",
+      "name": "致新",
+      "weight_pct": 0.836125,
+      "shares": 139000
+    },
+    {
+      "code": "2345",
+      "name": "智邦",
+      "weight_pct": 0.809651,
+      "shares": 19000
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "weight_pct": 0.802493,
+      "shares": 138000
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "weight_pct": 0.746319,
+      "shares": 4000
+    },
+    {
+      "code": "2360",
+      "name": "致茂",
+      "weight_pct": 0.668745,
+      "shares": 13000
+    },
+    {
+      "code": "2317",
+      "name": "鴻海",
+      "weight_pct": 0.666426,
+      "shares": 113000
+    },
+    {
+      "code": "3293",
+      "name": "鈊象",
+      "weight_pct": 0.513524,
+      "shares": 28000
+    },
+    {
+      "code": "3680",
+      "name": "家登",
+      "weight_pct": 0.490264,
+      "shares": 38000
+    },
+    {
+      "code": "5904",
+      "name": "寶雅*",
+      "weight_pct": 0.450297,
+      "shares": 278000
+    },
+    {
+      "code": "3264",
+      "name": "欣銓",
+      "weight_pct": 0.392312,
+      "shares": 69000
+    },
+    {
+      "code": "2351",
+      "name": "順德",
+      "weight_pct": 0.37037,
+      "shares": 73000
+    },
+    {
+      "code": "3037",
+      "name": "欣興",
+      "weight_pct": 0.274278,
+      "shares": 10000
+    },
+    {
+      "code": "2301",
+      "name": "光寶科",
+      "weight_pct": 0.25801,
+      "shares": 39000
+    },
+    {
+      "code": "6515",
+      "name": "穎崴",
+      "weight_pct": 0.133608,
+      "shares": 1000
+    },
+    {
+      "code": "3374",
+      "name": "精材",
+      "weight_pct": 0.107122,
+      "shares": 10000
+    },
+    {
+      "code": "2851",
+      "name": "中再保",
+      "weight_pct": 0.101909,
+      "shares": 92000
+    },
+    {
+      "code": "3135",
+      "name": "凌航",
+      "weight_pct": 0.050599,
+      "shares": 13733
+    },
+    {
+      "code": "2845",
+      "name": "遠東銀",
+      "weight_pct": 0.016091,
+      "shares": 52173
+    },
+    {
+      "code": "OPTION_8335165c1d6952e1",
+      "name": "台指選擇權11/26 50400 買權",
+      "weight_pct": -0.015894,
+      "shares": -18
+    },
+    {
+      "code": "OPTION_f587dec30bfaee3e",
+      "name": "台指選擇權10/26 49500 買權",
+      "weight_pct": -0.157073,
+      "shares": -353
+    }
+  ]
+}
