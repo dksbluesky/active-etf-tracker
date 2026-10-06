@@ -1,28 +1,28 @@
 {
-  "generated_at_utc": "2026-10-05T16:17:26Z",
-  "latest_trading_date_roc": "1151002",
+  "generated_at_utc": "2026-10-06T14:22:40Z",
+  "latest_trading_date_roc": "1151005",
   "calendar_year": 2026,
   "total_active_etfs_found": 30,
   "ranked_count": 30,
   "top10": [
     {
-      "stock_id": "00981A",
-      "stock_name": "主動統一台股增長",
-      "baseline_date": "115/01/02",
-      "baseline_close": 16.79,
-      "latest_close": 31.44,
-      "latest_volume": 153933672,
-      "ytd_return_pct": 87.25,
-      "return_period_label": "YTD"
-    },
-    {
       "stock_id": "00992A",
       "stock_name": "主動群益科技創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.39,
-      "latest_close": 19.4,
-      "latest_volume": 42626195,
-      "ytd_return_pct": 86.72,
+      "latest_close": 20.21,
+      "latest_volume": 61227840,
+      "ytd_return_pct": 94.51,
+      "return_period_label": "YTD"
+    },
+    {
+      "stock_id": "00981A",
+      "stock_name": "主動統一台股增長",
+      "baseline_date": "115/01/02",
+      "baseline_close": 16.79,
+      "latest_close": 32.65,
+      "latest_volume": 279313470,
+      "ytd_return_pct": 94.46,
       "return_period_label": "YTD"
     },
     {
@@ -30,9 +30,9 @@
       "stock_name": "主動復華未來50",
       "baseline_date": "115/01/02",
       "baseline_close": 10.42,
-      "latest_close": 18.69,
-      "latest_volume": 90235890,
-      "ytd_return_pct": 79.37,
+      "latest_close": 19.47,
+      "latest_volume": 181342398,
+      "ytd_return_pct": 86.85,
       "return_period_label": "YTD"
     },
     {
@@ -40,29 +40,19 @@
       "stock_name": "主動中信台灣卓越",
       "baseline_date": "115/01/22",
       "baseline_close": 10.17,
-      "latest_close": 18.1,
-      "latest_volume": 3052467,
-      "ytd_return_pct": 77.97,
+      "latest_close": 18.83,
+      "latest_volume": 8320327,
+      "ytd_return_pct": 85.15,
       "return_period_label": "Since listing"
-    },
-    {
-      "stock_id": "00985A",
-      "stock_name": "主動野村台灣50",
-      "baseline_date": "115/01/02",
-      "baseline_close": 13.64,
-      "latest_close": 24.04,
-      "latest_volume": 56258017,
-      "ytd_return_pct": 76.25,
-      "return_period_label": "YTD"
     },
     {
       "stock_id": "00987A",
       "stock_name": "主動台新優勢成長",
       "baseline_date": "115/01/02",
       "baseline_close": 10.04,
-      "latest_close": 17.68,
-      "latest_volume": 3165892,
-      "ytd_return_pct": 76.1,
+      "latest_close": 18.34,
+      "latest_volume": 6536501,
+      "ytd_return_pct": 82.67,
       "return_period_label": "YTD"
     },
     {
@@ -70,19 +60,19 @@
       "stock_name": "主動第一金台股優",
       "baseline_date": "115/01/07",
       "baseline_close": 10.06,
-      "latest_close": 17.56,
-      "latest_volume": 5480166,
-      "ytd_return_pct": 74.55,
+      "latest_close": 18.36,
+      "latest_volume": 23331955,
+      "ytd_return_pct": 82.5,
       "return_period_label": "Since listing"
     },
     {
-      "stock_id": "00988A",
-      "stock_name": "主動統一全球創新",
+      "stock_id": "00985A",
+      "stock_name": "主動野村台灣50",
       "baseline_date": "115/01/02",
-      "baseline_close": 10.12,
-      "latest_close": 17.26,
-      "latest_volume": 33017030,
-      "ytd_return_pct": 70.55,
+      "baseline_close": 13.64,
+      "latest_close": 24.58,
+      "latest_volume": 54670399,
+      "ytd_return_pct": 80.21,
       "return_period_label": "YTD"
     },
     {
@@ -90,9 +80,19 @@
       "stock_name": "主動野村臺灣優選",
       "baseline_date": "115/01/02",
       "baseline_close": 15.34,
-      "latest_close": 25.87,
-      "latest_volume": 11451512,
-      "ytd_return_pct": 68.64,
+      "latest_close": 26.96,
+      "latest_volume": 16962533,
+      "ytd_return_pct": 75.75,
+      "return_period_label": "YTD"
+    },
+    {
+      "stock_id": "00988A",
+      "stock_name": "主動統一全球創新",
+      "baseline_date": "115/01/02",
+      "baseline_close": 10.12,
+      "latest_close": 17.47,
+      "latest_volume": 40842223,
+      "ytd_return_pct": 72.63,
       "return_period_label": "YTD"
     },
     {
@@ -100,9 +100,9 @@
       "stock_name": "主動群益台灣強棒",
       "baseline_date": "115/01/02",
       "baseline_close": 14.63,
-      "latest_close": 23.79,
-      "latest_volume": 41733519,
-      "ytd_return_pct": 62.61,
+      "latest_close": 24.67,
+      "latest_volume": 37802454,
+      "ytd_return_pct": 68.63,
       "return_period_label": "YTD"
     }
   ]
