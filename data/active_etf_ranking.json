@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-06T14:22:40Z",
-  "latest_trading_date_roc": "1151005",
+  "generated_at_utc": "2026-10-07T14:38:57Z",
+  "latest_trading_date_roc": "1151006",
   "calendar_year": 2026,
   "total_active_etfs_found": 30,
   "ranked_count": 30,
@@ -10,9 +10,9 @@
       "stock_name": "主動群益科技創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.39,
-      "latest_close": 20.21,
-      "latest_volume": 61227840,
-      "ytd_return_pct": 94.51,
+      "latest_close": 20.23,
+      "latest_volume": 41243864,
+      "ytd_return_pct": 94.71,
       "return_period_label": "YTD"
     },
     {
@@ -20,9 +20,9 @@
       "stock_name": "主動統一台股增長",
       "baseline_date": "115/01/02",
       "baseline_close": 16.79,
-      "latest_close": 32.65,
-      "latest_volume": 279313470,
-      "ytd_return_pct": 94.46,
+      "latest_close": 32.6,
+      "latest_volume": 120045076,
+      "ytd_return_pct": 94.16,
       "return_period_label": "YTD"
     },
     {
@@ -30,9 +30,9 @@
       "stock_name": "主動復華未來50",
       "baseline_date": "115/01/02",
       "baseline_close": 10.42,
-      "latest_close": 19.47,
-      "latest_volume": 181342398,
-      "ytd_return_pct": 86.85,
+      "latest_close": 19.35,
+      "latest_volume": 63297672,
+      "ytd_return_pct": 85.7,
       "return_period_label": "YTD"
     },
     {
@@ -40,9 +40,19 @@
       "stock_name": "主動中信台灣卓越",
       "baseline_date": "115/01/22",
       "baseline_close": 10.17,
-      "latest_close": 18.83,
-      "latest_volume": 8320327,
-      "ytd_return_pct": 85.15,
+      "latest_close": 18.88,
+      "latest_volume": 4282024,
+      "ytd_return_pct": 85.64,
+      "return_period_label": "Since listing"
+    },
+    {
+      "stock_id": "00994A",
+      "stock_name": "主動第一金台股優",
+      "baseline_date": "115/01/07",
+      "baseline_close": 10.06,
+      "latest_close": 18.32,
+      "latest_volume": 3938192,
+      "ytd_return_pct": 82.11,
       "return_period_label": "Since listing"
     },
     {
@@ -50,29 +60,19 @@
       "stock_name": "主動台新優勢成長",
       "baseline_date": "115/01/02",
       "baseline_close": 10.04,
-      "latest_close": 18.34,
-      "latest_volume": 6536501,
-      "ytd_return_pct": 82.67,
+      "latest_close": 18.2,
+      "latest_volume": 2835816,
+      "ytd_return_pct": 81.27,
       "return_period_label": "YTD"
-    },
-    {
-      "stock_id": "00994A",
-      "stock_name": "主動第一金台股優",
-      "baseline_date": "115/01/07",
-      "baseline_close": 10.06,
-      "latest_close": 18.36,
-      "latest_volume": 23331955,
-      "ytd_return_pct": 82.5,
-      "return_period_label": "Since listing"
     },
     {
       "stock_id": "00985A",
       "stock_name": "主動野村台灣50",
       "baseline_date": "115/01/02",
       "baseline_close": 13.64,
-      "latest_close": 24.58,
-      "latest_volume": 54670399,
-      "ytd_return_pct": 80.21,
+      "latest_close": 24.55,
+      "latest_volume": 59817617,
+      "ytd_return_pct": 79.99,
       "return_period_label": "YTD"
     },
     {
@@ -80,9 +80,9 @@
       "stock_name": "主動野村臺灣優選",
       "baseline_date": "115/01/02",
       "baseline_close": 15.34,
-      "latest_close": 26.96,
-      "latest_volume": 16962533,
-      "ytd_return_pct": 75.75,
+      "latest_close": 26.95,
+      "latest_volume": 5695475,
+      "ytd_return_pct": 75.68,
       "return_period_label": "YTD"
     },
     {
@@ -90,9 +90,9 @@
       "stock_name": "主動統一全球創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.12,
-      "latest_close": 17.47,
-      "latest_volume": 40842223,
-      "ytd_return_pct": 72.63,
+      "latest_close": 17.6,
+      "latest_volume": 31493147,
+      "ytd_return_pct": 73.91,
       "return_period_label": "YTD"
     },
     {
@@ -100,9 +100,9 @@
       "stock_name": "主動群益台灣強棒",
       "baseline_date": "115/01/02",
       "baseline_close": 14.63,
-      "latest_close": 24.67,
-      "latest_volume": 37802454,
-      "ytd_return_pct": 68.63,
+      "latest_close": 24.69,
+      "latest_volume": 16356925,
+      "ytd_return_pct": 68.76,
       "return_period_label": "YTD"
     }
   ]
