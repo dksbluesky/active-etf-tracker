@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-14T13:00:08Z",
+  "generated_at_utc": "2026-10-15T12:49:35Z",
   "methodology": {
     "analysis_window_trading_days": 252,
     "minimum_drawdown_pct": 8.0,
@@ -8,127 +8,6 @@
     "core_holding": "Top 10 by weight or weight >= 3%"
   },
   "results": [
-    {
-      "stock_id": "00410A",
-      "stock_name": "主動永豐科技趨勢",
-      "previous_high_date": "2026-09-01",
-      "previous_high_price": 12.57,
-      "correction_low_date": "2026-09-15",
-      "correction_low_price": 11.42,
-      "maximum_drawdown_pct": -9.15,
-      "recovery_date": "2026-10-05",
-      "trading_days_to_recover": 12,
-      "elapsed_trading_days": 12,
-      "etf_rebound_return_pct": 15.94,
-      "market_return_pct": 9.23,
-      "outperformance_pp": 6.71,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 5.8,
-          "shares": 45000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 5.48,
-          "shares": 15000
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "weight_pct": 5.41,
-          "shares": 200000
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "weight_pct": 5.23,
-          "shares": 60000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 4.8,
-          "shares": 28000
-        },
-        {
-          "code": "1303",
-          "name": "南亞",
-          "weight_pct": 4.51,
-          "shares": 250000
-        },
-        {
-          "code": "3529",
-          "name": "力旺",
-          "weight_pct": 4.46,
-          "shares": 30000
-        },
-        {
-          "code": "3491",
-          "name": "昇達科",
-          "weight_pct": 4.37,
-          "shares": 60000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 4.05,
-          "shares": 35000
-        },
-        {
-          "code": "1560",
-          "name": "中砂",
-          "weight_pct": 3.92,
-          "shares": 80000
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "weight_pct": 3.72,
-          "shares": 25000
-        },
-        {
-          "code": "3008",
-          "name": "大立光",
-          "weight_pct": 3.56,
-          "shares": 10000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 3.47,
-          "shares": 15000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 3.43,
-          "shares": 12000
-        },
-        {
-          "code": "3406",
-          "name": "玉晶光",
-          "weight_pct": 3.3,
-          "shares": 60000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 3.04,
-          "shares": 10000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
     {
       "stock_id": "00985A",
       "stock_name": "主動野村台灣50",
@@ -151,62 +30,62 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 14.81,
-          "shares": 1416000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 3.54,
-          "shares": 152000
-        },
-        {
-          "code": "7769",
-          "name": "鴻勁",
-          "weight_pct": 3.54,
-          "shares": 139000
+          "weight_pct": 13.81,
+          "shares": 1430000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.49,
-          "shares": 119000
+          "weight_pct": 3.68,
+          "shares": 134000
         },
         {
           "code": "1216",
           "name": "統一",
-          "weight_pct": 3.37,
-          "shares": 10393000
+          "weight_pct": 3.53,
+          "shares": 11645000
         },
         {
-          "code": "2345",
-          "name": "智邦",
-          "weight_pct": 3.24,
-          "shares": 378000
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 3.45,
+          "shares": 161000
+        },
+        {
+          "code": "7769",
+          "name": "鴻勁",
+          "weight_pct": 3.12,
+          "shares": 139000
         },
         {
           "code": "3036",
           "name": "文曄",
-          "weight_pct": 3.24,
+          "weight_pct": 3.06,
           "shares": 3650000
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "weight_pct": 3.01,
+          "shares": 378000
         },
         {
           "code": "4904",
           "name": "遠傳",
-          "weight_pct": 3.12,
+          "weight_pct": 2.9,
           "shares": 6914000
         },
         {
           "code": "2059",
           "name": "川湖",
-          "weight_pct": 2.87,
+          "weight_pct": 2.64,
           "shares": 68000
         },
         {
-          "code": "2376",
-          "name": "技嘉",
-          "weight_pct": 2.14,
-          "shares": 1435000
+          "code": "1605",
+          "name": "華新",
+          "weight_pct": 2.18,
+          "shares": 13839000
         }
       ],
       "rebound_leaders": [],
@@ -236,62 +115,62 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 6.37,
+          "weight_pct": 6.35,
           "shares": 288000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 4.78,
+          "weight_pct": 4.82,
           "shares": 77000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 4.58,
+          "weight_pct": 4.55,
           "shares": 93000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 4.46,
+          "weight_pct": 4.4,
           "shares": 111000
         },
         {
           "code": "2059",
           "name": "川湖",
-          "weight_pct": 4.38,
+          "weight_pct": 4.34,
           "shares": 49000
         },
         {
           "code": "6669",
           "name": "緯穎",
-          "weight_pct": 3.69,
+          "weight_pct": 3.55,
           "shares": 189225
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 3.5,
+          "weight_pct": 3.51,
           "shares": 334000
         },
         {
           "code": "7769",
           "name": "鴻勁",
-          "weight_pct": 3.45,
+          "weight_pct": 3.28,
           "shares": 64000
         },
         {
           "code": "2308",
           "name": "台達電",
-          "weight_pct": 2.92,
+          "weight_pct": 2.93,
           "shares": 185000
         },
         {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 2.53,
-          "shares": 48000
+          "code": "2368",
+          "name": "金像電",
+          "weight_pct": 2.61,
+          "shares": 234000
         }
       ],
       "rebound_leaders": [],
@@ -321,62 +200,62 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 20.2544,
-          "shares": 310960
+          "weight_pct": 20.946,
+          "shares": 323960
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.1234,
-          "shares": 52310
+          "weight_pct": 6.016,
+          "shares": 54510
         },
         {
           "code": "3711",
           "name": "日月光投控",
-          "weight_pct": 2.7357,
-          "shares": 140000
+          "weight_pct": 2.6037,
+          "shares": 146000
         },
         {
           "code": "3008",
           "name": "大立光",
-          "weight_pct": 2.3853,
-          "shares": 13254
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "weight_pct": 2.3809,
-          "shares": 50990
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 2.3714,
-          "shares": 76500
+          "weight_pct": 2.416,
+          "shares": 13804
         },
         {
           "code": "2303",
           "name": "聯電",
-          "weight_pct": 2.3216,
-          "shares": 625000
+          "weight_pct": 2.3029,
+          "shares": 651000
         },
         {
-          "code": "2455",
-          "name": "全新",
-          "weight_pct": 2.1616,
-          "shares": 158000
+          "code": "2308",
+          "name": "台達電",
+          "weight_pct": 2.2888,
+          "shares": 52990
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 2.2703,
+          "shares": 79700
         },
         {
           "code": "2881",
           "name": "富邦金",
-          "weight_pct": 2.0656,
-          "shares": 492000
+          "weight_pct": 2.1682,
+          "shares": 513000
         },
         {
-          "code": "2382",
-          "name": "廣達",
-          "weight_pct": 2.0363,
-          "shares": 241000
+          "code": "2884",
+          "name": "玉山金",
+          "weight_pct": 2.1375,
+          "shares": 1653000
+        },
+        {
+          "code": "2455",
+          "name": "全新",
+          "weight_pct": 2.114,
+          "shares": 165000
         }
       ],
       "rebound_leaders": [],
@@ -387,783 +266,171 @@
     {
       "stock_id": "00400A",
       "stock_name": "主動國泰動能高息",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 15.57,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 11.83,
-      "maximum_drawdown_pct": -24.02,
-      "recovery_date": "2026-09-24",
-      "trading_days_to_recover": 40,
-      "elapsed_trading_days": 40,
-      "etf_rebound_return_pct": 32.38,
-      "market_return_pct": 20.26,
-      "outperformance_pp": 12.12,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
+      "previous_high_date": "2026-10-06",
+      "previous_high_price": 16.61,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 14.94,
+      "maximum_drawdown_pct": -10.05,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 8.85,
+          "weight_pct": 9.1,
           "shares": 1094000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.0,
+          "weight_pct": 5.86,
           "shares": 413000
         },
         {
           "code": "1303",
           "name": "南亞",
-          "weight_pct": 4.72,
+          "weight_pct": 4.47,
           "shares": 4167000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 4.55,
+          "weight_pct": 4.43,
           "shares": 254000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 4.11,
+          "weight_pct": 3.92,
           "shares": 1069000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 3.54,
-          "shares": 329000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.54,
+          "weight_pct": 3.55,
           "shares": 154000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 3.46,
+          "shares": 329000
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 3.46,
+          "weight_pct": 3.27,
           "shares": 181000
         },
         {
           "code": "2360",
           "name": "致茂",
-          "weight_pct": 3.43,
+          "weight_pct": 3.24,
           "shares": 470000
-        },
-        {
-          "code": "6669",
-          "name": "緯穎",
-          "weight_pct": 3.01,
-          "shares": 438197
         },
         {
           "code": "2368",
           "name": "金像電",
-          "weight_pct": 3.0,
+          "weight_pct": 2.98,
           "shares": 734000
         }
       ],
       "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00407A",
-      "stock_name": "主動凱基台灣",
-      "previous_high_date": "2026-07-03",
-      "previous_high_price": 10.02,
-      "correction_low_date": "2026-07-29",
-      "correction_low_price": 7.79,
-      "maximum_drawdown_pct": -22.26,
-      "recovery_date": "2026-09-23",
-      "trading_days_to_recover": 40,
-      "elapsed_trading_days": 40,
-      "etf_rebound_return_pct": 29.91,
-      "market_return_pct": 20.28,
-      "outperformance_pp": 9.63,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 9.25,
-          "shares": 830000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 5.82,
-          "shares": 1097000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 5.56,
-          "shares": 225000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 5.56,
-          "shares": 375000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 5.39,
-          "shares": 269000
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 4.72,
-          "shares": 128000
-        },
-        {
-          "code": "6274",
-          "name": "台燿",
-          "weight_pct": 4.18,
-          "shares": 539000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 3.67,
-          "shares": 116000
-        },
-        {
-          "code": "6669",
-          "name": "緯穎",
-          "weight_pct": 3.67,
-          "shares": 387644
-        },
-        {
-          "code": "3711",
-          "name": "日月光投控",
-          "weight_pct": 3.18,
-          "shares": 952000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 3.09,
-          "shares": 483000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 3.0,
-          "shares": 114000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00980A",
-      "stock_name": "主動野村臺灣優選",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 25.71,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 19.56,
-      "maximum_drawdown_pct": -23.92,
-      "recovery_date": "2026-10-05",
-      "trading_days_to_recover": 45,
-      "elapsed_trading_days": 45,
-      "etf_rebound_return_pct": 37.83,
-      "market_return_pct": 24.49,
-      "outperformance_pp": 13.34,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 9.58,
-          "shares": 753000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 5.75,
-          "shares": 249000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 4.7,
-          "shares": 166000
-        },
-        {
-          "code": "2059",
-          "name": "川湖",
-          "weight_pct": 4.06,
-          "shares": 79000
-        },
-        {
-          "code": "1303",
-          "name": "南亞",
-          "weight_pct": 3.94,
-          "shares": 2416000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 3.77,
-          "shares": 625000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 3.71,
-          "shares": 104000
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "weight_pct": 3.66,
-          "shares": 404000
-        },
-        {
-          "code": "7769",
-          "name": "鴻勁",
-          "weight_pct": 3.19,
-          "shares": 103000
-        },
-        {
-          "code": "2408",
-          "name": "南亞科",
-          "weight_pct": 2.73,
-          "shares": 1096000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00405A",
-      "stock_name": "主動富邦台灣龍耀",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 9.79,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 6.68,
-      "maximum_drawdown_pct": -31.77,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 46,
-      "elapsed_trading_days": 46,
-      "etf_rebound_return_pct": 46.71,
-      "market_return_pct": 24.76,
-      "outperformance_pp": 21.95,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 7.9057,
-          "shares": 323000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 7.7257,
-          "shares": 1299000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 7.6451,
-          "shares": 260000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 7.5405,
-          "shares": 1530000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 6.1814,
-          "shares": 665000
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 5.9324,
-          "shares": 173000
-        },
-        {
-          "code": "2368",
-          "name": "金像電",
-          "weight_pct": 5.9059,
-          "shares": 1127000
-        },
-        {
-          "code": "5274",
-          "name": "信驊",
-          "weight_pct": 5.7717,
-          "shares": 79300
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 5.4718,
-          "shares": 294000
-        },
-        {
-          "code": "2345",
-          "name": "智邦",
-          "weight_pct": 5.1923,
-          "shares": 609000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 4.867,
-          "shares": 212000
-        },
-        {
-          "code": "6531",
-          "name": "愛普*",
-          "weight_pct": 3.9539,
-          "shares": 1030000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 3.8328,
-          "shares": 278000
-        },
-        {
-          "code": "6805",
-          "name": "富世達",
-          "weight_pct": 3.113,
-          "shares": 341000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00981A",
-      "stock_name": "主動統一台股增長",
-      "previous_high_date": "2026-07-03",
-      "previous_high_price": 32.26,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 23.76,
-      "maximum_drawdown_pct": -26.35,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 46,
-      "elapsed_trading_days": 46,
-      "etf_rebound_return_pct": 37.21,
-      "market_return_pct": 24.76,
-      "outperformance_pp": 12.45,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 10.73,
-          "shares": 12188000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 8.45,
-          "shares": 4328000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 8.05,
-          "shares": 5086000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 7.85,
-          "shares": 18721000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 7.21,
-          "shares": 6147000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 6.26,
-          "shares": 2502000
-        },
-        {
-          "code": "2327",
-          "name": "國巨*",
-          "weight_pct": 5.22,
-          "shares": 23519000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 5.21,
-          "shares": 2504000
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "weight_pct": 4.66,
-          "shares": 7389000
-        },
-        {
-          "code": "2345",
-          "name": "智邦",
-          "weight_pct": 4.54,
-          "shares": 6264000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 4.52,
-          "shares": 8937000
-        },
-        {
-          "code": "6274",
-          "name": "台燿",
-          "weight_pct": 4.2,
-          "shares": 6847000
-        },
-        {
-          "code": "2303",
-          "name": "聯電",
-          "weight_pct": 4.0,
-          "shares": 79618000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00987A",
-      "stock_name": "主動台新優勢成長",
-      "previous_high_date": "2026-06-01",
-      "previous_high_price": 18.16,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 12.26,
-      "maximum_drawdown_pct": -32.49,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 46,
-      "elapsed_trading_days": 46,
-      "etf_rebound_return_pct": 48.45,
-      "market_return_pct": 24.76,
-      "outperformance_pp": 23.69,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 9.472,
-          "shares": 90000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 7.2091,
-          "shares": 52000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 6.7967,
-          "shares": 29000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 6.1203,
-          "shares": 32000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 5.7855,
-          "shares": 116000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 5.318,
-          "shares": 18000
-        },
-        {
-          "code": "6274",
-          "name": "台燿",
-          "weight_pct": 5.2464,
-          "shares": 75000
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 4.448,
-          "shares": 13000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 4.203,
-          "shares": 44000
-        },
-        {
-          "code": "6510",
-          "name": "精測",
-          "weight_pct": 3.4606,
-          "shares": 25000
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "weight_pct": 3.4323,
-          "shares": 29800
-        },
-        {
-          "code": "6805",
-          "name": "富世達",
-          "weight_pct": 3.3628,
-          "shares": 36000
-        },
-        {
-          "code": "3491",
-          "name": "昇達科",
-          "weight_pct": 3.1869,
-          "shares": 52000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00992A",
-      "stock_name": "主動群益科技創新",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 19.42,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 13.48,
-      "maximum_drawdown_pct": -30.59,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 46,
-      "elapsed_trading_days": 46,
-      "etf_rebound_return_pct": 50.07,
-      "market_return_pct": 24.76,
-      "outperformance_pp": 25.31,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 6.4729,
-          "shares": 921000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 6.2755,
-          "shares": 2482000
-        },
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 6.221,
-          "shares": 1166000
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "weight_pct": 6.1111,
-          "shares": 1663000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 6.0096,
-          "shares": 1241000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 5.6436,
-          "shares": 475000
-        },
-        {
-          "code": "2345",
-          "name": "智邦",
-          "weight_pct": 5.4858,
-          "shares": 1255000
-        },
-        {
-          "code": "3008",
-          "name": "大立光",
-          "weight_pct": 5.035,
-          "shares": 323000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 4.6329,
-          "shares": 364000
-        },
-        {
-          "code": "2059",
-          "name": "川湖",
-          "weight_pct": 3.9447,
-          "shares": 183000
-        },
-        {
-          "code": "1815",
-          "name": "富喬",
-          "weight_pct": 3.5156,
-          "shares": 12620868
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 3.5037,
-          "shares": 202000
-        },
-        {
-          "code": "8021",
-          "name": "尖點",
-          "weight_pct": 3.1262,
-          "shares": 2682000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 3.1071,
-          "shares": 1007000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
       "stock_id": "00403A",
       "stock_name": "主動統一升級50",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 11.38,
-      "correction_low_date": "2026-07-29",
-      "correction_low_price": 8.46,
-      "maximum_drawdown_pct": -25.66,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 47,
-      "elapsed_trading_days": 47,
-      "etf_rebound_return_pct": 34.99,
-      "market_return_pct": 24.43,
-      "outperformance_pp": 10.56,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 11.44,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 10.38,
+      "maximum_drawdown_pct": -9.27,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 13.75,
+          "weight_pct": 14.34,
           "shares": 7700000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 6.26,
-          "shares": 1950000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 5.95,
-          "shares": 7000000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 5.65,
+          "weight_pct": 5.76,
           "shares": 1115000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 5.74,
+          "shares": 7000000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 5.54,
+          "weight_pct": 5.47,
           "shares": 1400000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 5.4,
+          "shares": 1700000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 4.99,
+          "weight_pct": 4.94,
           "shares": 2100000
         },
         {
           "code": "2327",
           "name": "國巨*",
-          "weight_pct": 3.96,
+          "weight_pct": 3.85,
           "shares": 8800000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 3.93,
-          "shares": 930000
         },
         {
           "code": "3443",
           "name": "創意",
-          "weight_pct": 3.87,
+          "weight_pct": 3.83,
           "shares": 655000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 3.76,
+          "shares": 930000
         },
         {
           "code": "2308",
           "name": "台達電",
-          "weight_pct": 3.71,
+          "weight_pct": 3.61,
           "shares": 2900000
         },
         {
           "code": "3189",
           "name": "景碩",
-          "weight_pct": 3.35,
+          "weight_pct": 3.32,
           "shares": 4450000
         },
         {
@@ -1174,202 +441,8 @@
         }
       ],
       "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00993A",
-      "stock_name": "主動安聯台灣",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 14.64,
-      "correction_low_date": "2026-07-29",
-      "correction_low_price": 10.69,
-      "maximum_drawdown_pct": -26.98,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 47,
-      "elapsed_trading_days": 47,
-      "etf_rebound_return_pct": 37.79,
-      "market_return_pct": 24.43,
-      "outperformance_pp": 13.36,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 8.26,
-          "shares": 333000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 6.23,
-          "shares": 113000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 6.17,
-          "shares": 526000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 5.74,
-          "shares": 176000
-        },
-        {
-          "code": "3189",
-          "name": "景碩",
-          "weight_pct": 4.8,
-          "shares": 464000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 4.49,
-          "shares": 76000
-        },
-        {
-          "code": "5274",
-          "name": "信驊",
-          "weight_pct": 4.42,
-          "shares": 25600
-        },
-        {
-          "code": "6274",
-          "name": "台燿",
-          "weight_pct": 4.1,
-          "shares": 249000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 4.02,
-          "shares": 281000
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 3.62,
-          "shares": 45000
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
-      "data_confidence": "Medium"
-    },
-    {
-      "stock_id": "00995A",
-      "stock_name": "主動中信台灣卓越",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 18.77,
-      "correction_low_date": "2026-07-29",
-      "correction_low_price": 13.74,
-      "maximum_drawdown_pct": -26.8,
-      "recovery_date": "2026-10-06",
-      "trading_days_to_recover": 47,
-      "elapsed_trading_days": 47,
-      "etf_rebound_return_pct": 37.41,
-      "market_return_pct": 24.43,
-      "outperformance_pp": 12.98,
-      "recovery_status": "Recovered",
-      "market_status": "Outperformed",
-      "continuity_status": "Insufficient data",
-      "core_holdings_near_low": [],
-      "current_core_holdings": [
-        {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 9.02,
-          "shares": 174000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 8.31,
-          "shares": 72000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 6.93,
-          "shares": 74000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 5.55,
-          "shares": 80000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 5.09,
-          "shares": 170000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 4.88,
-          "shares": 33000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 4.68,
-          "shares": 38000
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "weight_pct": 4.11,
-          "shares": 110000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 3.79,
-          "shares": 81000
-        },
-        {
-          "code": "6669",
-          "name": "緯穎",
-          "weight_pct": 3.77,
-          "shares": 85260
-        },
-        {
-          "code": "2345",
-          "name": "智邦",
-          "weight_pct": 3.65,
-          "shares": 85000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 3.42,
-          "shares": 138000
-        },
-        {
-          "code": "3711",
-          "name": "日月光投控",
-          "weight_pct": 3.39,
-          "shares": 217000
-        },
-        {
-          "code": "5274",
-          "name": "信驊",
-          "weight_pct": 3.22,
-          "shares": 8800
-        }
-      ],
-      "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
-      "overall_result": "Strong resilience",
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
@@ -1382,10 +455,10 @@
       "maximum_drawdown_pct": -19.39,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 52,
-      "etf_rebound_return_pct": 17.45,
-      "market_return_pct": 21.45,
-      "outperformance_pp": -4.0,
+      "elapsed_trading_days": 53,
+      "etf_rebound_return_pct": 12.97,
+      "market_return_pct": 17.31,
+      "outperformance_pp": -4.34,
       "recovery_status": "Still recovering",
       "market_status": "Lagged",
       "continuity_status": "Insufficient data",
@@ -1394,260 +467,751 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 22.349335,
+          "weight_pct": 22.827928,
           "shares": 371000
         },
         {
           "code": "FUTURE_165938efd2d47051",
           "name": "台股期貨10/26",
-          "weight_pct": 20.77810965,
-          "shares": 88
+          "weight_pct": 9.70457271,
+          "shares": 41
+        },
+        {
+          "code": "FUTURE_721beeab62cef4af",
+          "name": "台股期貨11/26",
+          "weight_pct": 7.366371928,
+          "shares": 31
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.658241,
+          "weight_pct": 6.45941,
           "shares": 61500
         },
         {
           "code": "3711",
           "name": "日月光投控",
-          "weight_pct": 3.506014,
+          "weight_pct": 3.292453,
           "shares": 194000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 2.938009,
-          "shares": 22000
         },
         {
           "code": "2882",
           "name": "國泰金",
-          "weight_pct": 2.76077,
+          "weight_pct": 2.865053,
           "shares": 1001000
         },
         {
-          "code": "5274",
-          "name": "信驊",
-          "weight_pct": 2.726561,
-          "shares": 6440
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 2.840504,
+          "shares": 22000
         },
         {
           "code": "2303",
           "name": "聯電",
-          "weight_pct": 2.710545,
+          "weight_pct": 2.656202,
           "shares": 789000
         },
         {
           "code": "2885",
           "name": "元大金",
-          "weight_pct": 2.468075,
+          "weight_pct": 2.590401,
           "shares": 1412960
         },
         {
-          "code": "3034",
-          "name": "聯詠",
-          "weight_pct": 2.072864,
-          "shares": 153000
+          "code": "5274",
+          "name": "信驊",
+          "weight_pct": 2.589484,
+          "shares": 6440
         }
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00405A",
+      "stock_name": "主動富邦台灣龍耀",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 9.86,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 8.75,
+      "maximum_drawdown_pct": -11.26,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 7.8579,
+          "shares": 260000
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "weight_pct": 7.8054,
+          "shares": 1299000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 7.6479,
+          "shares": 323000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 7.3479,
+          "shares": 1530000
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "weight_pct": 5.9915,
+          "shares": 1127000
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "weight_pct": 5.9863,
+          "shares": 665000
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "weight_pct": 5.928,
+          "shares": 173000
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "weight_pct": 5.6489,
+          "shares": 79300
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 5.4705,
+          "shares": 294000
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "weight_pct": 5.3054,
+          "shares": 609000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 4.8492,
+          "shares": 212000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 3.8314,
+          "shares": 278000
+        },
+        {
+          "code": "6531",
+          "name": "愛普*",
+          "weight_pct": 3.8239,
+          "shares": 1030000
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "weight_pct": 3.222,
+          "shares": 341000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
       "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
       "stock_id": "00406A",
       "stock_name": "主動中信台灣收益",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 10.6,
-      "correction_low_date": "2026-07-29",
-      "correction_low_price": 8.03,
-      "maximum_drawdown_pct": -24.25,
+      "previous_high_date": "2026-10-06",
+      "previous_high_price": 10.33,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 9.3,
+      "maximum_drawdown_pct": -9.97,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 52,
-      "etf_rebound_return_pct": 23.41,
-      "market_return_pct": 21.45,
-      "outperformance_pp": 1.96,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
       "recovery_status": "Still recovering",
-      "market_status": "Outperformed",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
           "code": "TX:202610:TX",
           "name": "臺股期貨",
-          "weight_pct": 13.69,
+          "weight_pct": 11.86,
           "shares": 1100
         },
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 9.39,
-          "shares": 2944000
+          "weight_pct": 9.45,
+          "shares": 3374000
         },
         {
           "code": "TX:202611:TX",
           "name": "臺股期貨",
-          "weight_pct": 8.74,
-          "shares": 700
+          "weight_pct": 8.66,
+          "shares": 800
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 6.56,
-          "shares": 932000
+          "weight_pct": 6.89,
+          "shares": 1172000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 5.95,
-          "shares": 1043000
+          "weight_pct": 5.63,
+          "shares": 1178000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 5.79,
-          "shares": 3835000
+          "weight_pct": 5.36,
+          "shares": 4345000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 5.25,
-          "shares": 1242000
+          "weight_pct": 5.07,
+          "shares": 1432000
         },
         {
           "code": "2345",
           "name": "智邦",
-          "weight_pct": 3.79,
-          "shares": 1451000
+          "weight_pct": 3.76,
+          "shares": 1681000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.65,
-          "shares": 405000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 3.31,
-          "shares": 441000
+          "weight_pct": 3.69,
+          "shares": 475000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 3.1,
-          "shares": 1702000
+          "weight_pct": 3.03,
+          "shares": 1961000
         }
       ],
       "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
+      "continuity_reason": "Insufficient underlying-stock price data",
       "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
-      "stock_id": "00982A",
-      "stock_name": "主動群益台灣強棒",
-      "previous_high_date": "2026-07-03",
-      "previous_high_price": 25.51,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 18.54,
-      "maximum_drawdown_pct": -27.32,
+      "stock_id": "00407A",
+      "stock_name": "主動凱基台灣",
+      "previous_high_date": "2026-10-06",
+      "previous_high_price": 10.71,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 9.64,
+      "maximum_drawdown_pct": -9.99,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 51,
-      "etf_rebound_return_pct": 26.81,
-      "market_return_pct": 21.77,
-      "outperformance_pp": 5.04,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
       "recovery_status": "Still recovering",
-      "market_status": "Outperformed",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 7.723,
+          "weight_pct": 9.68,
+          "shares": 830000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 5.64,
+          "shares": 1097000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 5.53,
+          "shares": 375000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 5.51,
+          "shares": 225000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 5.35,
+          "shares": 269000
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "weight_pct": 4.69,
+          "shares": 128000
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "weight_pct": 4.19,
+          "shares": 539000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 3.75,
+          "shares": 116000
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "weight_pct": 3.53,
+          "shares": 387644
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "weight_pct": 3.39,
+          "shares": 528000
+        },
+        {
+          "code": "3711",
+          "name": "日月光投控",
+          "weight_pct": 3.06,
+          "shares": 952000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00410A",
+      "stock_name": "主動永豐科技趨勢",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 13.24,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 11.8,
+      "maximum_drawdown_pct": -10.88,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 6.04,
+          "shares": 45000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 5.57,
+          "shares": 15000
+        },
+        {
+          "code": "2455",
+          "name": "全新",
+          "weight_pct": 5.31,
+          "shares": 200000
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "weight_pct": 5.01,
+          "shares": 60000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 4.74,
+          "shares": 28000
+        },
+        {
+          "code": "3529",
+          "name": "力旺",
+          "weight_pct": 4.39,
+          "shares": 30000
+        },
+        {
+          "code": "3491",
+          "name": "昇達科",
+          "weight_pct": 4.37,
+          "shares": 60000
+        },
+        {
+          "code": "1303",
+          "name": "南亞",
+          "weight_pct": 4.32,
+          "shares": 250000
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "weight_pct": 3.97,
+          "shares": 80000
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "weight_pct": 3.87,
+          "shares": 35000
+        },
+        {
+          "code": "3406",
+          "name": "玉晶光",
+          "weight_pct": 3.67,
+          "shares": 60000
+        },
+        {
+          "code": "3008",
+          "name": "大立光",
+          "weight_pct": 3.63,
+          "shares": 10000
+        },
+        {
+          "code": "3081",
+          "name": "聯亞",
+          "weight_pct": 3.63,
+          "shares": 25000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 3.43,
+          "shares": 15000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 3.37,
+          "shares": 12000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00980A",
+      "stock_name": "主動野村臺灣優選",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 26.96,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 24.5,
+      "maximum_drawdown_pct": -9.12,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 9.49,
+          "shares": 753000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 5.64,
+          "shares": 249000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 4.64,
+          "shares": 166000
+        },
+        {
+          "code": "1303",
+          "name": "南亞",
+          "weight_pct": 4.27,
+          "shares": 2416000
+        },
+        {
+          "code": "2059",
+          "name": "川湖",
+          "weight_pct": 4.0,
+          "shares": 79000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 3.75,
+          "shares": 625000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 3.72,
+          "shares": 104000
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "weight_pct": 3.65,
+          "shares": 404000
+        },
+        {
+          "code": "7769",
+          "name": "鴻勁",
+          "weight_pct": 3.01,
+          "shares": 103000
+        },
+        {
+          "code": "2408",
+          "name": "南亞科",
+          "weight_pct": 2.67,
+          "shares": 1096000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00981A",
+      "stock_name": "主動統一台股增長",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 32.65,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 29.4,
+      "maximum_drawdown_pct": -9.95,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 11.22,
+          "shares": 12188000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 8.36,
+          "shares": 4328000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 7.99,
+          "shares": 5086000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 7.68,
+          "shares": 18938000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 7.15,
+          "shares": 6147000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 6.39,
+          "shares": 2502000
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "weight_pct": 5.08,
+          "shares": 23519000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 5.01,
+          "shares": 2504000
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "weight_pct": 4.61,
+          "shares": 6264000
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "weight_pct": 4.54,
+          "shares": 7389000
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "weight_pct": 4.53,
+          "shares": 8937000
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "weight_pct": 4.32,
+          "shares": 7046000
+        },
+        {
+          "code": "2303",
+          "name": "聯電",
+          "weight_pct": 4.01,
+          "shares": 79618000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00982A",
+      "stock_name": "主動群益台灣強棒",
+      "previous_high_date": "2026-10-06",
+      "previous_high_price": 24.69,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 22.25,
+      "maximum_drawdown_pct": -9.88,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 7.6826,
           "shares": 1544000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.6901,
+          "weight_pct": 6.5816,
           "shares": 736000
         },
         {
           "code": "3105",
           "name": "穩懋",
-          "weight_pct": 6.3763,
+          "weight_pct": 6.3545,
           "shares": 5709000
         },
         {
           "code": "6139",
           "name": "亞翔",
-          "weight_pct": 5.4015,
+          "weight_pct": 5.3882,
           "shares": 3745000
         },
         {
           "code": "6669",
           "name": "緯穎",
-          "weight_pct": 4.4808,
+          "weight_pct": 4.295,
           "shares": 1016225
         },
         {
           "code": "6531",
           "name": "愛普*",
-          "weight_pct": 3.9082,
+          "weight_pct": 3.8752,
           "shares": 2101000
         },
         {
           "code": "2360",
           "name": "致茂",
-          "weight_pct": 3.7343,
+          "weight_pct": 3.7993,
           "shares": 845000
-        },
-        {
-          "code": "3008",
-          "name": "大立光",
-          "weight_pct": 3.6681,
-          "shares": 251000
-        },
-        {
-          "code": "2059",
-          "name": "川湖",
-          "weight_pct": 3.6173,
-          "shares": 179000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 3.5916,
-          "shares": 301000
         },
         {
           "code": "4958",
           "name": "臻鼎-KY",
-          "weight_pct": 3.5017,
+          "weight_pct": 3.5781,
           "shares": 3158000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 3.5398,
+          "shares": 301000
+        },
+        {
+          "code": "3008",
+          "name": "大立光",
+          "weight_pct": 3.4508,
+          "shares": 251000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 3.4419,
+          "weight_pct": 3.4085,
           "shares": 309000
         },
         {
           "code": "3491",
           "name": "昇達科",
-          "weight_pct": 3.437,
+          "weight_pct": 3.3248,
           "shares": 1180000
         }
       ],
       "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
+      "continuity_reason": "Insufficient underlying-stock price data",
       "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
@@ -1661,78 +1225,187 @@
       "maximum_drawdown_pct": -23.38,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 51,
-      "etf_rebound_return_pct": 23.13,
-      "market_return_pct": 21.77,
-      "outperformance_pp": 1.36,
+      "elapsed_trading_days": 52,
+      "etf_rebound_return_pct": 19.44,
+      "market_return_pct": 17.62,
+      "outperformance_pp": 1.82,
       "recovery_status": "Still recovering",
       "market_status": "Outperformed",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
-          "code": "2330",
-          "name": "台積電",
-          "weight_pct": 4.27,
-          "shares": 180000
-        },
-        {
           "code": "2881",
           "name": "富邦金",
-          "weight_pct": 4.24,
+          "weight_pct": 4.2,
           "shares": 2784000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 4.21,
+          "weight_pct": 4.2,
           "shares": 135000
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 4.19,
+          "shares": 180000
         },
         {
           "code": "6505",
           "name": "台塑化",
-          "weight_pct": 3.49,
+          "weight_pct": 3.45,
           "shares": 3078000
         },
         {
           "code": "2887",
           "name": "台新新光金",
-          "weight_pct": 3.45,
+          "weight_pct": 3.38,
           "shares": 8427000
+        },
+        {
+          "code": "1303",
+          "name": "南亞",
+          "weight_pct": 3.34,
+          "shares": 1018000
         },
         {
           "code": "2885",
           "name": "元大金",
-          "weight_pct": 3.26,
+          "weight_pct": 3.29,
           "shares": 4856880
         },
         {
           "code": "2882",
           "name": "國泰金",
-          "weight_pct": 3.23,
+          "weight_pct": 3.18,
           "shares": 2967000
-        },
-        {
-          "code": "1303",
-          "name": "南亞",
-          "weight_pct": 3.09,
-          "shares": 1018000
         },
         {
           "code": "2395",
           "name": "研華",
-          "weight_pct": 2.58,
+          "weight_pct": 2.53,
           "shares": 377000
         },
         {
-          "code": "6187",
-          "name": "萬潤",
-          "weight_pct": 2.47,
-          "shares": 162000
+          "code": "2883",
+          "name": "凱基金",
+          "weight_pct": 2.41,
+          "shares": 6629000
         }
       ],
       "rebound_leaders": [],
       "continuity_reason": "Insufficient historical holdings data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00987A",
+      "stock_name": "主動台新優勢成長",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 18.34,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 16.21,
+      "maximum_drawdown_pct": -11.61,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 9.3983,
+          "shares": 90000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 7.2292,
+          "shares": 52000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 6.7134,
+          "shares": 29000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 6.0055,
+          "shares": 32000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 5.7648,
+          "shares": 116000
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "weight_pct": 5.4572,
+          "shares": 75000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 5.337,
+          "shares": 18000
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "weight_pct": 4.4951,
+          "shares": 13000
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "weight_pct": 4.1242,
+          "shares": 44000
+        },
+        {
+          "code": "3081",
+          "name": "聯亞",
+          "weight_pct": 3.5993,
+          "shares": 29800
+        },
+        {
+          "code": "6510",
+          "name": "精測",
+          "weight_pct": 3.3812,
+          "shares": 25000
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "weight_pct": 3.3139,
+          "shares": 36000
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "weight_pct": 3.1705,
+          "shares": 60000
+        },
+        {
+          "code": "3491",
+          "name": "昇達科",
+          "weight_pct": 3.0749,
+          "shares": 52000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
       "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
@@ -1746,10 +1419,10 @@
       "maximum_drawdown_pct": -34.32,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 51,
-      "etf_rebound_return_pct": 30.62,
-      "market_return_pct": 21.77,
-      "outperformance_pp": 8.85,
+      "elapsed_trading_days": 52,
+      "etf_rebound_return_pct": 22.56,
+      "market_return_pct": 17.62,
+      "outperformance_pp": 4.94,
       "recovery_status": "Still recovering",
       "market_status": "Outperformed",
       "continuity_status": "Insufficient data",
@@ -1758,80 +1431,86 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 13.946,
+          "weight_pct": 14.608,
           "shares": 4200000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 9.938,
+          "weight_pct": 9.853,
           "shares": 1350000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 8.454,
+          "weight_pct": 8.198,
           "shares": 5350000
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "weight_pct": 7.497,
+          "weight_pct": 7.33,
           "shares": 11700000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 6.484,
+          "weight_pct": 6.519,
           "shares": 3400000
-        },
-        {
-          "code": "3189",
-          "name": "景碩",
-          "weight_pct": 6.469,
-          "shares": 4620000
         },
         {
           "code": "2059",
           "name": "川湖",
-          "weight_pct": 6.271,
+          "weight_pct": 6.512,
           "shares": 470000
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "weight_pct": 6.447,
+          "shares": 4620000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.266,
+          "weight_pct": 6.234,
           "shares": 1050000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 5.526,
+          "weight_pct": 5.497,
           "shares": 1250000
         },
         {
           "code": "2327",
           "name": "國巨*",
-          "weight_pct": 4.85,
+          "weight_pct": 4.737,
           "shares": 5800000
         },
         {
           "code": "1303",
           "name": "南亞",
-          "weight_pct": 4.049,
-          "shares": 8700000
+          "weight_pct": 4.304,
+          "shares": 9600000
         },
         {
-          "code": "6669",
-          "name": "緯穎",
-          "weight_pct": 3.244,
-          "shares": 1150020
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 3.086,
+          "shares": 320000
         },
         {
           "code": "3081",
           "name": "聯亞",
-          "weight_pct": 3.072,
+          "weight_pct": 3.011,
           "shares": 800000
+        },
+        {
+          "code": "3026",
+          "name": "禾伸堂",
+          "weight_pct": 3.006,
+          "shares": 2600000
         }
       ],
       "rebound_leaders": [],
@@ -1840,29 +1519,223 @@
       "data_confidence": "Medium"
     },
     {
-      "stock_id": "00994A",
-      "stock_name": "主動第一金台股優",
-      "previous_high_date": "2026-05-27",
-      "previous_high_price": 18.89,
-      "correction_low_date": "2026-07-29",
-      "correction_low_price": 13.51,
-      "maximum_drawdown_pct": -28.48,
+      "stock_id": "00992A",
+      "stock_name": "主動群益科技創新",
+      "previous_high_date": "2026-10-06",
+      "previous_high_price": 20.23,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 18.28,
+      "maximum_drawdown_pct": -9.64,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 52,
-      "etf_rebound_return_pct": 29.24,
-      "market_return_pct": 21.45,
-      "outperformance_pp": 7.79,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
       "recovery_status": "Still recovering",
-      "market_status": "Outperformed",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 6.5119,
+          "shares": 921000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 6.2731,
+          "shares": 2482000
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 6.1924,
+          "shares": 1166000
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "weight_pct": 5.9766,
+          "shares": 1663000
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "weight_pct": 5.9158,
+          "shares": 1241000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 5.5924,
+          "shares": 475000
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "weight_pct": 5.4873,
+          "shares": 1255000
+        },
+        {
+          "code": "3008",
+          "name": "大立光",
+          "weight_pct": 4.7397,
+          "shares": 323000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 4.5689,
+          "shares": 364000
+        },
+        {
+          "code": "2059",
+          "name": "川湖",
+          "weight_pct": 3.9051,
+          "shares": 183000
+        },
+        {
+          "code": "1815",
+          "name": "富喬",
+          "weight_pct": 3.6071,
+          "shares": 12620868
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "weight_pct": 3.5523,
+          "shares": 202000
+        },
+        {
+          "code": "8021",
+          "name": "尖點",
+          "weight_pct": 3.0718,
+          "shares": 2682000
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "weight_pct": 3.0713,
+          "shares": 1007000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00993A",
+      "stock_name": "主動安聯台灣",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 14.75,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 13.21,
+      "maximum_drawdown_pct": -10.44,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 14.65,
-          "shares": 254999
+          "weight_pct": 8.2,
+          "shares": 333000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 6.17,
+          "shares": 113000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 6.17,
+          "shares": 526000
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 5.77,
+          "shares": 176000
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "weight_pct": 4.82,
+          "shares": 464000
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "weight_pct": 4.43,
+          "shares": 25600
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 4.43,
+          "shares": 76000
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "weight_pct": 4.28,
+          "shares": 249000
+        },
+        {
+          "code": "8046",
+          "name": "南電",
+          "weight_pct": 3.98,
+          "shares": 281000
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "weight_pct": 3.67,
+          "shares": 45000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00994A",
+      "stock_name": "主動第一金台股優",
+      "previous_high_date": "2026-10-05",
+      "previous_high_price": 18.36,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 16.41,
+      "maximum_drawdown_pct": -10.62,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 15.04,
+          "shares": 260999
         },
         {
           "code": "2383",
@@ -1873,38 +1746,38 @@
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 6.01,
+          "weight_pct": 6.1,
           "shares": 79500
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 5.63,
+          "weight_pct": 5.68,
           "shares": 207001
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 5.33,
-          "shares": 51101
         },
         {
           "code": "6274",
           "name": "台燿",
-          "weight_pct": 5.26,
-          "shares": 138001
+          "weight_pct": 5.54,
+          "shares": 138002
         },
         {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 4.37,
-          "shares": 31901
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 5.29,
+          "shares": 51101
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.87,
-          "shares": 24000
+          "weight_pct": 4.42,
+          "shares": 27000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 4.35,
+          "shares": 31901
         },
         {
           "code": "8046",
@@ -1915,115 +1788,218 @@
         {
           "code": "3443",
           "name": "創意",
-          "weight_pct": 3.0,
+          "weight_pct": 3.06,
           "shares": 16050
         }
       ],
       "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
+      "continuity_reason": "Insufficient underlying-stock price data",
       "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
     {
-      "stock_id": "00996A",
-      "stock_name": "主動兆豐台灣豐收",
-      "previous_high_date": "2026-06-22",
-      "previous_high_price": 16.32,
-      "correction_low_date": "2026-07-30",
-      "correction_low_price": 10.97,
-      "maximum_drawdown_pct": -32.78,
+      "stock_id": "00995A",
+      "stock_name": "主動中信台灣卓越",
+      "previous_high_date": "2026-10-06",
+      "previous_high_price": 18.88,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 16.9,
+      "maximum_drawdown_pct": -10.49,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 51,
-      "etf_rebound_return_pct": 37.37,
-      "market_return_pct": 21.77,
-      "outperformance_pp": 15.6,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
       "recovery_status": "Still recovering",
-      "market_status": "Outperformed",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 8.19,
-          "shares": 170000
-        },
-        {
-          "code": "4958",
-          "name": "臻鼎-KY",
-          "weight_pct": 6.11,
-          "shares": 557000
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "weight_pct": 5.8,
-          "shares": 67000
-        },
-        {
-          "code": "2327",
-          "name": "國巨*",
-          "weight_pct": 5.38,
-          "shares": 443000
-        },
-        {
-          "code": "6510",
-          "name": "精測",
-          "weight_pct": 4.62,
-          "shares": 74000
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "weight_pct": 4.53,
-          "shares": 131000
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 4.31,
-          "shares": 27000
-        },
-        {
-          "code": "6278",
-          "name": "台表科",
-          "weight_pct": 4.22,
-          "shares": 751000
+          "weight_pct": 9.52,
+          "shares": 174000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 3.74,
-          "shares": 35000
+          "weight_pct": 8.27,
+          "shares": 72000
         },
         {
-          "code": "8021",
-          "name": "尖點",
-          "weight_pct": 3.45,
-          "shares": 332000
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 6.92,
+          "shares": 74000
         },
         {
-          "code": "3189",
-          "name": "景碩",
-          "weight_pct": 3.27,
-          "shares": 161000
+          "code": "3017",
+          "name": "奇鋐",
+          "weight_pct": 5.54,
+          "shares": 80000
         },
         {
-          "code": "6683",
-          "name": "雍智科技",
-          "weight_pct": 3.19,
-          "shares": 117000
+          "code": "8046",
+          "name": "南電",
+          "weight_pct": 5.13,
+          "shares": 170000
         },
         {
           "code": "3653",
           "name": "健策",
+          "weight_pct": 5.01,
+          "shares": 33000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 4.52,
+          "shares": 38000
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "weight_pct": 4.02,
+          "shares": 110000
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "weight_pct": 3.72,
+          "shares": 85000
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "weight_pct": 3.66,
+          "shares": 81000
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "weight_pct": 3.64,
+          "shares": 85260
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 3.33,
+          "shares": 138000
+        },
+        {
+          "code": "3711",
+          "name": "日月光投控",
+          "weight_pct": 3.28,
+          "shares": 217000
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
           "weight_pct": 3.15,
-          "shares": 23000
+          "shares": 8800
         }
       ],
       "rebound_leaders": [],
-      "continuity_reason": "Insufficient historical holdings data",
+      "continuity_reason": "Insufficient underlying-stock price data",
+      "overall_result": "Mixed evidence",
+      "data_confidence": "Medium"
+    },
+    {
+      "stock_id": "00996A",
+      "stock_name": "主動兆豐台灣豐收",
+      "previous_high_date": "2026-10-07",
+      "previous_high_price": 15.43,
+      "correction_low_date": "2026-10-15",
+      "correction_low_price": 14.19,
+      "maximum_drawdown_pct": -8.04,
+      "recovery_date": null,
+      "trading_days_to_recover": null,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
+      "recovery_status": "Still recovering",
+      "market_status": "Lagged",
+      "continuity_status": "Insufficient data",
+      "core_holdings_near_low": [],
+      "current_core_holdings": [
+        {
+          "code": "2330",
+          "name": "台積電",
+          "weight_pct": 8.31,
+          "shares": 182000
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "weight_pct": 5.82,
+          "shares": 599000
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "weight_pct": 5.61,
+          "shares": 72000
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "weight_pct": 5.1,
+          "shares": 476000
+        },
+        {
+          "code": "6510",
+          "name": "精測",
+          "weight_pct": 4.35,
+          "shares": 80000
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "weight_pct": 4.3,
+          "shares": 141000
+        },
+        {
+          "code": "6278",
+          "name": "台表科",
+          "weight_pct": 4.26,
+          "shares": 751000
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "weight_pct": 4.16,
+          "shares": 29000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 3.55,
+          "shares": 37000
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "weight_pct": 3.15,
+          "shares": 172000
+        },
+        {
+          "code": "8021",
+          "name": "尖點",
+          "weight_pct": 3.14,
+          "shares": 332000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 3.04,
+          "shares": 24000
+        }
+      ],
+      "rebound_leaders": [],
+      "continuity_reason": "Insufficient underlying-stock price data",
       "overall_result": "Mixed evidence",
       "data_confidence": "Medium"
     },
