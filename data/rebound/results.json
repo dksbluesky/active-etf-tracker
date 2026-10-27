@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T12:45:08Z",
+  "generated_at_utc": "2026-10-27T13:29:11Z",
   "methodology": {
     "analysis_window_trading_days": 252,
     "minimum_drawdown_pct": 8.0,
@@ -13,9 +13,9 @@
       "stock_name": "主動國泰動能高息",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 16.61,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 14.41,
-      "maximum_drawdown_pct": -13.25,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 14.18,
+      "maximum_drawdown_pct": -14.63,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -30,61 +30,61 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 9.01,
+          "weight_pct": 9.05,
           "shares": 1131000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.89,
+          "weight_pct": 6.79,
           "shares": 514000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 4.3,
-          "shares": 254000
         },
         {
           "code": "1303",
           "name": "南亞",
-          "weight_pct": 4.19,
+          "weight_pct": 4.13,
           "shares": 4167000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 4.02,
+          "shares": 254000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 3.88,
+          "weight_pct": 3.78,
           "shares": 1069000
         },
         {
           "code": "2059",
           "name": "川湖",
-          "weight_pct": 3.65,
+          "weight_pct": 3.66,
           "shares": 112000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 3.46,
+          "weight_pct": 3.43,
           "shares": 329000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 3.12,
-          "shares": 154000
         },
         {
           "code": "2360",
           "name": "致茂",
-          "weight_pct": 3.11,
+          "weight_pct": 3.06,
           "shares": 470000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 3.01,
+          "shares": 154000
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 2.96,
+          "weight_pct": 2.89,
           "shares": 181000
         }
       ],
@@ -98,9 +98,9 @@
       "stock_name": "主動摩根台灣鑫收",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 14.67,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 13.47,
-      "maximum_drawdown_pct": -8.18,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 13.45,
+      "maximum_drawdown_pct": -8.32,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -115,62 +115,62 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 20.3876,
+          "weight_pct": 20.4961,
           "shares": 327760
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 5.7636,
+          "weight_pct": 5.6863,
           "shares": 55110
         },
         {
           "code": "3711",
           "name": "日月光投控",
-          "weight_pct": 2.5244,
+          "weight_pct": 2.5104,
           "shares": 148000
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 2.2808,
-          "shares": 80600
-        },
-        {
-          "code": "3008",
-          "name": "大立光",
-          "weight_pct": 2.2489,
-          "shares": 13964
-        },
-        {
-          "code": "2308",
-          "name": "台達電",
-          "weight_pct": 2.1804,
-          "shares": 53590
-        },
-        {
-          "code": "2884",
-          "name": "玉山金",
-          "weight_pct": 2.1695,
-          "shares": 1672000
-        },
-        {
-          "code": "2303",
-          "name": "聯電",
-          "weight_pct": 2.157,
-          "shares": 659000
         },
         {
           "code": "2881",
           "name": "富邦金",
-          "weight_pct": 2.1455,
+          "weight_pct": 2.1907,
           "shares": 519000
+        },
+        {
+          "code": "3008",
+          "name": "大立光",
+          "weight_pct": 2.1831,
+          "shares": 13964
         },
         {
           "code": "2382",
           "name": "廣達",
-          "weight_pct": 2.1331,
+          "weight_pct": 2.1674,
           "shares": 254000
+        },
+        {
+          "code": "2884",
+          "name": "玉山金",
+          "weight_pct": 2.1543,
+          "shares": 1672000
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "weight_pct": 2.1085,
+          "shares": 53590
+        },
+        {
+          "code": "2303",
+          "name": "聯電",
+          "weight_pct": 2.1034,
+          "shares": 659000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 2.0328,
+          "shares": 73600
         }
       ],
       "rebound_leaders": [],
@@ -183,9 +183,9 @@
       "stock_name": "主動統一升級50",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 11.44,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 10.04,
-      "maximum_drawdown_pct": -12.24,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 9.86,
+      "maximum_drawdown_pct": -13.81,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -200,74 +200,68 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 14.5,
+          "weight_pct": 14.63,
           "shares": 7700000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 6.17,
+          "weight_pct": 6.04,
           "shares": 7200000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 5.65,
-          "shares": 2275000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 4.8,
-          "shares": 1200000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 4.79,
-          "shares": 1000000
+          "weight_pct": 5.77,
+          "shares": 2330000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 4.75,
+          "weight_pct": 4.7,
           "shares": 1500000
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "weight_pct": 4.64,
+          "shares": 1000000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 4.51,
+          "shares": 1200000
         },
         {
           "code": "3443",
           "name": "創意",
-          "weight_pct": 4.07,
+          "weight_pct": 4.0,
           "shares": 680000
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "weight_pct": 3.63,
+          "shares": 8800000
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 3.59,
+          "weight_pct": 3.53,
           "shares": 930000
         },
         {
           "code": "2308",
           "name": "台達電",
-          "weight_pct": 3.57,
+          "weight_pct": 3.47,
           "shares": 2900000
-        },
-        {
-          "code": "2327",
-          "name": "國巨*",
-          "weight_pct": 3.52,
-          "shares": 8800000
         },
         {
           "code": "3189",
           "name": "景碩",
-          "weight_pct": 3.46,
+          "weight_pct": 3.32,
           "shares": 4450000
-        },
-        {
-          "code": "8046",
-          "name": "南電",
-          "weight_pct": 3.01,
-          "shares": 3010000
         }
       ],
       "rebound_leaders": [],
@@ -285,10 +279,10 @@
       "maximum_drawdown_pct": -19.39,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 58,
+      "elapsed_trading_days": 59,
       "etf_rebound_return_pct": 10.5,
-      "market_return_pct": 14.99,
-      "outperformance_pp": -4.49,
+      "market_return_pct": 15.13,
+      "outperformance_pp": -4.63,
       "recovery_status": "Still recovering",
       "market_status": "Lagged",
       "continuity_status": "Insufficient data",
@@ -297,62 +291,62 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 22.743728,
+          "weight_pct": 22.684188,
           "shares": 371000
+        },
+        {
+          "code": "FUTURE_721beeab62cef4af",
+          "name": "台股期貨11/26",
+          "weight_pct": 16.91445575,
+          "shares": 72
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.338972,
+          "weight_pct": 6.204523,
           "shares": 61500
         },
         {
           "code": "3711",
           "name": "日月光投控",
-          "weight_pct": 3.261211,
+          "weight_pct": 3.217517,
           "shares": 194000
         },
         {
           "code": "2882",
           "name": "國泰金",
-          "weight_pct": 2.920312,
+          "weight_pct": 2.907214,
           "shares": 1001000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 2.867015,
+          "weight_pct": 2.662284,
           "shares": 22000
-        },
-        {
-          "code": "5274",
-          "name": "信驊",
-          "weight_pct": 2.650187,
-          "shares": 6440
         },
         {
           "code": "2885",
           "name": "元大金",
-          "weight_pct": 2.629467,
+          "weight_pct": 2.63499,
           "shares": 1412960
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "weight_pct": 2.627549,
+          "shares": 6440
         },
         {
           "code": "2303",
           "name": "聯電",
-          "weight_pct": 2.545189,
+          "weight_pct": 2.462358,
           "shares": 789000
         },
         {
           "code": "3034",
           "name": "聯詠",
-          "weight_pct": 2.292764,
+          "weight_pct": 2.334836,
           "shares": 153000
-        },
-        {
-          "code": "2347",
-          "name": "聯強",
-          "weight_pct": 2.034262,
-          "shares": 797000
         }
       ],
       "rebound_leaders": [],
@@ -365,9 +359,9 @@
       "stock_name": "主動富邦台灣龍耀",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 9.86,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 8.47,
-      "maximum_drawdown_pct": -14.1,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 8.27,
+      "maximum_drawdown_pct": -16.13,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -380,88 +374,70 @@
       "core_holdings_near_low": [],
       "current_core_holdings": [
         {
-          "code": "3037",
-          "name": "欣興",
-          "weight_pct": 7.6837,
-          "shares": 1530000
-        },
-        {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 7.6059,
+          "weight_pct": 7.6803,
           "shares": 1299000
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "weight_pct": 7.6405,
+          "shares": 1530000
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 7.3107,
+          "weight_pct": 7.2889,
           "shares": 323000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 7.3049,
+          "weight_pct": 7.1779,
           "shares": 260000
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "weight_pct": 6.0737,
-          "shares": 173000
         },
         {
           "code": "5274",
           "name": "信驊",
-          "weight_pct": 5.8764,
+          "weight_pct": 5.9831,
           "shares": 79300
         },
         {
           "code": "2368",
           "name": "金像電",
-          "weight_pct": 5.8163,
+          "weight_pct": 5.7342,
           "shares": 1127000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 5.7713,
-          "shares": 665000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 5.4568,
+          "weight_pct": 5.4849,
           "shares": 294000
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "weight_pct": 5.4356,
+          "shares": 665000
         },
         {
           "code": "2345",
           "name": "智邦",
-          "weight_pct": 5.0034,
+          "weight_pct": 5.0496,
           "shares": 609000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 4.975,
+          "weight_pct": 4.7441,
           "shares": 212000
-        },
-        {
-          "code": "3017",
-          "name": "奇鋐",
-          "weight_pct": 4.0468,
-          "shares": 278000
         },
         {
           "code": "6531",
           "name": "愛普*",
-          "weight_pct": 3.7901,
+          "weight_pct": 3.9499,
           "shares": 1030000
-        },
-        {
-          "code": "6805",
-          "name": "富世達",
-          "weight_pct": 3.6854,
-          "shares": 341000
         }
       ],
       "rebound_leaders": [],
@@ -474,9 +450,9 @@
       "stock_name": "主動中信台灣收益",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 10.33,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 9.06,
-      "maximum_drawdown_pct": -12.29,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 8.83,
+      "maximum_drawdown_pct": -14.52,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -491,62 +467,62 @@
         {
           "code": "TX:202611:TX",
           "name": "臺股期貨",
-          "weight_pct": 23.08,
+          "weight_pct": 20.87,
           "shares": 2690
         },
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 9.48,
-          "shares": 4284000
+          "weight_pct": 9.5,
+          "shares": 4694000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 6.73,
-          "shares": 1430000
+          "weight_pct": 5.99,
+          "shares": 1500000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 5.88,
-          "shares": 5845000
+          "weight_pct": 5.93,
+          "shares": 6645000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 5.48,
-          "shares": 1473000
+          "weight_pct": 5.51,
+          "shares": 1653000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 5.28,
-          "shares": 1809000
+          "weight_pct": 5.36,
+          "shares": 2034000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.69,
-          "shares": 655000
-        },
-        {
-          "code": "2345",
-          "name": "智邦",
-          "weight_pct": 3.21,
-          "shares": 1951000
+          "weight_pct": 3.97,
+          "shares": 805000
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 3.1,
-          "shares": 683000
+          "weight_pct": 3.24,
+          "shares": 803000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 2.96,
-          "shares": 2521000
+          "weight_pct": 3.12,
+          "shares": 2951000
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "weight_pct": 2.89,
+          "shares": 1951000
         }
       ],
       "rebound_leaders": [],
@@ -559,9 +535,9 @@
       "stock_name": "主動凱基台灣",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 10.71,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 9.33,
-      "maximum_drawdown_pct": -12.89,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 9.18,
+      "maximum_drawdown_pct": -14.29,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -576,62 +552,62 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 9.72,
+          "weight_pct": 9.75,
           "shares": 830000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 6.38,
+          "weight_pct": 6.21,
           "shares": 1197000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 5.79,
+          "weight_pct": 5.75,
           "shares": 375000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 5.6,
+          "weight_pct": 5.23,
           "shares": 225000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 5.3,
+          "weight_pct": 5.21,
           "shares": 269000
         },
         {
           "code": "3443",
           "name": "創意",
-          "weight_pct": 4.77,
+          "weight_pct": 4.66,
           "shares": 128000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 3.78,
+          "weight_pct": 3.74,
           "shares": 608000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 3.46,
+          "weight_pct": 3.33,
           "shares": 116000
         },
         {
           "code": "3711",
           "name": "日月光投控",
-          "weight_pct": 3.06,
+          "weight_pct": 3.03,
           "shares": 952000
         },
         {
-          "code": "6274",
-          "name": "台燿",
-          "weight_pct": 2.71,
-          "shares": 389000
+          "code": "1303",
+          "name": "南亞",
+          "weight_pct": 2.61,
+          "shares": 1795000
         }
       ],
       "rebound_leaders": [],
@@ -644,9 +620,9 @@
       "stock_name": "主動第一金優股息",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 11.06,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 9.62,
-      "maximum_drawdown_pct": -13.02,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 9.45,
+      "maximum_drawdown_pct": -14.56,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -735,9 +711,9 @@
       "stock_name": "主動永豐科技趨勢",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 13.24,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 11.51,
-      "maximum_drawdown_pct": -13.07,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 11.33,
+      "maximum_drawdown_pct": -14.43,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -752,38 +728,50 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 5.68,
-          "shares": 50000
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "weight_pct": 5.21,
-          "shares": 70000
+          "weight_pct": 6.94,
+          "shares": 60000
         },
         {
           "code": "2455",
           "name": "全新",
-          "weight_pct": 4.97,
+          "weight_pct": 5.01,
           "shares": 223000
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "weight_pct": 4.95,
+          "shares": 70000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 4.92,
+          "weight_pct": 4.81,
           "shares": 17000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 4.65,
+          "weight_pct": 4.68,
           "shares": 31000
+        },
+        {
+          "code": "3529",
+          "name": "力旺",
+          "weight_pct": 4.24,
+          "shares": 35000
         },
         {
           "code": "3491",
           "name": "昇達科",
-          "weight_pct": 4.22,
+          "weight_pct": 4.12,
           "shares": 67000
+        },
+        {
+          "code": "3406",
+          "name": "玉晶光",
+          "weight_pct": 4.09,
+          "shares": 70000
         },
         {
           "code": "1303",
@@ -792,27 +780,15 @@
           "shares": 277000
         },
         {
-          "code": "3529",
-          "name": "力旺",
-          "weight_pct": 3.91,
-          "shares": 33000
-        },
-        {
-          "code": "3406",
-          "name": "玉晶光",
-          "weight_pct": 3.87,
-          "shares": 70000
-        },
-        {
-          "code": "1560",
-          "name": "中砂",
-          "weight_pct": 3.59,
-          "shares": 89000
+          "code": "3081",
+          "name": "聯亞",
+          "weight_pct": 3.38,
+          "shares": 28000
         },
         {
           "code": "3665",
           "name": "貿聯-KY",
-          "weight_pct": 3.49,
+          "weight_pct": 3.26,
           "shares": 39000
         },
         {
@@ -824,26 +800,14 @@
         {
           "code": "3008",
           "name": "大立光",
-          "weight_pct": 3.24,
+          "weight_pct": 3.18,
           "shares": 11000
         },
         {
           "code": "4958",
           "name": "臻鼎-KY",
-          "weight_pct": 3.24,
+          "weight_pct": 3.01,
           "shares": 120000
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "weight_pct": 3.17,
-          "shares": 28000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 3.14,
-          "shares": 13000
         }
       ],
       "rebound_leaders": [],
@@ -856,9 +820,9 @@
       "stock_name": "主動野村臺灣優選",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 26.96,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 23.75,
-      "maximum_drawdown_pct": -11.91,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 23.5,
+      "maximum_drawdown_pct": -12.83,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -941,9 +905,9 @@
       "stock_name": "主動統一台股增長",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 32.65,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 28.19,
-      "maximum_drawdown_pct": -13.66,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 27.4,
+      "maximum_drawdown_pct": -16.08,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -958,80 +922,80 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 11.34,
-          "shares": 12671000
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "weight_pct": 8.23,
-          "shares": 4328000
+          "weight_pct": 11.75,
+          "shares": 13046000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 8.01,
+          "weight_pct": 7.83,
           "shares": 19689000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 7.74,
-          "shares": 5143000
+          "weight_pct": 7.78,
+          "shares": 5233000
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "weight_pct": 7.72,
+          "shares": 4328000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 7.62,
-          "shares": 6457000
+          "weight_pct": 7.68,
+          "shares": 6537000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 5.72,
+          "weight_pct": 5.52,
           "shares": 2512000
-        },
-        {
-          "code": "6223",
-          "name": "旺矽",
-          "weight_pct": 4.59,
-          "shares": 2504000
         },
         {
           "code": "2327",
           "name": "國巨*",
-          "weight_pct": 4.47,
+          "weight_pct": 4.6,
           "shares": 23519000
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "weight_pct": 4.5,
+          "shares": 2504000
         },
         {
           "code": "2308",
           "name": "台達電",
-          "weight_pct": 4.44,
+          "weight_pct": 4.3,
           "shares": 7582000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 4.24,
+          "weight_pct": 4.21,
           "shares": 8937000
         },
         {
           "code": "2345",
           "name": "智邦",
-          "weight_pct": 4.22,
+          "weight_pct": 4.18,
           "shares": 6331000
-        },
-        {
-          "code": "6274",
-          "name": "台燿",
-          "weight_pct": 3.85,
-          "shares": 7224000
         },
         {
           "code": "2303",
           "name": "聯電",
-          "weight_pct": 3.75,
+          "weight_pct": 3.66,
           "shares": 79618000
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "weight_pct": 3.47,
+          "shares": 7224000
         }
       ],
       "rebound_leaders": [],
@@ -1044,9 +1008,9 @@
       "stock_name": "主動群益台灣強棒",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 24.69,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 21.45,
-      "maximum_drawdown_pct": -13.12,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 21.14,
+      "maximum_drawdown_pct": -14.38,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1141,17 +1105,17 @@
       "stock_name": "主動安聯台灣高息",
       "previous_high_date": "2026-10-12",
       "previous_high_price": 16.36,
-      "correction_low_date": "2026-10-20",
-      "correction_low_price": 15.01,
-      "maximum_drawdown_pct": -8.25,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 15.0,
+      "maximum_drawdown_pct": -8.31,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 2,
-      "etf_rebound_return_pct": 0.33,
-      "market_return_pct": -0.54,
-      "outperformance_pp": 0.87,
+      "elapsed_trading_days": 0,
+      "etf_rebound_return_pct": 0.0,
+      "market_return_pct": 0.0,
+      "outperformance_pp": 0.0,
       "recovery_status": "Still recovering",
-      "market_status": "Outperformed",
+      "market_status": "Lagged",
       "continuity_status": "Insufficient data",
       "core_holdings_near_low": [],
       "current_core_holdings": [
@@ -1231,10 +1195,10 @@
       "maximum_drawdown_pct": -17.7,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 0,
+      "elapsed_trading_days": 1,
       "etf_rebound_return_pct": 0.0,
-      "market_return_pct": 0.0,
-      "outperformance_pp": 0.0,
+      "market_return_pct": 0.12,
+      "outperformance_pp": -0.12,
       "recovery_status": "Still recovering",
       "market_status": "Lagged",
       "continuity_status": "Insufficient data",
@@ -1311,9 +1275,9 @@
       "stock_name": "主動台新優勢成長",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 18.34,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 15.78,
-      "maximum_drawdown_pct": -13.96,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 15.31,
+      "maximum_drawdown_pct": -16.52,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1425,10 +1389,10 @@
       "maximum_drawdown_pct": -34.32,
       "recovery_date": null,
       "trading_days_to_recover": null,
-      "elapsed_trading_days": 57,
-      "etf_rebound_return_pct": 18.99,
-      "market_return_pct": 15.3,
-      "outperformance_pp": 3.69,
+      "elapsed_trading_days": 58,
+      "etf_rebound_return_pct": 17.42,
+      "market_return_pct": 15.43,
+      "outperformance_pp": 1.99,
       "recovery_status": "Still recovering",
       "market_status": "Outperformed",
       "continuity_status": "Insufficient data",
@@ -1437,80 +1401,74 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 14.692,
+          "weight_pct": 14.772,
           "shares": 4200000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 10.039,
+          "weight_pct": 9.397,
           "shares": 1350000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 8.514,
+          "weight_pct": 8.311,
           "shares": 5350000
         },
         {
           "code": "2408",
           "name": "南亞科",
-          "weight_pct": 7.105,
+          "weight_pct": 7.561,
           "shares": 11700000
         },
         {
           "code": "2059",
           "name": "川湖",
-          "weight_pct": 6.896,
+          "weight_pct": 6.929,
           "shares": 482000
         },
         {
           "code": "3189",
           "name": "景碩",
-          "weight_pct": 6.681,
+          "weight_pct": 6.371,
           "shares": 4620000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 6.308,
+          "weight_pct": 6.253,
           "shares": 3400000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 6.227,
+          "weight_pct": 6.192,
           "shares": 1350000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.176,
+          "weight_pct": 6.093,
           "shares": 1050000
         },
         {
           "code": "1303",
           "name": "南亞",
-          "weight_pct": 4.415,
-          "shares": 10000000
+          "weight_pct": 4.447,
+          "shares": 10200000
         },
         {
           "code": "2327",
           "name": "國巨*",
-          "weight_pct": 4.016,
+          "weight_pct": 4.123,
           "shares": 5400000
         },
         {
           "code": "3026",
           "name": "禾伸堂",
-          "weight_pct": 3.327,
+          "weight_pct": 3.104,
           "shares": 3000000
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "weight_pct": 3.027,
-          "shares": 340000
         }
       ],
       "rebound_leaders": [],
@@ -1523,9 +1481,9 @@
       "stock_name": "主動群益科技創新",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 20.23,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 16.93,
-      "maximum_drawdown_pct": -16.31,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 16.45,
+      "maximum_drawdown_pct": -18.69,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1626,9 +1584,9 @@
       "stock_name": "主動安聯台灣",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 14.75,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 12.85,
-      "maximum_drawdown_pct": -12.88,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 12.67,
+      "maximum_drawdown_pct": -14.1,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1711,9 +1669,9 @@
       "stock_name": "主動第一金台股優",
       "previous_high_date": "2026-10-05",
       "previous_high_price": 18.36,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 15.79,
-      "maximum_drawdown_pct": -14.0,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 15.49,
+      "maximum_drawdown_pct": -15.63,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1802,9 +1760,9 @@
       "stock_name": "主動中信台灣卓越",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 18.88,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 15.8,
-      "maximum_drawdown_pct": -16.31,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 15.46,
+      "maximum_drawdown_pct": -18.11,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1819,73 +1777,67 @@
         {
           "code": "2330",
           "name": "台積電",
-          "weight_pct": 9.18,
+          "weight_pct": 9.43,
           "shares": 163000
         },
         {
           "code": "2383",
           "name": "台光電",
-          "weight_pct": 8.62,
+          "weight_pct": 8.2,
           "shares": 72000
         },
         {
           "code": "2454",
           "name": "聯發科",
-          "weight_pct": 6.16,
+          "weight_pct": 6.17,
           "shares": 65000
         },
         {
           "code": "3017",
           "name": "奇鋐",
-          "weight_pct": 5.94,
+          "weight_pct": 6.0,
           "shares": 80000
         },
         {
           "code": "8046",
           "name": "南電",
-          "weight_pct": 5.08,
+          "weight_pct": 5.12,
           "shares": 170000
         },
         {
           "code": "3653",
           "name": "健策",
-          "weight_pct": 4.73,
+          "weight_pct": 4.64,
           "shares": 33000
         },
         {
           "code": "6223",
           "name": "旺矽",
-          "weight_pct": 4.39,
+          "weight_pct": 4.36,
           "shares": 38000
         },
         {
           "code": "2308",
           "name": "台達電",
-          "weight_pct": 4.05,
+          "weight_pct": 3.98,
           "shares": 110000
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "weight_pct": 3.59,
-          "shares": 81000
         },
         {
           "code": "3037",
           "name": "欣興",
-          "weight_pct": 3.54,
+          "weight_pct": 3.51,
           "shares": 138000
         },
         {
           "code": "3711",
           "name": "日月光投控",
-          "weight_pct": 3.35,
+          "weight_pct": 3.39,
           "shares": 217000
         },
         {
           "code": "5274",
           "name": "信驊",
-          "weight_pct": 3.33,
+          "weight_pct": 3.38,
           "shares": 8800
         }
       ],
@@ -1899,9 +1851,9 @@
       "stock_name": "主動兆豐台灣豐收",
       "previous_high_date": "2026-10-07",
       "previous_high_price": 15.43,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 12.94,
-      "maximum_drawdown_pct": -16.14,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 12.59,
+      "maximum_drawdown_pct": -18.41,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
@@ -1996,9 +1948,9 @@
       "stock_name": "主動野村臺灣高息",
       "previous_high_date": "2026-10-06",
       "previous_high_price": 11.77,
-      "correction_low_date": "2026-10-22",
-      "correction_low_price": 10.56,
-      "maximum_drawdown_pct": -10.28,
+      "correction_low_date": "2026-10-27",
+      "correction_low_price": 10.48,
+      "maximum_drawdown_pct": -10.96,
       "recovery_date": null,
       "trading_days_to_recover": null,
       "elapsed_trading_days": 0,
