@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-09T17:43:59Z",
+  "generated_at_utc": "2026-11-10T15:43:06Z",
   "funds": [
     {
       "stock_id": "00400A",
@@ -53,6 +53,12 @@
       "stock_id": "00410A",
       "stock_name": "主動永豐科技趨勢",
       "listing_date": "2026-08-03",
+      "classification": "國內成分證券主動式交易所交易基金(股票)"
+    },
+    {
+      "stock_id": "00413A",
+      "stock_name": "主動玉山關鍵科技",
+      "listing_date": "2026-11-11",
       "classification": "國內成分證券主動式交易所交易基金(股票)"
     },
     {
