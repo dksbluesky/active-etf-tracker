@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-25T18:05:19Z",
-  "latest_trading_date_roc": "1151124",
+  "generated_at_utc": "2026-11-26T17:50:20Z",
+  "latest_trading_date_roc": "1151125",
   "calendar_year": 2026,
   "total_active_etfs_found": 36,
   "ranked_count": 36,
@@ -10,9 +10,9 @@
       "stock_name": "主動統一台股增長",
       "baseline_date": "115/01/02",
       "baseline_close": 16.79,
-      "latest_close": 22.04,
-      "latest_volume": 1997067422,
-      "ytd_return_pct": 31.27,
+      "latest_close": 20.53,
+      "latest_volume": 1343182703,
+      "ytd_return_pct": 22.28,
       "return_period_label": "YTD"
     },
     {
@@ -20,29 +20,19 @@
       "stock_name": "主動野村台灣50",
       "baseline_date": "115/01/02",
       "baseline_close": 13.64,
-      "latest_close": 16.84,
-      "latest_volume": 30345507,
-      "ytd_return_pct": 23.46,
+      "latest_close": 15.95,
+      "latest_volume": 65126150,
+      "ytd_return_pct": 16.94,
       "return_period_label": "YTD"
-    },
-    {
-      "stock_id": "00994A",
-      "stock_name": "主動第一金台股優",
-      "baseline_date": "115/01/07",
-      "baseline_close": 10.06,
-      "latest_close": 12.28,
-      "latest_volume": 9938720,
-      "ytd_return_pct": 22.07,
-      "return_period_label": "Since listing"
     },
     {
       "stock_id": "00990A",
       "stock_name": "主動元大AI新經濟",
       "baseline_date": "115/01/02",
       "baseline_close": 10.15,
-      "latest_close": 12.29,
-      "latest_volume": 46225754,
-      "ytd_return_pct": 21.08,
+      "latest_close": 11.79,
+      "latest_volume": 19944374,
+      "ytd_return_pct": 16.16,
       "return_period_label": "YTD"
     },
     {
@@ -50,19 +40,39 @@
       "stock_name": "主動統一全球創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.12,
-      "latest_close": 12.2,
-      "latest_volume": 83751828,
-      "ytd_return_pct": 20.55,
+      "latest_close": 11.61,
+      "latest_volume": 38631821,
+      "ytd_return_pct": 14.72,
       "return_period_label": "YTD"
+    },
+    {
+      "stock_id": "00994A",
+      "stock_name": "主動第一金台股優",
+      "baseline_date": "115/01/07",
+      "baseline_close": 10.06,
+      "latest_close": 11.44,
+      "latest_volume": 7248511,
+      "ytd_return_pct": 13.72,
+      "return_period_label": "Since listing"
     },
     {
       "stock_id": "00992A",
       "stock_name": "主動群益科技創新",
       "baseline_date": "115/01/02",
       "baseline_close": 10.39,
-      "latest_close": 12.41,
-      "latest_volume": 10650235,
-      "ytd_return_pct": 19.44,
+      "latest_close": 11.66,
+      "latest_volume": 113280773,
+      "ytd_return_pct": 12.22,
+      "return_period_label": "YTD"
+    },
+    {
+      "stock_id": "00991A",
+      "stock_name": "主動復華未來50",
+      "baseline_date": "115/01/02",
+      "baseline_close": 10.42,
+      "latest_close": 11.67,
+      "latest_volume": 544390467,
+      "ytd_return_pct": 12.0,
       "return_period_label": "YTD"
     },
     {
@@ -70,29 +80,19 @@
       "stock_name": "主動中信台灣卓越",
       "baseline_date": "115/01/22",
       "baseline_close": 10.17,
-      "latest_close": 12.1,
-      "latest_volume": 12271203,
-      "ytd_return_pct": 18.98,
+      "latest_close": 11.27,
+      "latest_volume": 13781690,
+      "ytd_return_pct": 10.82,
       "return_period_label": "Since listing"
-    },
-    {
-      "stock_id": "00991A",
-      "stock_name": "主動復華未來50",
-      "baseline_date": "115/01/02",
-      "baseline_close": 10.42,
-      "latest_close": 12.36,
-      "latest_volume": 982117826,
-      "ytd_return_pct": 18.62,
-      "return_period_label": "YTD"
     },
     {
       "stock_id": "00987A",
       "stock_name": "主動台新優勢成長",
       "baseline_date": "115/01/02",
       "baseline_close": 10.04,
-      "latest_close": 11.75,
-      "latest_volume": 4936685,
-      "ytd_return_pct": 17.03,
+      "latest_close": 11.08,
+      "latest_volume": 5752755,
+      "ytd_return_pct": 10.36,
       "return_period_label": "YTD"
     },
     {
@@ -100,9 +100,9 @@
       "stock_name": "主動野村臺灣優選",
       "baseline_date": "115/01/02",
       "baseline_close": 15.34,
-      "latest_close": 17.87,
-      "latest_volume": 32421472,
-      "ytd_return_pct": 16.49,
+      "latest_close": 16.76,
+      "latest_volume": 20327898,
+      "ytd_return_pct": 9.26,
       "return_period_label": "YTD"
     }
   ]
