@@ -1,43 +1,43 @@
 {
   "fund_id": "00980A",
-  "snapshot_date": "2026-11-25",
-  "previous_snapshot_date": "2026-11-24",
-  "fetched_at_utc": "2026-11-26T17:51:19Z",
+  "snapshot_date": "2026-11-26",
+  "previous_snapshot_date": "2026-11-25",
+  "fetched_at_utc": "2026-11-27T17:36:19Z",
   "holdings": [
     {
       "code": "2330",
       "name": "台積電",
-      "weight_pct": 10.92,
+      "weight_pct": 10.28,
       "shares": 753000
     },
     {
       "code": "2454",
       "name": "聯發科",
-      "weight_pct": 6.52,
+      "weight_pct": 6.25,
       "shares": 265000
     },
     {
       "code": "2383",
       "name": "台光電",
-      "weight_pct": 5.27,
+      "weight_pct": 5.43,
       "shares": 233000
     },
     {
       "code": "1303",
       "name": "南亞",
-      "weight_pct": 4.43,
+      "weight_pct": 4.5,
       "shares": 2900000
     },
     {
       "code": "2059",
       "name": "川湖",
-      "weight_pct": 3.69,
+      "weight_pct": 3.82,
       "shares": 84000
     },
     {
       "code": "2317",
       "name": "鴻海",
-      "weight_pct": 2.94,
+      "weight_pct": 2.9,
       "shares": 2108000
     },
     {
@@ -47,153 +47,153 @@
       "shares": 404000
     },
     {
-      "code": "3017",
-      "name": "奇鋐",
-      "weight_pct": 2.7,
-      "shares": 157000
-    },
-    {
       "code": "3653",
       "name": "健策",
-      "weight_pct": 2.7,
+      "weight_pct": 2.8,
       "shares": 96000
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "weight_pct": 2.79,
+      "shares": 157000
     },
     {
       "code": "2368",
       "name": "金像電",
-      "weight_pct": 2.63,
+      "weight_pct": 2.73,
       "shares": 431000
     },
     {
       "code": "6213",
       "name": "聯茂",
-      "weight_pct": 2.55,
+      "weight_pct": 2.65,
       "shares": 969000
-    },
-    {
-      "code": "3711",
-      "name": "日月光投控",
-      "weight_pct": 2.54,
-      "shares": 771000
     },
     {
       "code": "3037",
       "name": "欣興",
-      "weight_pct": 2.47,
+      "weight_pct": 2.56,
       "shares": 625000
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "weight_pct": 2.51,
+      "shares": 771000
     },
     {
       "code": "3044",
       "name": "健鼎",
-      "weight_pct": 2.39,
+      "weight_pct": 2.48,
       "shares": 785000
     },
     {
       "code": "2408",
       "name": "南亞科",
-      "weight_pct": 1.93,
+      "weight_pct": 2.0,
       "shares": 1028000
     },
     {
       "code": "3008",
       "name": "大立光",
-      "weight_pct": 1.87,
+      "weight_pct": 1.94,
       "shares": 69000
-    },
-    {
-      "code": "2891",
-      "name": "中信金",
-      "weight_pct": 1.85,
-      "shares": 4151000
     },
     {
       "code": "3231",
       "name": "緯創",
-      "weight_pct": 1.81,
+      "weight_pct": 1.87,
       "shares": 1763000
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "weight_pct": 1.82,
+      "shares": 4151000
     },
     {
       "code": "3443",
       "name": "創意",
-      "weight_pct": 1.64,
+      "weight_pct": 1.65,
       "shares": 48000
     },
     {
       "code": "7769",
       "name": "鴻勁",
-      "weight_pct": 1.55,
+      "weight_pct": 1.5,
       "shares": 75000
     },
     {
       "code": "2382",
       "name": "廣達",
-      "weight_pct": 1.39,
+      "weight_pct": 1.41,
       "shares": 791000
-    },
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "weight_pct": 1.36,
-      "shares": 5156622
-    },
-    {
-      "code": "2303",
-      "name": "聯電",
-      "weight_pct": 1.34,
-      "shares": 2279000
     },
     {
       "code": "2344",
       "name": "華邦電",
-      "weight_pct": 1.31,
+      "weight_pct": 1.35,
       "shares": 2057000
-    },
-    {
-      "code": "2376",
-      "name": "技嘉",
-      "weight_pct": 1.3,
-      "shares": 739000
     },
     {
       "code": "6669",
       "name": "緯穎",
-      "weight_pct": 1.29,
+      "weight_pct": 1.34,
       "shares": 134105
     },
     {
-      "code": "5274",
-      "name": "信驊",
-      "weight_pct": 1.26,
-      "shares": 21300
+      "code": "2884",
+      "name": "玉山金",
+      "weight_pct": 1.31,
+      "shares": 5156622
+    },
+    {
+      "code": "2376",
+      "name": "技嘉",
+      "weight_pct": 1.29,
+      "shares": 739000
+    },
+    {
+      "code": "2303",
+      "name": "聯電",
+      "weight_pct": 1.29,
+      "shares": 2279000
     },
     {
       "code": "6223",
       "name": "旺矽",
-      "weight_pct": 1.25,
+      "weight_pct": 1.28,
       "shares": 49000
+    },
+    {
+      "code": "5274",
+      "name": "信驊",
+      "weight_pct": 1.27,
+      "shares": 21300
     },
     {
       "code": "3081",
       "name": "聯亞",
-      "weight_pct": 1.15,
+      "weight_pct": 1.18,
       "shares": 119600
     },
     {
       "code": "8046",
       "name": "南電",
-      "weight_pct": 1.13,
+      "weight_pct": 1.17,
       "shares": 251000
     },
     {
       "code": "8299",
       "name": "群聯",
-      "weight_pct": 1.11,
+      "weight_pct": 1.15,
       "shares": 111000
     },
     {
       "code": "2345",
       "name": "智邦",
-      "weight_pct": 1.0,
+      "weight_pct": 1.03,
       "shares": 100000
     },
     {
@@ -205,91 +205,91 @@
     {
       "code": "6274",
       "name": "台燿",
-      "weight_pct": 0.93,
+      "weight_pct": 0.94,
       "shares": 187000
     },
     {
       "code": "3189",
       "name": "景碩",
-      "weight_pct": 0.89,
+      "weight_pct": 0.9,
       "shares": 266000
     },
     {
       "code": "3665",
       "name": "貿聯-KY",
-      "weight_pct": 0.77,
+      "weight_pct": 0.8,
       "shares": 70336
     },
     {
       "code": "2360",
       "name": "致茂",
-      "weight_pct": 0.75,
+      "weight_pct": 0.77,
       "shares": 110000
-    },
-    {
-      "code": "2327",
-      "name": "國巨*",
-      "weight_pct": 0.67,
-      "shares": 320000
     },
     {
       "code": "6515",
       "name": "穎崴",
-      "weight_pct": 0.67,
+      "weight_pct": 0.7,
       "shares": 33000
     },
     {
-      "code": "3264",
-      "name": "欣銓",
-      "weight_pct": 0.64,
-      "shares": 650000
+      "code": "2327",
+      "name": "國巨*",
+      "weight_pct": 0.69,
+      "shares": 320000
     },
     {
       "code": "3026",
       "name": "禾伸堂",
-      "weight_pct": 0.64,
+      "weight_pct": 0.66,
       "shares": 286000
     },
     {
-      "code": "3293",
-      "name": "鈊象",
-      "weight_pct": 0.58,
-      "shares": 110000
+      "code": "3264",
+      "name": "欣銓",
+      "weight_pct": 0.65,
+      "shares": 650000
     },
     {
       "code": "6805",
       "name": "富世達",
-      "weight_pct": 0.56,
+      "weight_pct": 0.58,
       "shares": 54000
+    },
+    {
+      "code": "3293",
+      "name": "鈊象",
+      "weight_pct": 0.55,
+      "shares": 110000
     },
     {
       "code": "5904",
       "name": "寶雅*",
-      "weight_pct": 0.55,
+      "weight_pct": 0.53,
       "shares": 1196500
     },
     {
       "code": "7751",
       "name": "竑騰",
-      "weight_pct": 0.51,
+      "weight_pct": 0.52,
       "shares": 91000
     },
     {
       "code": "3529",
       "name": "力旺",
-      "weight_pct": 0.48,
+      "weight_pct": 0.49,
       "shares": 39000
     },
     {
       "code": "8996",
       "name": "高力",
-      "weight_pct": 0.34,
+      "weight_pct": 0.35,
       "shares": 58000
     },
     {
       "code": "8210",
       "name": "勤誠",
-      "weight_pct": 0.28,
+      "weight_pct": 0.29,
       "shares": 95000
     },
     {
@@ -301,366 +301,351 @@
   ],
   "changes": {
     "added": [],
-    "removed": [
-      {
-        "code": "6442",
-        "name": "光聖",
-        "weight_pct": 0.24,
-        "shares": 38000
-      }
-    ],
+    "removed": [],
     "changed": [
       {
-        "code": "2383",
-        "name": "台光電",
-        "weight_pct": 5.27,
-        "shares": 233000,
-        "prev_weight_pct": 3.32,
-        "delta_pct": 1.95
-      },
-      {
-        "code": "6213",
-        "name": "聯茂",
-        "weight_pct": 2.55,
-        "shares": 969000,
-        "prev_weight_pct": 0.98,
-        "delta_pct": 1.57
-      },
-      {
-        "code": "3044",
-        "name": "健鼎",
-        "weight_pct": 2.39,
-        "shares": 785000,
-        "prev_weight_pct": 1.49,
-        "delta_pct": 0.9
-      },
-      {
-        "code": "1303",
-        "name": "南亞",
-        "weight_pct": 4.43,
-        "shares": 2900000,
-        "prev_weight_pct": 3.58,
-        "delta_pct": 0.85
-      },
-      {
-        "code": "2317",
-        "name": "鴻海",
-        "weight_pct": 2.94,
-        "shares": 2108000,
-        "prev_weight_pct": 3.78,
-        "delta_pct": -0.84
-      },
-      {
-        "code": "2368",
-        "name": "金像電",
-        "weight_pct": 2.63,
-        "shares": 431000,
-        "prev_weight_pct": 1.85,
-        "delta_pct": 0.78
-      },
-      {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "weight_pct": 0.77,
-        "shares": 70336,
-        "prev_weight_pct": 1.53,
-        "delta_pct": -0.76
-      },
-      {
-        "code": "2382",
-        "name": "廣達",
-        "weight_pct": 1.39,
-        "shares": 791000,
-        "prev_weight_pct": 2.11,
-        "delta_pct": -0.72
-      },
-      {
-        "code": "6669",
-        "name": "緯穎",
-        "weight_pct": 1.29,
-        "shares": 134105,
-        "prev_weight_pct": 1.9,
-        "delta_pct": -0.61
-      },
-      {
-        "code": "6515",
-        "name": "穎崴",
-        "weight_pct": 0.67,
-        "shares": 33000,
-        "prev_weight_pct": 1.26,
-        "delta_pct": -0.59
-      },
-      {
-        "code": "2059",
-        "name": "川湖",
-        "weight_pct": 3.69,
-        "shares": 84000,
-        "prev_weight_pct": 3.33,
-        "delta_pct": 0.36
-      },
-      {
-        "code": "2376",
-        "name": "技嘉",
-        "weight_pct": 1.3,
-        "shares": 739000,
-        "prev_weight_pct": 1.66,
-        "delta_pct": -0.36
+        "code": "2330",
+        "name": "台積電",
+        "weight_pct": 10.28,
+        "shares": 753000,
+        "prev_weight_pct": 10.92,
+        "delta_pct": -0.64
       },
       {
         "code": "2454",
         "name": "聯發科",
-        "weight_pct": 6.52,
+        "weight_pct": 6.25,
         "shares": 265000,
-        "prev_weight_pct": 6.86,
-        "delta_pct": -0.34
+        "prev_weight_pct": 6.52,
+        "delta_pct": -0.27
       },
       {
-        "code": "3017",
-        "name": "奇鋐",
-        "weight_pct": 2.7,
-        "shares": 157000,
-        "prev_weight_pct": 2.36,
-        "delta_pct": 0.34
+        "code": "2383",
+        "name": "台光電",
+        "weight_pct": 5.43,
+        "shares": 233000,
+        "prev_weight_pct": 5.27,
+        "delta_pct": 0.16
       },
       {
-        "code": "3529",
-        "name": "力旺",
-        "weight_pct": 0.48,
-        "shares": 39000,
-        "prev_weight_pct": 0.16,
-        "delta_pct": 0.32
-      },
-      {
-        "code": "3711",
-        "name": "日月光投控",
-        "weight_pct": 2.54,
-        "shares": 771000,
-        "prev_weight_pct": 2.24,
-        "delta_pct": 0.3
-      },
-      {
-        "code": "5904",
-        "name": "寶雅*",
-        "weight_pct": 0.55,
-        "shares": 1196500,
-        "prev_weight_pct": 0.78,
-        "delta_pct": -0.23
+        "code": "2059",
+        "name": "川湖",
+        "weight_pct": 3.82,
+        "shares": 84000,
+        "prev_weight_pct": 3.69,
+        "delta_pct": 0.13
       },
       {
         "code": "3653",
         "name": "健策",
-        "weight_pct": 2.7,
+        "weight_pct": 2.8,
         "shares": 96000,
-        "prev_weight_pct": 2.48,
-        "delta_pct": 0.22
+        "prev_weight_pct": 2.7,
+        "delta_pct": 0.1
       },
       {
-        "code": "2330",
-        "name": "台積電",
-        "weight_pct": 10.92,
-        "shares": 753000,
-        "prev_weight_pct": 10.73,
-        "delta_pct": 0.19
+        "code": "2368",
+        "name": "金像電",
+        "weight_pct": 2.73,
+        "shares": 431000,
+        "prev_weight_pct": 2.63,
+        "delta_pct": 0.1
       },
       {
-        "code": "3008",
-        "name": "大立光",
-        "weight_pct": 1.87,
-        "shares": 69000,
-        "prev_weight_pct": 1.76,
-        "delta_pct": 0.11
+        "code": "6213",
+        "name": "聯茂",
+        "weight_pct": 2.65,
+        "shares": 969000,
+        "prev_weight_pct": 2.55,
+        "delta_pct": 0.1
       },
       {
-        "code": "2408",
-        "name": "南亞科",
-        "weight_pct": 1.93,
-        "shares": 1028000,
-        "prev_weight_pct": 2.03,
-        "delta_pct": -0.1
-      },
-      {
-        "code": "3443",
-        "name": "創意",
-        "weight_pct": 1.64,
-        "shares": 48000,
-        "prev_weight_pct": 1.73,
-        "delta_pct": -0.09
-      },
-      {
-        "code": "2308",
-        "name": "台達電",
-        "weight_pct": 2.88,
-        "shares": 404000,
-        "prev_weight_pct": 2.8,
-        "delta_pct": 0.08
-      },
-      {
-        "code": "2303",
-        "name": "聯電",
-        "weight_pct": 1.34,
-        "shares": 2279000,
-        "prev_weight_pct": 1.41,
-        "delta_pct": -0.07
-      },
-      {
-        "code": "2344",
-        "name": "華邦電",
-        "weight_pct": 1.31,
-        "shares": 2057000,
-        "prev_weight_pct": 1.38,
-        "delta_pct": -0.07
-      },
-      {
-        "code": "6223",
-        "name": "旺矽",
-        "weight_pct": 1.25,
-        "shares": 49000,
-        "prev_weight_pct": 1.31,
-        "delta_pct": -0.06
-      },
-      {
-        "code": "8046",
-        "name": "南電",
-        "weight_pct": 1.13,
-        "shares": 251000,
-        "prev_weight_pct": 1.18,
-        "delta_pct": -0.05
-      },
-      {
-        "code": "2345",
-        "name": "智邦",
-        "weight_pct": 1.0,
-        "shares": 100000,
-        "prev_weight_pct": 0.95,
-        "delta_pct": 0.05
-      },
-      {
-        "code": "2360",
-        "name": "致茂",
-        "weight_pct": 0.75,
-        "shares": 110000,
-        "prev_weight_pct": 0.71,
-        "delta_pct": 0.04
-      },
-      {
-        "code": "3231",
-        "name": "緯創",
-        "weight_pct": 1.81,
-        "shares": 1763000,
-        "prev_weight_pct": 1.84,
-        "delta_pct": -0.03
-      },
-      {
-        "code": "3036",
-        "name": "文曄",
-        "weight_pct": 0.97,
-        "shares": 906000,
-        "prev_weight_pct": 1.0,
-        "delta_pct": -0.03
-      },
-      {
-        "code": "6274",
-        "name": "台燿",
-        "weight_pct": 0.93,
-        "shares": 187000,
-        "prev_weight_pct": 0.9,
-        "delta_pct": 0.03
-      },
-      {
-        "code": "2327",
-        "name": "國巨*",
-        "weight_pct": 0.67,
-        "shares": 320000,
-        "prev_weight_pct": 0.7,
-        "delta_pct": -0.03
-      },
-      {
-        "code": "3293",
-        "name": "鈊象",
-        "weight_pct": 0.58,
-        "shares": 110000,
-        "prev_weight_pct": 0.55,
-        "delta_pct": 0.03
+        "code": "3017",
+        "name": "奇鋐",
+        "weight_pct": 2.79,
+        "shares": 157000,
+        "prev_weight_pct": 2.7,
+        "delta_pct": 0.09
       },
       {
         "code": "3037",
         "name": "欣興",
-        "weight_pct": 2.47,
+        "weight_pct": 2.56,
         "shares": 625000,
-        "prev_weight_pct": 2.45,
-        "delta_pct": 0.02
+        "prev_weight_pct": 2.47,
+        "delta_pct": 0.09
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "weight_pct": 2.48,
+        "shares": 785000,
+        "prev_weight_pct": 2.39,
+        "delta_pct": 0.09
+      },
+      {
+        "code": "1303",
+        "name": "南亞",
+        "weight_pct": 4.5,
+        "shares": 2900000,
+        "prev_weight_pct": 4.43,
+        "delta_pct": 0.07
+      },
+      {
+        "code": "2408",
+        "name": "南亞科",
+        "weight_pct": 2.0,
+        "shares": 1028000,
+        "prev_weight_pct": 1.93,
+        "delta_pct": 0.07
+      },
+      {
+        "code": "3008",
+        "name": "大立光",
+        "weight_pct": 1.94,
+        "shares": 69000,
+        "prev_weight_pct": 1.87,
+        "delta_pct": 0.07
+      },
+      {
+        "code": "3231",
+        "name": "緯創",
+        "weight_pct": 1.87,
+        "shares": 1763000,
+        "prev_weight_pct": 1.81,
+        "delta_pct": 0.06
       },
       {
         "code": "7769",
         "name": "鴻勁",
-        "weight_pct": 1.55,
+        "weight_pct": 1.5,
         "shares": 75000,
-        "prev_weight_pct": 1.53,
-        "delta_pct": 0.02
+        "prev_weight_pct": 1.55,
+        "delta_pct": -0.05
       },
       {
-        "code": "5274",
-        "name": "信驊",
-        "weight_pct": 1.26,
-        "shares": 21300,
-        "prev_weight_pct": 1.24,
-        "delta_pct": 0.02
+        "code": "6669",
+        "name": "緯穎",
+        "weight_pct": 1.34,
+        "shares": 134105,
+        "prev_weight_pct": 1.29,
+        "delta_pct": 0.05
       },
       {
-        "code": "3081",
-        "name": "聯亞",
-        "weight_pct": 1.15,
-        "shares": 119600,
-        "prev_weight_pct": 1.17,
-        "delta_pct": -0.02
+        "code": "2884",
+        "name": "玉山金",
+        "weight_pct": 1.31,
+        "shares": 5156622,
+        "prev_weight_pct": 1.36,
+        "delta_pct": -0.05
+      },
+      {
+        "code": "2303",
+        "name": "聯電",
+        "weight_pct": 1.29,
+        "shares": 2279000,
+        "prev_weight_pct": 1.34,
+        "delta_pct": -0.05
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "weight_pct": 2.9,
+        "shares": 2108000,
+        "prev_weight_pct": 2.94,
+        "delta_pct": -0.04
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "weight_pct": 1.35,
+        "shares": 2057000,
+        "prev_weight_pct": 1.31,
+        "delta_pct": 0.04
+      },
+      {
+        "code": "8046",
+        "name": "南電",
+        "weight_pct": 1.17,
+        "shares": 251000,
+        "prev_weight_pct": 1.13,
+        "delta_pct": 0.04
       },
       {
         "code": "8299",
         "name": "群聯",
-        "weight_pct": 1.11,
+        "weight_pct": 1.15,
         "shares": 111000,
-        "prev_weight_pct": 1.13,
-        "delta_pct": -0.02
+        "prev_weight_pct": 1.11,
+        "delta_pct": 0.04
       },
       {
-        "code": "3189",
-        "name": "景碩",
-        "weight_pct": 0.89,
-        "shares": 266000,
-        "prev_weight_pct": 0.87,
+        "code": "3711",
+        "name": "日月光投控",
+        "weight_pct": 2.51,
+        "shares": 771000,
+        "prev_weight_pct": 2.54,
+        "delta_pct": -0.03
+      },
+      {
+        "code": "2891",
+        "name": "中信金",
+        "weight_pct": 1.82,
+        "shares": 4151000,
+        "prev_weight_pct": 1.85,
+        "delta_pct": -0.03
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "weight_pct": 1.28,
+        "shares": 49000,
+        "prev_weight_pct": 1.25,
+        "delta_pct": 0.03
+      },
+      {
+        "code": "3081",
+        "name": "聯亞",
+        "weight_pct": 1.18,
+        "shares": 119600,
+        "prev_weight_pct": 1.15,
+        "delta_pct": 0.03
+      },
+      {
+        "code": "2345",
+        "name": "智邦",
+        "weight_pct": 1.03,
+        "shares": 100000,
+        "prev_weight_pct": 1.0,
+        "delta_pct": 0.03
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "weight_pct": 0.8,
+        "shares": 70336,
+        "prev_weight_pct": 0.77,
+        "delta_pct": 0.03
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "weight_pct": 0.7,
+        "shares": 33000,
+        "prev_weight_pct": 0.67,
+        "delta_pct": 0.03
+      },
+      {
+        "code": "3293",
+        "name": "鈊象",
+        "weight_pct": 0.55,
+        "shares": 110000,
+        "prev_weight_pct": 0.58,
+        "delta_pct": -0.03
+      },
+      {
+        "code": "2382",
+        "name": "廣達",
+        "weight_pct": 1.41,
+        "shares": 791000,
+        "prev_weight_pct": 1.39,
+        "delta_pct": 0.02
+      },
+      {
+        "code": "2360",
+        "name": "致茂",
+        "weight_pct": 0.77,
+        "shares": 110000,
+        "prev_weight_pct": 0.75,
+        "delta_pct": 0.02
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "weight_pct": 0.69,
+        "shares": 320000,
+        "prev_weight_pct": 0.67,
         "delta_pct": 0.02
       },
       {
         "code": "3026",
         "name": "禾伸堂",
-        "weight_pct": 0.64,
+        "weight_pct": 0.66,
         "shares": 286000,
-        "prev_weight_pct": 0.66,
-        "delta_pct": -0.02
-      },
-      {
-        "code": "3264",
-        "name": "欣銓",
-        "weight_pct": 0.64,
-        "shares": 650000,
-        "prev_weight_pct": 0.65,
-        "delta_pct": -0.01
+        "prev_weight_pct": 0.64,
+        "delta_pct": 0.02
       },
       {
         "code": "6805",
         "name": "富世達",
-        "weight_pct": 0.56,
+        "weight_pct": 0.58,
         "shares": 54000,
+        "prev_weight_pct": 0.56,
+        "delta_pct": 0.02
+      },
+      {
+        "code": "5904",
+        "name": "寶雅*",
+        "weight_pct": 0.53,
+        "shares": 1196500,
         "prev_weight_pct": 0.55,
+        "delta_pct": -0.02
+      },
+      {
+        "code": "3443",
+        "name": "創意",
+        "weight_pct": 1.65,
+        "shares": 48000,
+        "prev_weight_pct": 1.64,
+        "delta_pct": 0.01
+      },
+      {
+        "code": "2376",
+        "name": "技嘉",
+        "weight_pct": 1.29,
+        "shares": 739000,
+        "prev_weight_pct": 1.3,
+        "delta_pct": -0.01
+      },
+      {
+        "code": "5274",
+        "name": "信驊",
+        "weight_pct": 1.27,
+        "shares": 21300,
+        "prev_weight_pct": 1.26,
+        "delta_pct": 0.01
+      },
+      {
+        "code": "3189",
+        "name": "景碩",
+        "weight_pct": 0.9,
+        "shares": 266000,
+        "prev_weight_pct": 0.89,
+        "delta_pct": 0.01
+      },
+      {
+        "code": "3264",
+        "name": "欣銓",
+        "weight_pct": 0.65,
+        "shares": 650000,
+        "prev_weight_pct": 0.64,
         "delta_pct": 0.01
       },
       {
         "code": "7751",
         "name": "竑騰",
-        "weight_pct": 0.51,
+        "weight_pct": 0.52,
         "shares": 91000,
-        "prev_weight_pct": 0.52,
-        "delta_pct": -0.01
+        "prev_weight_pct": 0.51,
+        "delta_pct": 0.01
+      },
+      {
+        "code": "3529",
+        "name": "力旺",
+        "weight_pct": 0.49,
+        "shares": 39000,
+        "prev_weight_pct": 0.48,
+        "delta_pct": 0.01
       }
     ]
   }

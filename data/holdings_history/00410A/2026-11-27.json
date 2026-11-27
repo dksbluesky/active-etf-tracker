@@ -1,0 +1,122 @@
+{
+  "fund_id": "00410A",
+  "snapshot_date": "2026-11-27",
+  "source": "etfinfo.tw",
+  "source_authority": "aggregator",
+  "holdings": [
+    {
+      "code": "2330",
+      "name": "台積電",
+      "weight_pct": 10.04,
+      "shares": 80000
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "weight_pct": 8.3,
+      "shares": 40000
+    },
+    {
+      "code": "3017",
+      "name": "奇鋐",
+      "weight_pct": 6.46,
+      "shares": 40000
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "weight_pct": 6.36,
+      "shares": 30000
+    },
+    {
+      "code": "3661",
+      "name": "世芯-KY",
+      "weight_pct": 6.21,
+      "shares": 30000
+    },
+    {
+      "code": "3491",
+      "name": "昇達科",
+      "weight_pct": 5.71,
+      "shares": 67000
+    },
+    {
+      "code": "3008",
+      "name": "大立光",
+      "weight_pct": 4.88,
+      "shares": 20000
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "weight_pct": 4.78,
+      "shares": 17000
+    },
+    {
+      "code": "6223",
+      "name": "旺矽",
+      "weight_pct": 4.53,
+      "shares": 20000
+    },
+    {
+      "code": "3529",
+      "name": "力旺",
+      "weight_pct": 4.3,
+      "shares": 40000
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "weight_pct": 4.16,
+      "shares": 300000
+    },
+    {
+      "code": "2059",
+      "name": "川湖",
+      "weight_pct": 4.05,
+      "shares": 10000
+    },
+    {
+      "code": "3081",
+      "name": "聯亞",
+      "weight_pct": 4.02,
+      "shares": 50000
+    },
+    {
+      "code": "8996",
+      "name": "高力",
+      "weight_pct": 3.71,
+      "shares": 70000
+    },
+    {
+      "code": "2455",
+      "name": "全新",
+      "weight_pct": 3.69,
+      "shares": 223000
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "weight_pct": 2.96,
+      "shares": 100000
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "weight_pct": 2.08,
+      "shares": 600000
+    },
+    {
+      "code": "3105",
+      "name": "穩懋",
+      "weight_pct": 2.05,
+      "shares": 80000
+    },
+    {
+      "code": "4749",
+      "name": "新應材",
+      "weight_pct": 2.03,
+      "shares": 60000
+    }
+  ]
+}
